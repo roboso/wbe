@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.Button;
 
 
-public class WopListaRaid extends Activity 
+public class WodListaRaid extends Activity 
 implements OnClickListener {
 
 	
