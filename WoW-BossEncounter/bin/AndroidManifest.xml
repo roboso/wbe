@@ -30,7 +30,12 @@
             android:name=".CataListaRaid">
         </activity>
          
-         
+         <activity
+            android:name=".MopListaRaid">
+        </activity>
+        <activity
+            android:name=".WodListaRaid">
+        </activity>
     </application>
 
 </manifest>

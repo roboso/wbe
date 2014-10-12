@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/icecrow" />
+        android:src="@drawable/iccrifatta" />
 
  </LinearLayout>
     </ScrollView>

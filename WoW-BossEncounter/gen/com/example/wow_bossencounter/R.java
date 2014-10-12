@@ -1083,15 +1083,16 @@ containing a value of this type.
         public static final int dragonsoul=0x7f02005a;
         public static final int firelands=0x7f02005b;
         public static final int ic_launcher=0x7f02005c;
-        public static final int icecrow=0x7f02005d;
-        public static final int mop=0x7f02005e;
-        public static final int naxxramas=0x7f02005f;
-        public static final int t4w_header=0x7f020060;
-        public static final int toc=0x7f020061;
-        public static final int ulduar=0x7f020062;
-        public static final int vanilla=0x7f020063;
-        public static final int warlord=0x7f020064;
-        public static final int wrat=0x7f020065;
+        public static final int iccrifatta=0x7f02005d;
+        public static final int icecrow=0x7f02005e;
+        public static final int mop=0x7f02005f;
+        public static final int naxxramas=0x7f020060;
+        public static final int t4w_header=0x7f020061;
+        public static final int toc=0x7f020062;
+        public static final int ulduar=0x7f020063;
+        public static final int vanilla=0x7f020064;
+        public static final int warlord=0x7f020065;
+        public static final int wrat=0x7f020066;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1226,8 +1227,9 @@ containing a value of this type.
         public static final int activity_cata_list_raid=0x7f030018;
         public static final int activity_main=0x7f030019;
         public static final int activity_mop_list_raid=0x7f03001a;
-        public static final int activity_wrat_list_raid=0x7f03001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
+        public static final int activity_wod_list_raid=0x7f03001b;
+        public static final int activity_wrat_list_raid=0x7f03001c;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;

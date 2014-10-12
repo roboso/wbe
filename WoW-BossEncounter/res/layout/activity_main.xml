@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:onClick="startliscatatraid"
+        android:onClick="startlistcataraid"
         android:maxWidth="250dp"
         android:scaleType="fitXY"
         android:src="@drawable/cata" />
@@ -46,6 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
+        android:onClick="startlistmopraid"
         android:maxWidth="250dp"
         android:scaleType="fitXY"
         android:src="@drawable/mop" />
@@ -57,7 +58,8 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:baselineAlignBottom="true"
-        android:cropToPadding="false"
+        android:cropToPadding="false"         
+        android:onClick="startlistwodraid"
         android:maxWidth="250dp"
         android:overScrollMode="always"
         android:scaleType="fitXY"
