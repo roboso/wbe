@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wow_bossencounter.MainActivity" >
+
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/wrat_guida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="250dp"
+        android:onClick="startlistwratraid"
+        android:scaleType="fitXY"
+        android:src="@drawable/wrat" />
+
+    <ImageButton
+        android:id="@+id/cata_guida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:onClick="startliscatatraid"
+        android:maxWidth="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cata" />
+    
+            
+    <ImageButton
+        android:id="@+id/mop_guida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mop" />
+
+    
+    <ImageButton
+        android:id="@+id/wod_guida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="false"
+        android:maxWidth="250dp"
+        android:overScrollMode="always"
+        android:scaleType="fitXY"
+        android:src="@drawable/warlord" />
+            
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
