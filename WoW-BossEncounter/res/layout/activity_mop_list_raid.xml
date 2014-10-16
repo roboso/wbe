@@ -20,22 +20,21 @@
             android:layout_height="match_parent"
             android:orientation="vertical" >
 
-
     <ImageView
         android:id="@+id/immaginemop"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="115dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/mop" />
+        android:src="@drawable/custom_mop" />
 
     <ImageButton
         android:id="@+id/smg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
+        android:adjustViewBounds="false"
         android:scaleType="fitXY"
-        android:src="@drawable/segretemogushan" />
+        android:src="@drawable/custom_segretedimogushan" />
 
     <ImageButton
         android:id="@+id/cdl"
@@ -43,7 +42,7 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/cuoredellapaura" />
+        android:src="@drawable/custom_cuoredellapaura" />
     
     <ImageButton
         android:id="@+id/tep"
@@ -51,21 +50,21 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/terrazzadell_eternaprimavera" />
+        android:src="@drawable/custom_terrazzadelleternaprimavera" />
     <ImageButton
         android:id="@+id/rdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/regnodeltuono" />
+        android:src="@drawable/custom_regnodeltuono" />
     <ImageButton
         android:id="@+id/ads"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/assediodiorgrimmar" />
+        android:src="@drawable/custom_assediodiorgrimmar" />
  </LinearLayout>
     </ScrollView>
 </RelativeLayout>
