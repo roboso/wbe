@@ -20,49 +20,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical" >
 
-            <ImageView
-                android:id="@+id/catalogo"
-                android:layout_width="match_parent"
-                android:layout_height="115dp"
-                android:baselineAlignBottom="false"
-                android:cropToPadding="false"
-                android:scaleType="fitXY"
-                android:src="@drawable/custom_cata" />
 
-            <ImageButton
-                android:id="@+id/bwd"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:src="@drawable/bwd_header" />
-
-            <ImageButton
-                android:id="@+id/bot"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:src="@drawable/bot_header" />
-
-            <ImageButton
-                android:id="@+id/t4w"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:src="@drawable/t4w_header" />
-
-            <ImageButton
-                android:id="@+id/firelands"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:src="@drawable/firelands" />
-
-            <ImageButton
-                android:id="@+id/dragonsoul"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:src="@drawable/dragonsoul" />
         </LinearLayout>
 
     </ScrollView>
