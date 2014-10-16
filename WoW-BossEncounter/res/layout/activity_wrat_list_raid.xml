@@ -23,9 +23,10 @@
     <ImageView
         android:id="@+id/wratlogo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="115dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/wrat" />
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_wrat" />
 
     <ImageButton
         android:id="@+id/naxxramas"
@@ -33,7 +34,7 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/naxxramas" />
+        android:src="@drawable/custom_naxxramas" />
 
     <ImageButton
         android:id="@+id/ulduar"
@@ -43,7 +44,7 @@
         android:baselineAlignBottom="false"
         android:cropToPadding="false"
         android:scaleType="fitXY"
-        android:src="@drawable/ulduar" />
+        android:src="@drawable/custom_ulduar" />
 
     <ImageButton
         android:id="@+id/toc"
@@ -51,7 +52,7 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/toc" />
+        android:src="@drawable/custom_trialofchampion" />
     
     <ImageButton
         android:id="@+id/icc"
@@ -59,7 +60,7 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@drawable/iccrifatta" />
+        android:src="@drawable/custom_icc" />
 
  </LinearLayout>
     </ScrollView>

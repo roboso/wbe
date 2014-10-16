@@ -31,7 +31,7 @@
     <ImageButton
         android:id="@+id/smg"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:adjustViewBounds="false"
         android:scaleType="fitXY"
         android:src="@drawable/custom_segretedimogushan" />
@@ -39,7 +39,7 @@
     <ImageButton
         android:id="@+id/cdl"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/custom_cuoredellapaura" />
@@ -47,21 +47,23 @@
     <ImageButton
         android:id="@+id/tep"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/custom_terrazzadelleternaprimavera" />
+
     <ImageButton
         android:id="@+id/rdt"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/custom_regnodeltuono" />
+
     <ImageButton
         android:id="@+id/ads"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/custom_assediodiorgrimmar" />
