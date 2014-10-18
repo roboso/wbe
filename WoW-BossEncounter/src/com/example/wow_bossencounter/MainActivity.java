@@ -35,11 +35,11 @@ public class MainActivity extends ActionBarActivity {
         		Intent intent = new Intent(this, CataListaRaid.class);
         		startActivity(intent);
         		}
-        	public void startlistmoparaid (View ImageButton) {
+        	public void startlistmopraid (View ImageButton) {
         		Intent intent = new Intent(this, MopListaRaid.class);
         		startActivity(intent);
         		}
-        	public void startlistwodaraid (View ImageButton) {
+        	public void startlistwodraid (View ImageButton) {
         		Intent intent = new Intent(this, WodListaRaid.class);
         		startActivity(intent);
         		}
