@@ -1332,10 +1332,11 @@ containing a value of this type.
         public static final int custom_wrat=0x7f020072;
         public static final int ic_launcher=0x7f020073;
         public static final int provaassedio=0x7f020074;
-        public static final int wrat=0x7f020075;
+        public static final int tronodeiquattroventi=0x7f020075;
+        public static final int wrat=0x7f020076;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f090054;
+        public static final int RelativeLayout1=0x7f090059;
         public static final int action_bar=0x7f09002d;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09002c;
@@ -1347,14 +1348,16 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090035;
-        public static final int action_settings=0x7f09005f;
+        public static final int action_settings=0x7f090065;
         public static final int activity_chooser_view_content=0x7f090036;
+        public static final int add=0x7f090051;
         public static final int alignBounds=0x7f090008;
         public static final int alignMargins=0x7f090009;
         public static final int always=0x7f090021;
+        public static final int bdc=0x7f09004f;
         public static final int beginning=0x7f090028;
         public static final int bottom=0x7f09000a;
-        public static final int cata_guida=0x7f090051;
+        public static final int cata_guida=0x7f090056;
         public static final int center=0x7f09000b;
         public static final int center_horizontal=0x7f09000c;
         public static final int center_vertical=0x7f09000d;
@@ -1376,22 +1379,24 @@ containing a value of this type.
         public static final int home=0x7f090000;
         public static final int homeAsUp=0x7f09001c;
         public static final int horizontal=0x7f090006;
-        public static final int icc=0x7f09005e;
+        public static final int icc=0x7f090064;
         public static final int icon=0x7f09003b;
         public static final int ifRoom=0x7f090023;
         public static final int image=0x7f090038;
-        public static final int imageButton1=0x7f090055;
-        public static final int imageButton2=0x7f090056;
-        public static final int imageButton3=0x7f090057;
-        public static final int imageButton4=0x7f090058;
-        public static final int imageButton5=0x7f090059;
-        public static final int imageView1=0x7f09004e;
+        public static final int imageButton1=0x7f09005b;
+        public static final int imageButton2=0x7f09005c;
+        public static final int imageButton3=0x7f09005d;
+        public static final int imageButton4=0x7f09005e;
+        public static final int imageButton5=0x7f09005f;
+        public static final int imageView1=0x7f09005a;
+        public static final int immaginecata=0x7f09004e;
         public static final int left=0x7f090014;
+        public static final int linearLayout1=0x7f09004d;
         public static final int listMode=0x7f090018;
         public static final int list_item=0x7f09003a;
         public static final int middle=0x7f090029;
-        public static final int mop_guida=0x7f090052;
-        public static final int naxxramas=0x7f09005b;
+        public static final int mop_guida=0x7f090057;
+        public static final int naxxramas=0x7f090061;
         public static final int never=0x7f090024;
         public static final int none=0x7f09002a;
         public static final int normal=0x7f090019;
@@ -1399,8 +1404,8 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f090005;
         public static final int radio=0x7f090040;
         public static final int right=0x7f090015;
-        public static final int scrollView1=0x7f09004f;
-        public static final int scrollView2=0x7f09004d;
+        public static final int scrollView1=0x7f090054;
+        public static final int sdan=0x7f090052;
         public static final int search_badge=0x7f090043;
         public static final int search_bar=0x7f090042;
         public static final int search_button=0x7f090044;
@@ -1419,18 +1424,20 @@ containing a value of this type.
         public static final int start=0x7f090016;
         public static final int submit_area=0x7f09004a;
         public static final int tabMode=0x7f09001a;
+        public static final int tdf=0x7f090053;
+        public static final int tdqv=0x7f090050;
         public static final int title=0x7f09003c;
-        public static final int toc=0x7f09005d;
+        public static final int toc=0x7f090063;
         public static final int top=0x7f090017;
         public static final int top_action_bar=0x7f090031;
-        public static final int ulduar=0x7f09005c;
+        public static final int ulduar=0x7f090062;
         public static final int up=0x7f090032;
         public static final int useLogo=0x7f090020;
         public static final int vertical=0x7f090007;
         public static final int withText=0x7f090025;
-        public static final int wod_guida=0x7f090053;
-        public static final int wrat_guida=0x7f090050;
-        public static final int wratlogo=0x7f09005a;
+        public static final int wod_guida=0x7f090058;
+        public static final int wrat_guida=0x7f090055;
+        public static final int wratlogo=0x7f090060;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
