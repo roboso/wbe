@@ -1,4 +1,6 @@
 package com.example.wow_bossencounter;
+
+
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.app.Activity; 
@@ -14,7 +16,7 @@ implements OnClickListener {
 		@Override    
          public void onClick(View View) {    
            // definisco l'intenzione  
-           Object activity_cata_list_raid;
+           Object activity_mop_list_raid;
 		// passo all'attivazione dell'activity Pagina.java   
            
            

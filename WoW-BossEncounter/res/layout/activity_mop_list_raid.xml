@@ -8,6 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.wow_bossencounter.MainActivity" >
 
+<<<<<<< HEAD
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
@@ -67,5 +68,10 @@
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/custom_cuoredellapaura" />
+=======
+
+</RelativeLayout>
+
+>>>>>>> 087e683cff5935127d329e466205aa065e8161ac
 
 </RelativeLayout>
