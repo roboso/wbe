@@ -5,7 +5,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.app.Activity; 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.GridView;
 
 
 public class MopListaRaid extends Activity 
@@ -27,4 +29,7 @@ implements OnClickListener {
 	        setContentView(R.layout.activity_mop_list_raid);
 		 
 		}
+		
+		
+		
 	}

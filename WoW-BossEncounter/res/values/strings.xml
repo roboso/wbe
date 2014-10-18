@@ -4,5 +4,7 @@
     <string name="app_name">WoW-BossEncounter</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <color name="coloremop">#357459</color>
+    <color name="nero">#000000</color>
+    
 </resources>
