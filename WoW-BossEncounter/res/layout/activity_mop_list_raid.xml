@@ -5,7 +5,6 @@
     android:background="@drawable/custom_mopsenzalogo"
     android:orientation="vertical" >
 
-<<<<<<< HEAD
    <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
@@ -16,69 +15,6 @@
         android:cropToPadding="false"
         android:scaleType="centerCrop"
         android:src="@drawable/custom_mop" />
-=======
-<<<<<<< HEAD
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical" >
-
-        <ImageView
-            android:id="@+id/immaginemop"
-            android:layout_width="match_parent"
-            android:layout_height="115dp"
-            android:adjustViewBounds="true"
-            android:scaleType="fitXY"
-            android:src="@drawable/custom_mop" />
-
-        <ImageButton
-            android:id="@+id/smg"
-            android:layout_width="140dp"
-            android:layout_height="70dp"
-            android:adjustViewBounds="false"
-            android:scaleType="fitXY"
-            android:src="@drawable/custom_segretedimogushan" />
-
-        <ImageButton
-            android:id="@+id/tep"
-            android:layout_width="140dp"
-            android:layout_height="70dp"
-            android:adjustViewBounds="true"
-            android:scaleType="fitXY"
-            android:src="@drawable/custom_terrazzadelleternaprimavera" />
-
-        <ImageButton
-            android:id="@+id/ado"
-            android:layout_width="140dp"
-            android:layout_height="70dp"
-            android:adjustViewBounds="true"
-            android:scaleType="fitXY"
-            android:src="@drawable/custom_assediodiorgrimmar" />
-    </LinearLayout>
-
-    <ImageButton
-        android:id="@+id/rdt"
-        android:layout_width="140dp"
-        android:layout_height="70dp"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/cdp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/custom_regnodeltuono" />
-
-    <ImageButton
-        android:id="@+id/cdp"
-        android:layout_width="140dp"
-        android:layout_height="70dp"
-        android:layout_alignLeft="@+id/rdt"
-        android:layout_alignTop="@+id/linearLayout1"
-        android:layout_marginTop="115dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/custom_cuoredellapaura" />
-=======
->>>>>>> c35219822d2cc72a4e2dd4fe7faad5f00731399b
 
    <ImageButton
        android:id="@+id/imageButton1"
@@ -89,7 +25,6 @@
        android:layout_marginTop="19dp"
        android:src="@drawable/custom_segretemogushan" />
 
-<<<<<<< HEAD
    <ImageButton
        android:id="@+id/imageButton2"
        android:layout_width="wrap_content"
@@ -127,8 +62,3 @@
        android:src="@drawable/custom_assediodiorgrimmar" />
     
 </RelativeLayout>
-=======
->>>>>>> 087e683cff5935127d329e466205aa065e8161ac
-
-</RelativeLayout>
->>>>>>> c35219822d2cc72a4e2dd4fe7faad5f00731399b
