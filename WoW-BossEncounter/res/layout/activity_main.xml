@@ -23,9 +23,8 @@
     <ImageButton
         android:id="@+id/wrat_guida"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:layout_gravity="top"
-        android:adjustViewBounds="true"
         android:baselineAlignBottom="false"
         android:cropToPadding="false"
         android:onClick="startlistwratraid"
@@ -35,7 +34,7 @@
     <ImageButton
         android:id="@+id/cata_guida"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:adjustViewBounds="true"
         android:onClick="startlistcataraid"
         android:scaleType="fitXY"
@@ -45,7 +44,7 @@
     <ImageButton
         android:id="@+id/mop_guida"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:adjustViewBounds="true"
         android:onClick="startlistmopraid"
         android:scaleType="fitXY"
@@ -54,7 +53,7 @@
     <ImageButton
         android:id="@+id/wod_guida"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:adjustViewBounds="true"
         android:baselineAlignBottom="false"
         android:cropToPadding="false"
