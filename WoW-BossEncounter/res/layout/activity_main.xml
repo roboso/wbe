@@ -23,45 +23,43 @@
     <ImageButton
         android:id="@+id/wrat_guida"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:maxWidth="250dp"
+        android:layout_height="120dp"
+        android:layout_gravity="top"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="false"
         android:onClick="startlistwratraid"
         android:scaleType="fitXY"
-        android:src="@drawable/wrat" />
+        android:src="@drawable/custom_wrat" />
 
     <ImageButton
         android:id="@+id/cata_guida"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:adjustViewBounds="true"
-        android:onClick="startliscatatraid"
-        android:maxWidth="250dp"
+        android:onClick="startlistcataraid"
         android:scaleType="fitXY"
-        android:src="@drawable/cata" />
+        android:src="@drawable/custom_cata" />
     
             
     <ImageButton
         android:id="@+id/mop_guida"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:adjustViewBounds="true"
-        android:maxWidth="250dp"
+        android:onClick="startlistmopraid"
         android:scaleType="fitXY"
-        android:src="@drawable/mop" />
+        android:src="@drawable/custom_mop" />
 
-    
     <ImageButton
         android:id="@+id/wod_guida"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:adjustViewBounds="true"
-        android:baselineAlignBottom="true"
+        android:baselineAlignBottom="false"
         android:cropToPadding="false"
-        android:maxWidth="250dp"
-        android:overScrollMode="always"
+        android:onClick="startlistwodraid"
         android:scaleType="fitXY"
-        android:src="@drawable/warlord" />
+        android:src="@drawable/custom_wod" />
             
         </LinearLayout>
     </ScrollView>

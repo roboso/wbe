@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="9"
-        android:targetSdkVersion="20" />
+        android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
@@ -30,7 +30,12 @@
             android:name=".CataListaRaid">
         </activity>
          
-         
+         <activity
+            android:name=".MopListaRaid">
+        </activity>
+        <activity
+            android:name=".WodListaRaid">
+        </activity>
     </application>
 
 </manifest>

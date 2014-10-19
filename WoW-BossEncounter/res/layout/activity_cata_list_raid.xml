@@ -8,60 +8,64 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.wow_bossencounter.MainActivity" >
 
- <ScrollView
-        android:id="@+id/scrollView2"
+    
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" >
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/immaginecata"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical" >
+            android:layout_height="115dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/custom_cata" />
 
-    <ImageView
-        android:id="@+id/catalogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:src="@drawable/cata" />
+        <ImageButton
+            android:id="@+id/bdc"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY" />
+        
+        <ImageButton
+            android:id="@+id/tdqv"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/tronodeiquattroventi" />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY" />
+    </LinearLayout>
 
     <ImageButton
-        android:id="@+id/bwd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:src="@drawable/bwd_header" />
+        android:id="@+id/sdan"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_marginTop="115dp"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY" />
 
     <ImageButton
-        android:id="@+id/bot"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:src="@drawable/bot_header" />
+        android:id="@+id/tdf"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sdan"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY" />
 
-    <ImageButton
-        android:id="@+id/t4w"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:src="@drawable/t4w_header" />
-    
-    <ImageButton
-        android:id="@+id/firelands"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:src="@drawable/firelands" />
-    
-    <ImageButton
-        android:id="@+id/dragonsoul"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:src="@drawable/dragonsoul" />
-  
- </LinearLayout>
-    </ScrollView>
 </RelativeLayout>
