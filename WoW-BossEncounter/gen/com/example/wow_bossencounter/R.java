@@ -1706,12 +1706,12 @@ containing a value of this type.
         public static final int icon=0x7f090028;
         public static final int ifRoom=0x7f090016;
         public static final int image=0x7f090025;
-        public static final int imageButton1=0x7f09004f;
-        public static final int imageButton2=0x7f090050;
+        public static final int imageButton1=0x7f09004e;
+        public static final int imageButton2=0x7f09004f;
         public static final int imageButton3=0x7f090051;
         public static final int imageButton4=0x7f090052;
         public static final int imageButton5=0x7f090053;
-        public static final int imageView1=0x7f09004e;
+        public static final int imageView1=0x7f090050;
         public static final int immaginecata=0x7f090042;
         public static final int linearLayout1=0x7f090041;
         public static final int listMode=0x7f09000a;

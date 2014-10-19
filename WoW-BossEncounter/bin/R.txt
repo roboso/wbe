@@ -404,12 +404,12 @@ int id icc 0x7f090058
 int id icon 0x7f090028
 int id ifRoom 0x7f090016
 int id image 0x7f090025
-int id imageButton1 0x7f09004f
-int id imageButton2 0x7f090050
+int id imageButton1 0x7f09004e
+int id imageButton2 0x7f09004f
 int id imageButton3 0x7f090051
 int id imageButton4 0x7f090052
 int id imageButton5 0x7f090053
-int id imageView1 0x7f09004e
+int id imageView1 0x7f090050
 int id immaginecata 0x7f090042
 int id linearLayout1 0x7f090041
 int id listMode 0x7f09000a
