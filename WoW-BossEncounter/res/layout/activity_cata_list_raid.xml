@@ -31,7 +31,8 @@
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:adjustViewBounds="false"
-            android:scaleType="fitXY" />
+            android:scaleType="fitXY"
+            android:src="@drawable/custom_bastionedelcrepuscolo" />
         
         <ImageButton
             android:id="@+id/tdqv"
@@ -39,14 +40,15 @@
             android:layout_height="70dp"
             android:adjustViewBounds="false"
             android:scaleType="fitXY"
-            android:src="@drawable/tronodeiquattroventi" />
+            android:src="@drawable/custom_tronodeiquattroventi" />
 
         <ImageButton
             android:id="@+id/add"
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:adjustViewBounds="false"
-            android:scaleType="fitXY" />
+            android:scaleType="fitXY"
+            android:src="@drawable/custom_animadidrago"/>
     </LinearLayout>
 
     <ImageButton
@@ -57,7 +59,8 @@
         android:layout_alignTop="@+id/linearLayout1"
         android:layout_marginTop="115dp"
         android:adjustViewBounds="false"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_sotterraneidellalanera" />
 
     <ImageButton
         android:id="@+id/tdf"
@@ -66,6 +69,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/sdan"
         android:adjustViewBounds="false"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_terradelfuoco" />
 
 </RelativeLayout>
