@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondomogu" >
 
      <ImageView
          android:id="@+id/imagesegrete"
@@ -14,5 +15,53 @@
          android:cropToPadding="false"
          android:scaleType="fitXY"
          android:src="@drawable/custom_segretemogushan" />
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/imagesegrete"
+         android:layout_centerHorizontal="true"
+         android:src="@drawable/custom_immaginequilen" />
+
+     <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/imageView1"
+         android:layout_below="@+id/imageView1"
+         android:src="@drawable/custom_fengilmaledetto" />
+
+     <ImageView
+         android:id="@+id/imageView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/imageView2"
+         android:layout_below="@+id/imageView2"
+         android:src="@drawable/custom_garajalvincolaspiriti" />
+
+     <ImageView
+         android:id="@+id/imageView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/imageView3"
+         android:layout_below="@+id/imageView3"
+         android:src="@drawable/custom_reggentispirituali" />
+
+     <ImageView
+         android:id="@+id/imageView5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/imageView4"
+         android:layout_below="@+id/imageView4"
+         android:src="@drawable/custom_elegon" />
+
+     <ImageView
+         android:id="@+id/imageView6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/imageView5"
+         android:layout_below="@+id/imageView5"
+         android:src="@drawable/custom_volonta_dellimperatore" />
     
 </RelativeLayout>
