@@ -1727,16 +1727,19 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f090030;
         public static final int action_mode_bar_stub=0x7f09002f;
         public static final int action_mode_close_button=0x7f090022;
-        public static final int action_settings=0x7f09006c;
+        public static final int action_settings=0x7f090079;
         public static final int activity_chooser_view_content=0x7f090023;
         public static final int add=0x7f090045;
         public static final int always=0x7f090014;
+        public static final int animus=0x7f090070;
         public static final int bdc=0x7f090043;
         public static final int beginning=0x7f09001b;
         public static final int bottom=0x7f09001e;
         public static final int cata_guida=0x7f09004a;
         public static final int checkbox=0x7f09002b;
         public static final int collapseActionView=0x7f090015;
+        public static final int concilioanziani=0x7f09006a;
+        public static final int consortigemelle=0x7f090072;
         public static final int cuore=0x7f090057;
         public static final int decor_content_parent=0x7f090031;
         public static final int default_activity_button=0x7f090026;
@@ -1752,9 +1755,12 @@ containing a value of this type.
         public static final int garalon=0x7f090051;
         public static final int home=0x7f090000;
         public static final int homeAsUp=0x7f09000e;
-        public static final int icc=0x7f09006b;
+        public static final int horridonita=0x7f090069;
+        public static final int icc=0x7f090078;
         public static final int icon=0x7f090028;
         public static final int ifRoom=0x7f090016;
+        public static final int ildimenticato=0x7f09006e;
+        public static final int iltenace=0x7f090071;
         public static final int image=0x7f090025;
         public static final int imageButton1=0x7f09005a;
         public static final int imageView1=0x7f090054;
@@ -1762,18 +1768,24 @@ containing a value of this type.
         public static final int imagemop=0x7f090055;
         public static final int imagesegrete=0x7f09005b;
         public static final int imageterrazza=0x7f090062;
+        public static final int imagetuono=0x7f090067;
         public static final int immaginecata=0x7f090042;
+        public static final int jikunita=0x7f09006d;
+        public static final int jindemolitore=0x7f090068;
+        public static final int leishen=0x7f090073;
         public static final int leishiita=0x7f090065;
         public static final int linearLayout1=0x7f090041;
         public static final int listMode=0x7f09000a;
         public static final int list_item=0x7f090027;
+        public static final int megaeraita=0x7f09006c;
         public static final int middle=0x7f09001d;
         public static final int mop_guida=0x7f09004b;
-        public static final int naxxramas=0x7f090068;
+        public static final int naxxramas=0x7f090075;
         public static final int never=0x7f090017;
         public static final int none=0x7f09000f;
         public static final int normal=0x7f09000b;
         public static final int plasmatoreambra=0x7f090052;
+        public static final int primordius=0x7f09006f;
         public static final int progress_circular=0x7f090007;
         public static final int progress_horizontal=0x7f090008;
         public static final int protettorieterno=0x7f090063;
@@ -1808,10 +1820,11 @@ containing a value of this type.
         public static final int tdqv=0x7f090044;
         public static final int terrazza=0x7f090058;
         public static final int title=0x7f090029;
-        public static final int toc=0x7f09006a;
+        public static final int toc=0x7f090077;
         public static final int top=0x7f09001f;
+        public static final int tortosita=0x7f09006b;
         public static final int tsulongita=0x7f090064;
-        public static final int ulduar=0x7f090069;
+        public static final int ulduar=0x7f090076;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
         public static final int vincolaspiriti=0x7f09005e;
@@ -1821,7 +1834,7 @@ containing a value of this type.
         public static final int wod_guida=0x7f09004c;
         public static final int wrap_content=0x7f090009;
         public static final int wrat_guida=0x7f090049;
-        public static final int wratlogo=0x7f090067;
+        public static final int wratlogo=0x7f090074;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1878,9 +1891,10 @@ containing a value of this type.
         public static final int activity_mop_list_raid=0x7f03001a;
         public static final int activity_mop_segrete_raid=0x7f03001b;
         public static final int activity_mop_terrazza_raid=0x7f03001c;
-        public static final int activity_wod_list_raid=0x7f03001d;
-        public static final int activity_wrat_list_raid=0x7f03001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int activity_mop_tuono_raid=0x7f03001d;
+        public static final int activity_wod_list_raid=0x7f03001e;
+        public static final int activity_wrat_list_raid=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
