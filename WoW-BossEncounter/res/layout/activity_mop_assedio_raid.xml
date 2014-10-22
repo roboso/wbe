@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_sfondoboss" >
+    
+ <ScrollView
+        android:id="@+id/scrollViewassedio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    
+          
+            <ImageView
+        android:id="@+id/imageassedio"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_assediodiorgrimmar" />
+
+            <ImageView
+                android:id="@+id/immerseusita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageassedio"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/custom_immerseus" />
+
+            <ImageView
+                android:id="@+id/protcaduti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/immerseusita"
+                android:layout_below="@+id/immerseusita"
+                android:src="@drawable/custom_protettoricaduti" />
+
+            <ImageView
+                android:id="@+id/norushenita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/protcaduti"
+                android:layout_below="@+id/protcaduti"
+                android:src="@drawable/custom_norushen" />
+
+            <ImageView
+                android:id="@+id/shaorgoglio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/norushenita"
+                android:layout_below="@+id/norushenita"
+                android:src="@drawable/custom_shadellorgoglio" />
+
+            <ImageView
+                android:id="@+id/galakrasita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/shaorgoglio"
+                android:layout_below="@+id/shaorgoglio"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/custom_galakras" />
+             <ImageView
+                android:id="@+id/mastodonte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/galakrasita"
+                android:layout_below="@+id/galakrasita"
+                android:src="@drawable/custom_mastodonte" />
+             <ImageView
+                android:id="@+id/sciamanikorkron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mastodonte"
+                android:layout_below="@+id/mastodonte"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/custom_sciamanioscuri" />
+             
+             <ImageView
+                android:id="@+id/generalenazgrim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sciamanikorkron"
+                android:layout_below="@+id/sciamanikorkron"
+                android:src="@drawable/custom_generalenazgrim" />
+             
+             <ImageView
+                android:id="@+id/malkorokita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/generalenazgrim"
+                android:layout_below="@+id/generalenazgrim"
+                android:src="@drawable/custom_malkorok" />
+             
+             <ImageView
+                android:id="@+id/spoglie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/malkorokita"
+                android:layout_below="@+id/malkorokita"
+                android:src="@drawable/custom_spogliedipandaria" />
+             <ImageView
+                android:id="@+id/thoksanguinario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/spoglie"
+                android:layout_below="@+id/spoglie"
+                android:src="@drawable/custom_thokilsanguinario" />
+             <ImageView
+                android:id="@+id/miccianera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/thoksanguinario"
+                android:layout_below="@+id/thoksanguinario"
+                android:src="@drawable/custom_ingenieremiccianera" />
+             <ImageView
+                android:id="@+id/elettiklaxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/miccianera"
+                android:layout_below="@+id/miccianera"
+                android:src="@drawable/custom_elettideiklaxi" />
+             
+             <ImageView
+                android:id="@+id/garroshmalogrido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/elettiklaxi"
+                android:layout_below="@+id/elettiklaxi"
+                android:src="@drawable/custom_garroshmalogrido" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>      
+
