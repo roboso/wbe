@@ -1,18 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/custom_sfondoboss"
     android:orientation="vertical" >
 
-     <ImageView
-         android:id="@+id/imagecuore"
-         android:layout_width="match_parent"
-         android:layout_height="150dp"
-         android:layout_alignParentLeft="true"
-         android:layout_alignParentTop="true"
-         android:adjustViewBounds="true"
-         android:cropToPadding="false"
-         android:scaleType="fitXY"
-         android:src="@drawable/custom_cuoredellapaura" />
-    
-</LinearLayout>
+    <ImageView
+        android:id="@+id/imagecuore"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_cuoredellapaura" />
+
+    <ImageView
+        android:id="@+id/visir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imagecuore"
+        android:src="@drawable/custom_visirdellimperatore" />
+
+    <ImageView
+        android:id="@+id/signorelame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/visir"
+        android:src="@drawable/custom_signoredellelame" />
+
+    <ImageView
+        android:id="@+id/garalon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/signorelame"
+        android:src="@drawable/custom_garalon" />
+
+    <ImageView
+        android:id="@+id/plasmatoreambra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/signoredelvento"
+        android:src="@drawable/custom_plasmatoredambra" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/plasmatoreambra"
+        android:src="@drawable/custom_grandeimperatrice" />
+
+    <ImageView
+        android:id="@+id/signoredelvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/garalon"
+        android:src="@drawable/custom_signoredelvento" />
+
+</RelativeLayout>
