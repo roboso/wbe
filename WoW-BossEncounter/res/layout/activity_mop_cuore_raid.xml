@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <ImageView
+         android:id="@+id/imagecuore"
+         android:layout_width="match_parent"
+         android:layout_height="150dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:adjustViewBounds="true"
+         android:cropToPadding="false"
+         android:scaleType="fitXY"
+         android:src="@drawable/custom_cuoredellapaura" />
+    
+</LinearLayout>

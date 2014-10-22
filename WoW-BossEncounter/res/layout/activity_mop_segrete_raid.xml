@@ -3,7 +3,7 @@
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sfondomogu" >
+    android:background="@drawable/custom_sfondoboss" >
 
      <ImageView
          android:id="@+id/imagesegrete"
@@ -17,7 +17,7 @@
          android:src="@drawable/custom_segretemogushan" />
 
      <ImageView
-         android:id="@+id/imageView1"
+         android:id="@+id/quilenita"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_below="@+id/imagesegrete"
@@ -25,43 +25,43 @@
          android:src="@drawable/custom_immaginequilen" />
 
      <ImageView
-         android:id="@+id/imageView2"
+         android:id="@+id/fengmaledetto"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/imageView1"
-         android:layout_below="@+id/imageView1"
+         android:layout_alignLeft="@+id/quilenita"
+         android:layout_below="@+id/quilenita"
          android:src="@drawable/custom_fengilmaledetto" />
 
      <ImageView
-         android:id="@+id/imageView3"
+         android:id="@+id/vincolaspiriti"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/imageView2"
-         android:layout_below="@+id/imageView2"
+         android:layout_alignLeft="@+id/fengmaledetto"
+         android:layout_below="@+id/fengmaledetto"
          android:src="@drawable/custom_garajalvincolaspiriti" />
 
      <ImageView
-         android:id="@+id/imageView4"
+         android:id="@+id/reggentispirituali"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/imageView3"
-         android:layout_below="@+id/imageView3"
+         android:layout_alignLeft="@+id/vincolaspiriti"
+         android:layout_below="@+id/vincolaspiriti"
          android:src="@drawable/custom_reggentispirituali" />
 
      <ImageView
-         android:id="@+id/imageView5"
+         android:id="@+id/elegonita"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/imageView4"
-         android:layout_below="@+id/imageView4"
+         android:layout_alignLeft="@+id/reggentispirituali"
+         android:layout_below="@+id/reggentispirituali"
          android:src="@drawable/custom_elegon" />
 
      <ImageView
-         android:id="@+id/imageView6"
+         android:id="@+id/volontàimperatore"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/imageView5"
-         android:layout_below="@+id/imageView5"
+         android:layout_alignLeft="@+id/elegonita"
+         android:layout_below="@+id/elegonita"
          android:src="@drawable/custom_volonta_dellimperatore" />
     
 </RelativeLayout>
