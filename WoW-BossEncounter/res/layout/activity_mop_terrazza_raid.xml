@@ -3,7 +3,6 @@
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/custom_sfondoboss"
     android:orientation="vertical" >
 
      <ImageView
@@ -17,36 +16,52 @@
         android:scaleType="fitXY"
         android:src="@drawable/custom_terrazzadelleternaprimavera" />
 
-     <ImageView
-         android:id="@+id/protettorieterno"
-         android:layout_width="wrap_content"
+     <Button
+         android:id="@+id/protettori"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:layout_below="@+id/imageterrazza"
          android:layout_centerHorizontal="true"
-         android:src="@drawable/custom_protettorieterno" />
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_protettoridelleterno"
+         android:text="@string/protettori"
+	     android:textColor="@color/oro" />
 
-     <ImageView
-         android:id="@+id/tsulongita"
-         android:layout_width="wrap_content"
+     <Button
+         android:id="@+id/tsulong"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/protettorieterno"
-         android:layout_below="@+id/protettorieterno"
-         android:src="@drawable/custom_tsulong" />
+         android:layout_below="@+id/protettori"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_tsulon"
+         android:text="@string/tsulong"
+     	 android:textColor="@color/oro" />
 
-     <ImageView
-         android:id="@+id/leishiita"
-         android:layout_width="wrap_content"
+     <Button
+         android:id="@+id/leishi"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/tsulongita"
-         android:layout_below="@+id/tsulongita"
-         android:src="@drawable/custom_leishi" />
+         android:layout_below="@+id/tsulong"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_leishi"
+         android:text="@string/leishi" 
+     	 android:textColor="@color/oro" />
 
-     <ImageView
-         android:id="@+id/shadellapaura"
-         android:layout_width="wrap_content"
+     <Button
+         android:id="@+id/shapaura"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/leishiita"
-         android:layout_below="@+id/leishiita"
-         android:src="@drawable/custom_shadellapaura" />
-    
+         android:layout_below="@+id/leishi"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_shadellapaura"
+         android:text="@string/shapaura" 
+         android:textColor="@color/oro" />
+     
 </RelativeLayout>

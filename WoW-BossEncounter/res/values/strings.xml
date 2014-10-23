@@ -4,5 +4,22 @@
     <string name="app_name">WoW-BossEncounter</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <color name="oro">#FFD700</color>
+    
+    <!-- terrazza dell'eterna primavera  -->
+    <string name="protettori">Protettori dell Eterno</string>
+    <string name="tsulong">Tsulong</string>
+    <string name="leishi">Lei Shi</string>
+    <string name="shapaura">Sha della Paura</string>
+   
+    
+    <!--   segrete di mogushan -->
+        <string name="quilen">Guardia di Pietra</string>
+        <string name="feng">Feng il maledetto</string>
+        <string name="garajal">garaj\'al il vincola spiriti</string>
+        <string name="reggenti">reggenti spirituali</string>
+        <string name="elegon">elegon</string>
+        <string name="volonta">volontà dell\'imperatore</string>
+        
+    
 </resources>

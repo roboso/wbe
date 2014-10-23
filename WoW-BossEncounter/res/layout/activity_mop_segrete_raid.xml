@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/custom_sfondoboss" >
+    android:layout_height="match_parent" >
 
      <ImageView
          android:id="@+id/imagesegrete"
@@ -16,52 +15,93 @@
          android:scaleType="fitXY"
          android:src="@drawable/custom_segretemogushan" />
 
-     <ImageView
-         android:id="@+id/quilenita"
-         android:layout_width="wrap_content"
+     <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+     
+     
+     <Button
+         android:id="@+id/quilen"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:layout_below="@+id/imagesegrete"
          android:layout_centerHorizontal="true"
-         android:src="@drawable/custom_immaginequilen" />
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_quilen"
+         android:text="@string/quilen"
+         android:textColor="@color/oro" />
 
-     <ImageView
-         android:id="@+id/fengmaledetto"
-         android:layout_width="wrap_content"
+     <Button
+         android:id="@+id/feng"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/quilenita"
-         android:layout_below="@+id/quilenita"
-         android:src="@drawable/custom_fengilmaledetto" />
+         android:layout_below="@+id/quilen"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_fengmaledetto"
+         android:text="@string/feng"
+	     android:textColor="@color/oro" />
 
-     <ImageView
-         android:id="@+id/vincolaspiriti"
-         android:layout_width="wrap_content"
+     <Button
+         android:id="@+id/garajal"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/fengmaledetto"
-         android:layout_below="@+id/fengmaledetto"
-         android:src="@drawable/custom_garajalvincolaspiriti" />
+         android:layout_below="@+id/feng"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_garajalvincolaspiriti"
+         android:text="@string/garajal"
+	     android:textColor="@color/oro" />
 
-     <ImageView
+     <Button
          android:id="@+id/reggentispirituali"
-         android:layout_width="wrap_content"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/vincolaspiriti"
-         android:layout_below="@+id/vincolaspiriti"
-         android:src="@drawable/custom_reggentispirituali" />
+         android:layout_below="@+id/garajal"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_reggentispirituali"
+         android:text="@string/reggenti"
+	 	 android:textColor="@color/oro" />
 
-     <ImageView
-         android:id="@+id/elegonita"
-         android:layout_width="wrap_content"
+     <Button
+         android:id="@+id/elegon"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/reggentispirituali"
          android:layout_below="@+id/reggentispirituali"
-         android:src="@drawable/custom_elegon" />
-
-     <ImageView
-         android:id="@+id/volontàimperatore"
-         android:layout_width="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_elegon"
+         android:text="@string/elegon"
+	 	 android:textColor="@color/oro" />
+     
+     <Button
+         android:id="@+id/volonta"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_alignLeft="@+id/elegonita"
-         android:layout_below="@+id/elegonita"
-         android:src="@drawable/custom_volonta_dellimperatore" />
+         android:layout_below="@+id/elegon"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:background="@drawable/custom_sfondoboss"
+         android:drawableLeft="@drawable/custom_volonta_dellimperatore"
+         android:text="@string/volonta"
+	 	 android:textColor="@color/oro" />
+     
     
+</LinearLayout>
+</ScrollView>
 </RelativeLayout>
+     
