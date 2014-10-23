@@ -136,16 +136,16 @@
 	 			android:textColor="@color/oro" />
                  
                 <Button
-                android:id="@+id/consorti"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/qon"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="14dp"
-         		android:background="@drawable/custom_sfondoboss"
-         		android:drawableLeft="@drawable/custom_consortigemelle"
-         		android:text="@string/consorti"
-	 			android:textColor="@color/oro" />
+                    android:id="@+id/consorti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/qon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/custom_sfondoboss"
+                    android:drawableLeft="@drawable/custom_consortigemelle"
+                    android:text="@string/consorti"
+                    android:textColor="@color/oro" />
           
                  <Button
                 android:id="@+id/leishen"

@@ -1997,18 +1997,29 @@ containing a value of this type.
         public static final int consorti=0x7f0a002c;
         public static final int durumu=0x7f0a0028;
         public static final int elegon=0x7f0a001a;
+        public static final int eletti=0x7f0a0039;
         public static final int feng=0x7f0a0017;
+        public static final int galakras=0x7f0a0031;
         public static final int garajal=0x7f0a0018;
         public static final int garalon=0x7f0a001e;
+        public static final int garrosh=0x7f0a003a;
         public static final int hello_world=0x7f0a0010;
         public static final int horridon=0x7f0a0023;
         /**  regno del tuono 
          */
         public static final int ildemolitore=0x7f0a0022;
+        /**  assedio di orgrimmar 
+         */
+        public static final int immerseus=0x7f0a002e;
+        public static final int ingeniere=0x7f0a0038;
         public static final int jikun=0x7f0a0027;
         public static final int leishen=0x7f0a002d;
         public static final int leishi=0x7f0a0014;
+        public static final int malkorok=0x7f0a0035;
+        public static final int mastodonte=0x7f0a0032;
         public static final int megaera=0x7f0a0026;
+        public static final int nazgrim=0x7f0a0034;
+        public static final int norushen=0x7f0a002f;
         public static final int plasmatoreambra=0x7f0a0020;
         public static final int primordius=0x7f0a0029;
         /**  terrazza dell'eterna primavera  
@@ -2019,10 +2030,14 @@ containing a value of this type.
          */
         public static final int quilen=0x7f0a0016;
         public static final int reggenti=0x7f0a0019;
+        public static final int shamani=0x7f0a0033;
+        public static final int shaorgoglio=0x7f0a0030;
         public static final int shapaura=0x7f0a0015;
         public static final int shekzeer=0x7f0a0021;
         public static final int signorelame=0x7f0a001d;
         public static final int signorevento=0x7f0a001f;
+        public static final int spoglie=0x7f0a0036;
+        public static final int thok=0x7f0a0037;
         public static final int tortos=0x7f0a0025;
         public static final int tsulong=0x7f0a0013;
         /**  cure della paura 

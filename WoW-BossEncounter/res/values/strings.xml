@@ -45,6 +45,25 @@
         <string name="qon">qon il tenace</string>
         <string name="consorti">consorti gemelle </string>
         <string name="leishen">lei shen</string>
-    
+              
         
+        
+        <!-- assedio di orgrimmar -->
+        
+        <string name="immerseus">immerseus</string>
+        <string name="protettori">protettori caduti</string>
+        <string name="norushen">prova di norushen</string>
+        <string name="shaorgoglio">sha dell\'oroglio</string>
+        <string name="galakras">galakras</string>
+        <string name="mastodonte">mastodonte di ferro</string>
+        <string name="shamani">sciamani oscuri korkron</string>
+        <string name="nazgrim">generale nazgrim</string>
+        <string name="malkorok">malkorok</string>
+        <string name="spoglie">spoglie di pandaria</string>
+        <string name="thok">thok il sanguinario </string>
+        <string name="ingeniere">ingeniere miccianera </string>
+        <string name="eletti">eletti dei klaxxi </string>
+        <string name="garrosh">garrosh malogrido </string>
+                
+               
 </resources>
