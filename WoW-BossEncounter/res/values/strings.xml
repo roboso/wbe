@@ -21,5 +21,15 @@
         <string name="elegon">elegon</string>
         <string name="volonta">volontà dell\'imperatore</string>
         
+        
+        <!-- cure della paura -->
+    
+    	<string name="visir">visir imperiale zor\'lok</string>
+        <string name="signorelame">signore delle lame ta\'yak</string>
+        <string name="garalon">garalon</string>
+        <string name="signorevento">signore del vento mel\'jarak</string>
+        <string name="plasmatoreambra">un\'sok il plasmatore d\'ambra </string>
+        <string name="shekzeer">grande imperatrice shek\'zeer </string>
+    
     
 </resources>

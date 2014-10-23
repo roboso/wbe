@@ -4,17 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-     <ImageView
-         android:id="@+id/imagesegrete"
-         android:layout_width="match_parent"
-         android:layout_height="150dp"
-         android:layout_alignParentLeft="true"
-         android:layout_alignParentTop="true"
-         android:adjustViewBounds="true"
-         android:cropToPadding="false"
-         android:scaleType="fitXY"
-         android:src="@drawable/custom_segretemogushan" />
-
      <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
@@ -27,7 +16,17 @@
             android:layout_height="match_parent"
             android:orientation="vertical" >
      
-     
+     <ImageView
+         android:id="@+id/imagesegrete"
+         android:layout_width="match_parent"
+         android:layout_height="150dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:adjustViewBounds="true"
+         android:cropToPadding="false"
+         android:scaleType="fitXY"
+         android:src="@drawable/custom_segretemogushan" />
+            
      <Button
          android:id="@+id/quilen"
          android:layout_width="match_parent"
@@ -96,7 +95,7 @@
          android:layout_centerHorizontal="true"
          android:layout_marginTop="14dp"
          android:background="@drawable/custom_sfondoboss"
-         android:drawableLeft="@drawable/custom_volonta_dellimperatore"
+         android:drawableLeft="@drawable/custom_volontadellimperatore"
          android:text="@string/volonta"
 	 	 android:textColor="@color/oro" />
      
