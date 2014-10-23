@@ -30,6 +30,21 @@
         <string name="signorevento">signore del vento mel\'jarak</string>
         <string name="plasmatoreambra">un\'sok il plasmatore d\'ambra </string>
         <string name="shekzeer">grande imperatrice shek\'zeer </string>
+            
+            <!-- regno del tuono -->
+            
+        <string name="ildemolitore">jin\'rokh il demolitore</string>
+        <string name="horridon">horridon</string>
+        <string name="concilioanziani">concilio degli anziani</string>
+        <string name="tortos">tortos</string>
+        <string name="megaera">megaera</string>
+        <string name="jikun">ji kun</string>
+        <string name="durumu">durumu il dimenticato</string>
+        <string name="primordius">primordius</string>
+        <string name="animus">animus oscuro</string>
+        <string name="qon">qon il tenace</string>
+        <string name="consorti">consorti gemelle </string>
+        <string name="leishen">lei shen</string>
     
-    
+        
 </resources>

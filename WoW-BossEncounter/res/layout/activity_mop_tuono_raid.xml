@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/custom_sfondoboss" >
-    
-  
- <ScrollView
-        android:id="@+id/scrollViewtuono"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical" >
+    android:layout_height="match_parent" >
           
             <ImageView
         android:id="@+id/imagetuono"
@@ -27,109 +13,151 @@
         android:cropToPadding="false"
         android:scaleType="fitXY"
         android:src="@drawable/custom_regnodeltuono" />
+
+            <Button
+                android:id="@+id/ildemolitore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imagetuono"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_jinrokdemolitore"
+         		android:text="@string/ildemolitore"
+	 			android:textColor="@color/oro" />
+
+            <Button
+                android:id="@+id/horridon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ildemolitore"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_horridon"
+         		android:text="@string/horridon"
+	 			android:textColor="@color/oro" />
+
+            <Button
+                android:id="@+id/concilioanziani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/horridon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_conciglioanziani"
+         		android:text="@string/concilioanziani"
+	 			android:textColor="@color/oro" />
+
+            <Button
+                android:id="@+id/tortos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/concilioanziani"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+         		android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_tortos"
+         		android:text="@string/tortos"
+	 			android:textColor="@color/oro" />
+
+          <Button
+                android:id="@+id/megaera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tortos"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+         		android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_megaera"
+         		android:text="@string/megaera"
+	 			android:textColor="@color/oro" />
+          
+          
+            <Button
+                android:id="@+id/jikun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/megaera"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+         		android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_jinrokdemolitore"
+         		android:text="@string/jikun"
+	 			android:textColor="@color/oro" />
+          
+          <Button
+                android:id="@+id/durumu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jikun"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+         		android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_durumu"
+         		android:text="@string/durumu"
+	 			android:textColor="@color/oro" />
             
-
- <ImageView
-     android:id="@+id/jindemolitore"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_below="@+id/imagetuono"
-     android:layout_centerHorizontal="true"
-     android:src="@drawable/custom_jinrokildemolitore" />
-
- <ImageView
-     android:id="@+id/horridonita"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/jindemolitore"
-     android:layout_below="@+id/jindemolitore"
-     android:src="@drawable/custom_horridon" />
-
- <ImageView
-     android:id="@+id/concilioanziani"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/horridonita"
-     android:layout_below="@+id/horridonita"
-     android:src="@drawable/custom_conciliodeglianziani" />
-
- <ImageView
-     android:id="@+id/tortosita"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/concilioanziani"
-     android:layout_below="@+id/concilioanziani"
-     android:src="@drawable/custom_tortos" />
-
- <ImageView
-     android:id="@+id/megaeraita"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/tortosita"
-     android:layout_below="@+id/tortosita"
-     android:src="@drawable/custom_megaera" />
- 
- 
-  <ImageView
-     android:id="@+id/jikunita"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/megaeraita"
-     android:layout_below="@+id/megaeraita"
-     android:src="@drawable/custom_jikun" />
-
-   <ImageView
-     android:id="@+id/ildimenticato"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/jikunita"
-     android:layout_below="@+id/jikunita"
-     android:src="@drawable/custom_durumuildimenticato" />
-   
-   
-   <ImageView
-     android:id="@+id/primordius"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/ildimenticato"
-     android:layout_below="@+id/ildimenticato"
-     android:src="@drawable/custom_primordius" />
-   
-   
-   <ImageView
-     android:id="@+id/animus"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/primordius"
-     android:layout_below="@+id/primordius"
-     android:src="@drawable/custom_animusoscuro" />
-   
-   
-   <ImageView
-     android:id="@+id/iltenace"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/animus"
-     android:layout_below="@+id/animus"
-     android:src="@drawable/custom_qoniltenace" />
-   
-   
-   <ImageView
-     android:id="@+id/consortigemelle"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/iltenace"
-     android:layout_below="@+id/iltenace"
-     android:src="@drawable/custom_consortigemelle" />
-   
-   
-   <ImageView
-     android:id="@+id/leishen"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/consortigemelle"
-     android:layout_below="@+id/consortigemelle"
-     android:src="@drawable/custom_leishen" />
-  </LinearLayout>
-    </ScrollView>
+          <Button
+                android:id="@+id/primordius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/durumu"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+         		android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_primordius"
+         		android:text="@string/primordius"
+	 			android:textColor="@color/oro" />
+          
+                 <Button
+                android:id="@+id/animus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/primordius"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+         		android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_animus"
+         		android:text="@string/animus"
+	 			android:textColor="@color/oro" />
+                 
+                   <Button
+                android:id="@+id/qon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/animus"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+         		android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_qontenace"
+         		android:text="@string/qon"
+	 			android:textColor="@color/oro" />
+                 
+                <Button
+                android:id="@+id/consorti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/qon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+         		android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_consortigemelle"
+         		android:text="@string/consorti"
+	 			android:textColor="@color/oro" />
+          
+                 <Button
+                android:id="@+id/leishen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/consorti"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+         		android:background="@drawable/custom_sfondoboss"
+         		android:drawableLeft="@drawable/custom_leishen"
+         		android:text="@string/leishen"
+	 			android:textColor="@color/oro" />
+                
+                
 </RelativeLayout>
