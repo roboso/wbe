@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-     <!-- terrazza dell'eterna primavera  -->
+    
+      <!-- terrazza dell'eterna primavera  -->
     <string name="terrazza">Terrace Of Endless Spring</string>
     <string name="protettori">Protectors Of The Endless</string>
     <string name="tsulong">Tsulong</string>
