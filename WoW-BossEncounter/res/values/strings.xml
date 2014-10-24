@@ -9,61 +9,61 @@
     <!-- terrazza dell'eterna primavera  -->
     <string name="protettori">Protettori dell Eterno</string>
     <string name="tsulong">Tsulong</string>
-    <string name="leishi">Lei Shi</string>
+    <string name="eishi">Lei Shi</string>
     <string name="shapaura">Sha della Paura</string>
    
     
     <!--   segrete di mogushan -->
         <string name="quilen">Guardia di Pietra</string>
         <string name="feng">Feng il maledetto</string>
-        <string name="garajal">garaj\'al il vincola spiriti</string>
-        <string name="reggenti">reggenti spirituali</string>
-        <string name="elegon">elegon</string>
-        <string name="volonta">volontà dell\'imperatore</string>
+        <string name="garajal">Garaj\'al il Vincola Spiriti</string>
+        <string name="reggenti">Reggenti Spirituali</string>
+        <string name="elegon">Elegon</string>
+        <string name="volonta">Volontà dell\'Imperatore</string>
         
         
         <!-- cure della paura -->
     
-    	<string name="visir">visir imperiale zor\'lok</string>
-        <string name="signorelame">signore delle lame ta\'yak</string>
+    	<string name="visir">Visir Imperiale Zor\'lok</string>
+        <string name="signorelame">Signore delle Lame Ta\'yak</string>
         <string name="garalon">garalon</string>
-        <string name="signorevento">signore del vento mel\'jarak</string>
-        <string name="plasmatoreambra">un\'sok il plasmatore d\'ambra </string>
-        <string name="shekzeer">grande imperatrice shek\'zeer </string>
+        <string name="signorevento">Signore del Vento Mel\'jarak</string>
+        <string name="plasmatoreambra">Un\'sok il Plasmatore d\'Ambra </string>
+        <string name="shekzeer">Grande Imperatrice Shek\'zeer </string>
             
             <!-- regno del tuono -->
             
-        <string name="ildemolitore">jin\'rokh il demolitore</string>
+        <string name="ildemolitore">Jin\'rokh il Demolitore</string>
         <string name="horridon">horridon</string>
-        <string name="concilioanziani">concilio degli anziani</string>
-        <string name="tortos">tortos</string>
-        <string name="megaera">megaera</string>
-        <string name="jikun">ji kun</string>
-        <string name="durumu">durumu il dimenticato</string>
-        <string name="primordius">primordius</string>
-        <string name="animus">animus oscuro</string>
-        <string name="qon">qon il tenace</string>
-        <string name="consorti">consorti gemelle </string>
-        <string name="leishen">lei shen</string>
+        <string name="concilioanziani">Concilio degli Anziani</string>
+        <string name="tortos">Tortos</string>
+        <string name="megaera">Megaera</string>
+        <string name="jikun">JiKun</string>
+        <string name="durumu">Durumu il Dimenticato</string>
+        <string name="primordius">Primordius</string>
+        <string name="animus">Animus Oscuro</string>
+        <string name="qon">Qon il Tenace</string>
+        <string name="consorti">Consorti Gemelle </string>
+        <string name="leishen">Lei Shen</string>
               
         
         
         <!-- assedio di orgrimmar -->
         
-        <string name="immerseus">immerseus</string>
-        <string name="protettoricaduti">protettori caduti</string>
-        <string name="norushen">prova di norushen</string>
-        <string name="shaorgoglio">sha dell\'oroglio</string>
-        <string name="galakras">galakras</string>
-        <string name="mastodonte">mastodonte di ferro</string>
-        <string name="shamani">sciamani oscuri korkron</string>
-        <string name="nazgrim">generale nazgrim</string>
-        <string name="malkorok">malkorok</string>
-        <string name="spoglie">spoglie di pandaria</string>
-        <string name="thok">thok il sanguinario </string>
-        <string name="ingeniere">ingeniere miccianera </string>
-        <string name="eletti">eletti dei klaxxi </string>
-        <string name="garrosh">garrosh malogrido </string>
+        <string name="immerseus">Immerseus</string>
+        <string name="protettoricaduti">Protettori Caduti</string>
+        <string name="norushen">Prova di Norushen</string>
+        <string name="shaorgoglio">Sha dell\'Oroglio</string>
+        <string name="galakras">Galakras</string>
+        <string name="mastodonte">Mastodonte di Ferro</string>
+        <string name="shamani">Sciamani Oscuri Korkron</string>
+        <string name="nazgrim">Generale Nazgrim</string>
+        <string name="malkorok">Malkorok</string>
+        <string name="spoglie">Spoglie di Pandaria</string>
+        <string name="thok">Thok il Sanguinario </string>
+        <string name="ingeniere">Ingeniere Miccianera </string>
+        <string name="eletti">Eletti dei Klaxxi </string>
+        <string name="garrosh">Garrosh Malogrido </string>
                 
                
 </resources>
