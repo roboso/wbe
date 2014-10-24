@@ -2,66 +2,99 @@
     android:id="@+id/RelativeLayout1"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/custom_mopsenzalogo"
     android:orientation="vertical" >
 
-   <ImageView
-       android:id="@+id/imagemop"
-       android:layout_width="match_parent"
-       android:layout_height="150dp"
-       android:layout_alignParentLeft="true"
-       android:layout_alignParentTop="true"
-       android:adjustViewBounds="true"
-       android:cropToPadding="false"
-       android:scaleType="centerCrop"
-       android:src="@drawable/custom_mop" />
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
 
-   <ImageButton
-       android:id="@+id/segrete"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignParentLeft="true"
-       android:layout_below="@+id/imagemop"
-       android:layout_marginTop="38dp"
-       android:onClick="listasegrete"
-       android:src="@drawable/custom_segretemogushan" />
-
-   <ImageButton
-       android:id="@+id/cuore"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignParentRight="true"
-       android:layout_alignTop="@+id/segrete"
-       android:layout_marginRight="14dp"
-       android:onClick="listacuore"
-       android:src="@drawable/custom_cuoredellapaura" />
-
-   <ImageButton
-       android:id="@+id/terrazza"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignParentLeft="true"
-       android:layout_below="@+id/cuore"
-       android:onClick="listaterrazza"
-       android:src="@drawable/custom_terrazzadelleternaprimavera" />
-
-   <ImageButton
-       android:id="@+id/regnodeltuono"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignLeft="@+id/cuore"
-       android:layout_below="@+id/cuore"
-       android:onClick="listaregnodeltuono"
-       android:src="@drawable/custom_regnodeltuono" />
-
-   <ImageButton
-       android:id="@+id/assedio"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@+id/terrazza"
-       android:layout_centerHorizontal="true"
-       android:layout_marginTop="24dp"
-       android:onClick="listasoo"
-       android:src="@drawable/custom_assediodiorgrimmar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
     
+    <ImageView
+        android:id="@+id/immaginemop"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_mop" />
+
+    <Button
+        android:id="@+id/segrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/immaginemop"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableTop="@drawable/custom_segretedimogushan"
+        android:onClick="listasegrete"
+        android:text="@string/mvg"
+        android:textColor="@color/indaco"
+        android:textSize="25sp" />
+
+      <Button
+          android:id="@+id/cuore"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/segrete"
+          android:layout_centerHorizontal="true"
+          android:onClick="listacuore"
+          android:layout_marginTop="14dp"
+          android:background="@drawable/custom_sfondoboss"
+          android:drawableTop="@drawable/custom_cuoredellapaura"
+          android:text="@string/cuore"
+	      android:textSize="25sp"
+	      android:textColor="@color/indaco" />
+    
+      <Button
+          android:id="@+id/terrazza"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/cuore"
+          android:layout_centerHorizontal="true"
+          android:onClick="listaterrazza"
+          android:layout_marginTop="14dp"
+          android:background="@drawable/custom_sfondoboss"
+          android:drawableTop="@drawable/custom_terrazzadelleternaprimavera"
+          android:text="@string/terrazza"
+	      android:textSize="25sp"
+	      android:textColor="@color/indaco" />
+      
+      <Button
+          android:id="@+id/regnodeltuono"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/terrazza"
+          android:layout_centerHorizontal="true"
+          android:onClick="listaregnodeltuono"
+          android:layout_marginTop="14dp"
+          android:background="@drawable/custom_sfondoboss"
+          android:drawableTop="@drawable/custom_troneoftunder"
+          android:text="@string/regnotuono"
+	      android:textSize="25sp"
+	      android:textColor="@color/indaco" />
+
+         <Button
+          android:id="@+id/soo"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/regnodeltuono"
+          android:layout_centerHorizontal="true"
+          android:onClick="listasoo"
+          android:layout_marginTop="14dp"
+          android:background="@drawable/custom_sfondoboss"
+          android:drawableTop="@drawable/custom_siegeoforgrimmar"
+          android:text="@string/soo"
+	      android:textSize="25sp"
+	      android:textColor="@color/indaco" />
+         
+         
+
+</LinearLayout>
+</ScrollView>
 </RelativeLayout>

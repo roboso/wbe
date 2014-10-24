@@ -1377,19 +1377,19 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f050003;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f060032;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f060033;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f060033;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f060034;
         public static final int abc_input_method_navigation_guard=0x7f060003;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f060034;
-        public static final int abc_primary_text_disable_only_material_light=0x7f060035;
-        public static final int abc_primary_text_material_dark=0x7f060036;
-        public static final int abc_primary_text_material_light=0x7f060037;
-        public static final int abc_search_url_text=0x7f060038;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f060035;
+        public static final int abc_primary_text_disable_only_material_light=0x7f060036;
+        public static final int abc_primary_text_material_dark=0x7f060037;
+        public static final int abc_primary_text_material_light=0x7f060038;
+        public static final int abc_search_url_text=0x7f060039;
         public static final int abc_search_url_text_normal=0x7f060000;
         public static final int abc_search_url_text_pressed=0x7f060002;
         public static final int abc_search_url_text_selected=0x7f060001;
-        public static final int abc_secondary_text_material_dark=0x7f060039;
-        public static final int abc_secondary_text_material_light=0x7f06003a;
+        public static final int abc_secondary_text_material_dark=0x7f06003a;
+        public static final int abc_secondary_text_material_light=0x7f06003b;
         public static final int accent_material_dark=0x7f06000f;
         public static final int accent_material_light=0x7f06000e;
         public static final int background_floating_material_dark=0x7f060006;
@@ -1420,6 +1420,7 @@ containing a value of this type.
         public static final int highlighted_text_material_light=0x7f060021;
         public static final int hint_foreground_material_dark=0x7f06001e;
         public static final int hint_foreground_material_light=0x7f06001f;
+        public static final int indaco=0x7f060032;
         public static final int link_text_material_dark=0x7f060022;
         public static final int link_text_material_light=0x7f060023;
         public static final int material_blue_grey_800=0x7f06002e;
@@ -1752,7 +1753,6 @@ containing a value of this type.
         public static final int add=0x7f090045;
         public static final int always=0x7f090014;
         public static final int animus=0x7f09007f;
-        public static final int assedio=0x7f090069;
         public static final int bdc=0x7f090043;
         public static final int beginning=0x7f09001b;
         public static final int bottom=0x7f09001e;
@@ -1789,11 +1789,11 @@ containing a value of this type.
         public static final int image=0x7f090025;
         public static final int imageassedio=0x7f09004d;
         public static final int imagecuore=0x7f09005d;
-        public static final int imagemop=0x7f090064;
         public static final int imagesegrete=0x7f09006a;
         public static final int imageterrazza=0x7f090071;
         public static final int imagetuono=0x7f090076;
         public static final int immaginecata=0x7f090042;
+        public static final int immaginemop=0x7f090064;
         public static final int immerseus=0x7f09004e;
         public static final int jikun=0x7f09007c;
         public static final int korkron=0x7f090054;
@@ -1847,6 +1847,7 @@ containing a value of this type.
         public static final int showTitle=0x7f090012;
         public static final int signorelame=0x7f09005f;
         public static final int signorevento=0x7f090061;
+        public static final int soo=0x7f090069;
         public static final int split_action_bar=0x7f090004;
         public static final int spoglie=0x7f090057;
         public static final int submit_area=0x7f09003e;
@@ -1990,60 +1991,65 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000d;
         public static final int action_settings=0x7f0a0011;
-        public static final int animus=0x7f0a002a;
+        public static final int animus=0x7f0a002e;
         public static final int app_name=0x7f0a000f;
-        public static final int concilioanziani=0x7f0a0024;
-        public static final int consorti=0x7f0a002c;
-        public static final int durumu=0x7f0a0028;
-        public static final int elegon=0x7f0a001a;
-        public static final int eletti=0x7f0a003a;
-        public static final int feng=0x7f0a0017;
-        public static final int galakras=0x7f0a0032;
-        public static final int garajal=0x7f0a0018;
-        public static final int garalon=0x7f0a001e;
-        public static final int garrosh=0x7f0a003b;
-        public static final int hello_world=0x7f0a0010;
-        public static final int horridon=0x7f0a0023;
-        /**  regno del tuono 
-         */
-        public static final int ildemolitore=0x7f0a0022;
-        /**  assedio di orgrimmar 
-         */
-        public static final int immerseus=0x7f0a002e;
-        public static final int ingeniere=0x7f0a0039;
-        public static final int jikun=0x7f0a0027;
-        public static final int leishen=0x7f0a002d;
-        public static final int leishi=0x7f0a0014;
-        public static final int malkorok=0x7f0a0036;
-        public static final int mastodonte=0x7f0a0033;
-        public static final int megaera=0x7f0a0026;
-        public static final int nazgrim=0x7f0a0035;
-        public static final int norushen=0x7f0a0030;
-        public static final int plasmatoreambra=0x7f0a0020;
-        public static final int primordius=0x7f0a0029;
-        /**  terrazza dell'eterna primavera  
-         */
-        public static final int protettori=0x7f0a0012;
-        public static final int protettoricaduti=0x7f0a002f;
-        public static final int qon=0x7f0a002b;
-        /**    segrete di mogushan 
-         */
-        public static final int quilen=0x7f0a0016;
-        public static final int reggenti=0x7f0a0019;
-        public static final int shamani=0x7f0a0034;
-        public static final int shaorgoglio=0x7f0a0031;
-        public static final int shapaura=0x7f0a0015;
-        public static final int shekzeer=0x7f0a0021;
-        public static final int signorelame=0x7f0a001d;
-        public static final int signorevento=0x7f0a001f;
-        public static final int spoglie=0x7f0a0037;
-        public static final int thok=0x7f0a0038;
-        public static final int tortos=0x7f0a0025;
-        public static final int tsulong=0x7f0a0013;
+        public static final int concilioanziani=0x7f0a0028;
+        public static final int consorti=0x7f0a0030;
         /**  cure della paura 
          */
-        public static final int visir=0x7f0a001c;
-        public static final int volonta=0x7f0a001b;
+        public static final int cuore=0x7f0a001e;
+        public static final int durumu=0x7f0a002c;
+        public static final int elegon=0x7f0a001c;
+        public static final int eletti=0x7f0a003f;
+        public static final int feng=0x7f0a0019;
+        public static final int galakras=0x7f0a0037;
+        public static final int garajal=0x7f0a001a;
+        public static final int garalon=0x7f0a0021;
+        public static final int garrosh=0x7f0a0040;
+        public static final int hello_world=0x7f0a0010;
+        public static final int horridon=0x7f0a0027;
+        public static final int ildemolitore=0x7f0a0026;
+        public static final int immerseus=0x7f0a0033;
+        public static final int ingeniere=0x7f0a003e;
+        public static final int jikun=0x7f0a002b;
+        public static final int leishen=0x7f0a0031;
+        public static final int leishi=0x7f0a0015;
+        public static final int malkorok=0x7f0a003b;
+        public static final int mastodonte=0x7f0a0038;
+        public static final int megaera=0x7f0a002a;
+        /**    segrete di mogushan 
+         */
+        public static final int mvg=0x7f0a0017;
+        public static final int nazgrim=0x7f0a003a;
+        public static final int norushen=0x7f0a0035;
+        public static final int plasmatoreambra=0x7f0a0023;
+        public static final int primordius=0x7f0a002d;
+        public static final int protettori=0x7f0a0013;
+        public static final int protettoricaduti=0x7f0a0034;
+        public static final int qon=0x7f0a002f;
+        public static final int quilen=0x7f0a0018;
+        public static final int reggenti=0x7f0a001b;
+        /**  regno del tuono 
+         */
+        public static final int regnotuono=0x7f0a0025;
+        public static final int shamani=0x7f0a0039;
+        public static final int shaorgoglio=0x7f0a0036;
+        public static final int shapaura=0x7f0a0016;
+        public static final int shekzeer=0x7f0a0024;
+        public static final int signorelame=0x7f0a0020;
+        public static final int signorevento=0x7f0a0022;
+        /**  assedio di orgrimmar 
+         */
+        public static final int soo=0x7f0a0032;
+        public static final int spoglie=0x7f0a003c;
+        /**  terrazza dell'eterna primavera  
+         */
+        public static final int terrazza=0x7f0a0012;
+        public static final int thok=0x7f0a003d;
+        public static final int tortos=0x7f0a0029;
+        public static final int tsulong=0x7f0a0014;
+        public static final int visir=0x7f0a001f;
+        public static final int volonta=0x7f0a001d;
     }
     public static final class style {
         /** 

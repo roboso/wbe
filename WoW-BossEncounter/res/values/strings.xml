@@ -5,8 +5,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <color name="oro">#FFD700</color>
+    <color name="indaco">#310062</color> 
+
+    
     
     <!-- terrazza dell'eterna primavera  -->
+    <string name="terrazza">Terrazza dell\'eterna Primavera</string>
     <string name="protettori">Protettori dell\'Eterno</string>
     <string name="tsulong">Tsulong</string>
     <string name="leishi">Lei Shi</string>
@@ -14,6 +18,7 @@
    
     
     <!--   segrete di mogushan -->
+        <string name="mvg">Segrete di Mogushan</string>
         <string name="quilen">Guardia di Pietra</string>
         <string name="feng">Feng il maledetto</string>
         <string name="garajal">Garaj\'al il Vincola Spiriti</string>
@@ -23,7 +28,7 @@
         
         
         <!-- cure della paura -->
-    
+        <string name="cuore">Cuore della Paura</string>   
     	<string name="visir">Visir Imperiale Zor\'lok</string>
         <string name="signorelame">Signore delle Lame Ta\'yak</string>
         <string name="garalon">garalon</string>
@@ -32,7 +37,7 @@
         <string name="shekzeer">Grande Imperatrice Shek\'zeer </string>
             
             <!-- regno del tuono -->
-            
+        <string name="regnotuono">Regno del Tuono</string>
         <string name="ildemolitore">Jin\'rokh il Demolitore</string>
         <string name="horridon">horridon</string>
         <string name="concilioanziani">Concilio degli Anziani</string>
@@ -49,7 +54,7 @@
         
         
         <!-- assedio di orgrimmar -->
-        
+        <string name="soo">Assedio di Orgrimmar</string>
         <string name="immerseus">Immerseus</string>
         <string name="protettoricaduti">Protettori Caduti</string>
         <string name="norushen">Prova di Norushen</string>
