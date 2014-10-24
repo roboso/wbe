@@ -3331,3 +3331,6 @@ java.lang.IllegalArgumentException: Argument cannot be null
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-24 14:55:56.058
+!MESSAGE activity_mop_terrazza_raid.xml: Couldn't resolve resource @string/leishi
