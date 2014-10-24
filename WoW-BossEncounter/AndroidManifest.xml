@@ -36,6 +36,23 @@
         <activity
             android:name=".WodListaRaid">
         </activity>
+         <activity
+            android:name=".SegreteListaBoss">
+        </activity>
+         <activity
+            android:name=".CuoreListaBoss">
+        </activity>
+         <activity
+            android:name=".TerrazzaListaBoss">
+        </activity>
+         <activity
+            android:name=".TotListaBoss">
+        </activity>
+         <activity
+            android:name=".AssedioListaBoss">
+        </activity>
+         
+        
     </application>
 
 </manifest>

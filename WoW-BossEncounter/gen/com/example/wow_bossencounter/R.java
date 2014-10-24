@@ -1752,6 +1752,7 @@ containing a value of this type.
         public static final int add=0x7f090045;
         public static final int always=0x7f090014;
         public static final int animus=0x7f09007f;
+        public static final int assedio=0x7f090069;
         public static final int bdc=0x7f090043;
         public static final int beginning=0x7f09001b;
         public static final int bottom=0x7f09001e;
@@ -1786,7 +1787,6 @@ containing a value of this type.
         public static final int ifRoom=0x7f090016;
         public static final int ildemolitore=0x7f090077;
         public static final int image=0x7f090025;
-        public static final int imageButton1=0x7f090069;
         public static final int imageassedio=0x7f09004d;
         public static final int imagecuore=0x7f09005d;
         public static final int imagemop=0x7f090064;

@@ -450,6 +450,7 @@ int id activity_chooser_view_content 0x7f090023
 int id add 0x7f090045
 int id always 0x7f090014
 int id animus 0x7f09007f
+int id assedio 0x7f090069
 int id bdc 0x7f090043
 int id beginning 0x7f09001b
 int id bottom 0x7f09001e
@@ -484,7 +485,6 @@ int id icon 0x7f090028
 int id ifRoom 0x7f090016
 int id ildemolitore 0x7f090077
 int id image 0x7f090025
-int id imageButton1 0x7f090069
 int id imageassedio 0x7f09004d
 int id imagecuore 0x7f09005d
 int id imagemop 0x7f090064

@@ -23,6 +23,7 @@
        android:layout_alignParentLeft="true"
        android:layout_below="@+id/imagemop"
        android:layout_marginTop="38dp"
+       android:onClick="listasegrete"
        android:src="@drawable/custom_segretemogushan" />
 
    <ImageButton
@@ -32,6 +33,7 @@
        android:layout_alignParentRight="true"
        android:layout_alignTop="@+id/segrete"
        android:layout_marginRight="14dp"
+       android:onClick="listacuore"
        android:src="@drawable/custom_cuoredellapaura" />
 
    <ImageButton
@@ -40,6 +42,7 @@
        android:layout_height="wrap_content"
        android:layout_alignParentLeft="true"
        android:layout_below="@+id/cuore"
+       android:onClick="listaterrazza"
        android:src="@drawable/custom_terrazzadelleternaprimavera" />
 
    <ImageButton
@@ -48,15 +51,17 @@
        android:layout_height="wrap_content"
        android:layout_alignLeft="@+id/cuore"
        android:layout_below="@+id/cuore"
+       android:onClick="listaregnodeltuono"
        android:src="@drawable/custom_regnodeltuono" />
 
    <ImageButton
-       android:id="@+id/imageButton1"
+       android:id="@+id/assedio"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_below="@+id/terrazza"
        android:layout_centerHorizontal="true"
        android:layout_marginTop="24dp"
+       android:onClick="listasoo"
        android:src="@drawable/custom_assediodiorgrimmar" />
     
 </RelativeLayout>
