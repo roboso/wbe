@@ -8,67 +8,67 @@
     <color name="indaco">#310062</color> 
 
     
-    
-    <!-- terrazza dell'eterna primavera  -->
-    <string name="terrazza">Terrazza dell\'eterna Primavera</string>
-    <string name="protettori">Protettori dell\'Eterno</string>
+      
+     <!-- terrazza dell'eterna primavera  -->
+    <string name="terrazza">Terrace Of Endless Spring</string>
+    <string name="protettori">Protectors Of The Endless</string>
     <string name="tsulong">Tsulong</string>
     <string name="leishi">Lei Shi</string>
-    <string name="shapaura">Sha della Paura</string>
+    <string name="shapaura">Sha Of Fear</string>
    
     
     <!--   segrete di mogushan -->
-        <string name="mvg">Segrete di Mogushan</string>
-        <string name="quilen">Guardia di Pietra</string>
-        <string name="feng">Feng il maledetto</string>
-        <string name="garajal">Garaj\'al il Vincola Spiriti</string>
-        <string name="reggenti">Reggenti Spirituali</string>
+        <string name="mvg">Mogu\'shan Vaults</string>
+        <string name="quilen">The Stone Guard</string>
+        <string name="feng">Feng The Accursed</string>
+        <string name="garajal">Gara\'jal The Spiritbinder Spiriti</string>
+        <string name="reggenti">The Spirit Kings</string>
         <string name="elegon">Elegon</string>
-        <string name="volonta">Volontà dell\'Imperatore</string>
+        <string name="volonta">Will Of The Emperor</string>
         
         
         <!-- cure della paura -->
-        <string name="cuore">Cuore della Paura</string>   
-    	<string name="visir">Visir Imperiale Zor\'lok</string>
-        <string name="signorelame">Signore delle Lame Ta\'yak</string>
-        <string name="garalon">garalon</string>
-        <string name="signorevento">Signore del Vento Mel\'jarak</string>
-        <string name="plasmatoreambra">Un\'sok il Plasmatore d\'Ambra </string>
-        <string name="shekzeer">Grande Imperatrice Shek\'zeer </string>
+        <string name="cuore">Heart Of Fear</string>   
+    	<string name="visir">Imperial Vizier Zor\'lok</string>
+        <string name="signorelame">Blade Lord Ta\'yak</string>
+        <string name="garalon">Garalon</string>
+        <string name="signorevento">Wind Lord Mel\'jarak</string>
+        <string name="plasmatoreambra">Amber Shaper Un\'sok</string>
+        <string name="shekzeer">Grand Empress Shek\'zeer </string>
             
             <!-- regno del tuono -->
-        <string name="regnotuono">Regno del Tuono</string>
-        <string name="ildemolitore">Jin\'rokh il Demolitore</string>
-        <string name="horridon">horridon</string>
-        <string name="concilioanziani">Concilio degli Anziani</string>
+        <string name="regnotuono">Throne Of Thunder</string>
+        <string name="ildemolitore">Jin\'rokt The Breaker</string>
+        <string name="horridon">Horridon</string>
+        <string name="concilioanziani">Council Of Elders</string>
         <string name="tortos">Tortos</string>
         <string name="megaera">Megaera</string>
-        <string name="jikun">JiKun</string>
-        <string name="durumu">Durumu il Dimenticato</string>
+        <string name="jikun">Ji-Kun</string>
+        <string name="durumu">Durumu The Forgotten</string>
         <string name="primordius">Primordius</string>
-        <string name="animus">Animus Oscuro</string>
-        <string name="qon">Qon il Tenace</string>
-        <string name="consorti">Consorti Gemelle </string>
+        <string name="animus">Dark Animus</string>
+        <string name="qon">Iron Qon</string>
+        <string name="consorti">Twin Consorts</string>
         <string name="leishen">Lei Shen</string>
               
         
         
         <!-- assedio di orgrimmar -->
-        <string name="soo">Assedio di Orgrimmar</string>
+        <string name="soo">Siege Of Orgrimmar</string>
         <string name="immerseus">Immerseus</string>
-        <string name="protettoricaduti">Protettori Caduti</string>
-        <string name="norushen">Prova di Norushen</string>
-        <string name="shaorgoglio">Sha dell\'Oroglio</string>
+        <string name="protettoricaduti">The Fallen Protectors</string>
+        <string name="norushen">Norushen</string>
+        <string name="shaorgoglio">Sha Of Pride</string>
         <string name="galakras">Galakras</string>
-        <string name="mastodonte">Mastodonte di Ferro</string>
-        <string name="shamani">Sciamani Oscuri Korkron</string>
-        <string name="nazgrim">Generale Nazgrim</string>
+        <string name="mastodonte">Iron Juggernaut</string>
+        <string name="shamani">Kor\'kron Dark Shaman</string>
+        <string name="nazgrim">General Nazgrim</string>
         <string name="malkorok">Malkorok</string>
-        <string name="spoglie">Spoglie di Pandaria</string>
-        <string name="thok">Thok il Sanguinario </string>
-        <string name="ingeniere">Ingeniere Miccianera </string>
-        <string name="eletti">Eletti dei Klaxxi </string>
-        <string name="garrosh">Garrosh Malogrido </string>
+        <string name="spoglie">Spoils Of Pandaria</string>
+        <string name="thok">Thok The Bloodthirsty </string>
+        <string name="ingeniere">Siegecrafter Blackfuse </string>
+        <string name="eletti">Paragons Of Klaxxi </string>
+        <string name="garrosh">Garrosh Hellscream </string>
                 
-               
 </resources>
+    
