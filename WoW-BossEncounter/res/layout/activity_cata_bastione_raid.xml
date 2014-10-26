@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_sfondoapp" >
+ 
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    
+    
+    
+  <ImageView
+        android:id="@+id/imagebastione"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_bastionedelcrepuscolo" />
+
+  <Button
+      android:id="@+id/halfus"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/halfus"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_halfus"
+      android:text="@string/halfus"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/theralion"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/theralion"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_theralion"
+      android:text="@string/theralion"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/concilio"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/concilio"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_concilio"
+      android:text="@string/concilio"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/chogall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/concilio"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_chogall"
+      android:text="@string/chogall"
+	  android:textColor="@color/oro" />
+
+  </LinearLayout>
+</ScrollView>
+</RelativeLayout>

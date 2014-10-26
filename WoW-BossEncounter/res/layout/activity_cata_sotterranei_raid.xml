@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_sfondoapp" >
+ 
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    
+    
+    
+  <ImageView
+        android:id="@+id/imagesotterranei"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_sotterraneidellalanera" />
+
+  <Button
+      android:id="@+id/omnotron"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/imagesotterranei"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_omnotron"
+      android:text="@string/omnotron"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/rodimagma"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/omnotron"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_rodimagma"
+      android:text="@string/rodimagma"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/atramedes"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/rodimagma"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_atramedes"
+      android:text="@string/atramedes"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/chimaeron"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/atramedes"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_chimaeron"
+      android:text="@string/chimaeron"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/maloriak"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/chimaeron"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_maloriak"
+      android:text="@string/maloriak"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/nefarian"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/maloriak"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_nefarian"
+      android:text="@string/nefarian"
+	  android:textColor="@color/oro" />
+
+  </LinearLayout>
+</ScrollView>
+</RelativeLayout>

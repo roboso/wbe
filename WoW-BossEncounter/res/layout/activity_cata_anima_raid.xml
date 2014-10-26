@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_sfondoapp" >
+ 
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    
+    
+    
+  <ImageView
+        android:id="@+id/imageanima"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_animadidrago" />
+
+  <Button
+      android:id="@+id/morchok"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/imageanima"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_morchok"
+      android:text="@string/morchok"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/warlord"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/morchok"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_zonozz"
+      android:text="@string/warlord"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/yorsahj"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/warlord"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_yorsahj"
+      android:text="@string/yorsahj"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/hagara"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/yorsahj"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_hagara"
+      android:text="@string/hagara"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/ultraxion"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/hagara"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_ultraxion"
+      android:text="@string/ultraxion"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/warmaster"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ultraxion"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_cornonero"
+      android:text="@string/warmaster"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/spine"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/warmaster"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_spina"
+      android:text="@string/spine"
+	  android:textColor="@color/oro" />
+
+  <Button
+      android:id="@+id/madness"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/spine"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:background="@drawable/custom_sfondoboss"
+      android:drawableLeft="@drawable/custom_follia"
+      android:text="@string/madness"
+	  android:textColor="@color/oro" />
+
+  
+  </LinearLayout>
+</ScrollView>
+</RelativeLayout>

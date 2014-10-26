@@ -6,5 +6,106 @@
     <string name="action_settings">Settings</string>
     <color name="coloremop">#357459</color>
     <color name="nero">#000000</color>
+    <color name="indaco">#310062</color>
+    <color name="oro">#FFd700</color>
     
+ <!-- terrazza dell'eterna primavera  -->
+        <string name="terrazza">Terrace Of Endless Spring</string>
+        <string name="protettori">Protectors Of The Endless</string>
+        <string name="tsulong">Tsulong</string>
+        <string name="leishi">Lei Shi</string>
+        <string name="shapaura">Sha Of Fear</string>
+   
+    
+ <!--   segrete di mogushan -->
+        <string name="mvg">Mogu\'shan Vaults</string>
+        <string name="quilen">The Stone Guard</string>
+        <string name="feng">Feng The Accursed</string>
+        <string name="garajal">Gara\'jal The Spiritbinder Spiriti</string>
+        <string name="reggenti">The Spirit Kings</string>
+        <string name="elegon">Elegon</string>
+        <string name="volonta">Will Of The Emperor</string>
+        
+        
+<!-- cuore della paura -->
+        <string name="cuore">Heart Of Fear</string>   
+    	<string name="visir">Imperial Vizier Zor\'lok</string>
+        <string name="signorelame">Blade Lord Ta\'yak</string>
+        <string name="garalon">Garalon</string>
+        <string name="signorevento">Wind Lord Mel\'jarak</string>
+        <string name="plasmatoreambra">Amber Shaper Un\'sok</string>
+        <string name="shekzeer">Grand Empress Shek\'zeer </string>
+            
+<!-- regno del tuono -->
+        <string name="regnotuono">Throne Of Thunder</string>
+        <string name="ildemolitore">Jin\'rokt The Breaker</string>
+        <string name="horridon">Horridon</string>
+        <string name="concilioanziani">Council Of Elders</string>
+        <string name="tortos">Tortos</string>
+        <string name="megaera">Megaera</string>
+        <string name="jikun">Ji-Kun</string>
+        <string name="durumu">Durumu The Forgotten</string>
+        <string name="primordius">Primordius</string>
+        <string name="animus">Dark Animus</string>
+        <string name="qon">Iron Qon</string>
+        <string name="consorti">Twin Consorts</string>
+        <string name="leishen">Lei Shen</string>
+              
+        
+        
+<!-- assedio di orgrimmar -->
+        <string name="soo">Siege Of Orgrimmar</string>
+        <string name="immerseus">Immerseus</string>
+        <string name="protettoricaduti">The Fallen Protectors</string>
+        <string name="norushen">Norushen</string>
+        <string name="shaorgoglio">Sha Of Pride</string>
+        <string name="galakras">Galakras</string>
+        <string name="mastodonte">Iron Juggernaut</string>
+        <string name="shamani">Kor\'kron Dark Shaman</string>
+        <string name="nazgrim">General Nazgrim</string>
+        <string name="malkorok">Malkorok</string>
+        <string name="spoglie">Spoils Of Pandaria</string>
+        <string name="thok">Thok The Bloodthirsty </string>
+        <string name="ingeniere">Siegecrafter Blackfuse </string>
+        <string name="eletti">Paragons of the Klaxxi </string>
+        <string name="garrosh">Garrosh Hellscream </string>
+        
+<!-- sotterranei dell'ala nera  -->
+        <string name="sotterranei">Blackwing Descent</string>
+        <string name="omnotron">Omnotron Defence System</string>
+        <string name="rodimagma">Magmaw</string>
+        <string name="atramedes">Atramedes</string>
+        <string name="chimaeron">Chimaeron</string>
+        <string name="maloriak">Maloriak</string>
+        <string name="nefarian">Nefarian\'s End</string>
+<!-- trono dei quattro venti  -->
+        <string name="trono">Throne of the Four Winds</string>
+        <string name="conclave">The Conclave of Wind</string>
+        <string name="alakir">Al\'Akir</string>
+<!-- bastione del crepuscolo  -->
+        <string name="bastione">The Bastion of Twilight</string>
+        <string name="halfus">Halfus Wyrmbreaker</string>
+        <string name="theralion">Theralion and valiona</string>
+        <string name="concilio">Ascend Council</string>
+        <string name="chogall">Cho\'gall</string>
+<!-- terre del fuoco  -->
+        <string name="terre">Firelands</string>
+        <string name="beth">Beth\'tilac</string>
+        <string name="lord">Lord Rhyolith</string>
+        <string name="alysrazor">Alysrazor</string>
+        <string name="shannox">Shannox</string>
+        <string name="baleroc">Baleroc the Gatekeeper</string>
+        <string name="majordomo">Majordomo Staghelm</string>
+        <string name="ragnaros">Ragnaros</string>
+<!-- anima di drago  -->
+        <string name="anima">Dragon Soul</string>
+        <string name="morchok">Morchok</string>
+        <string name="warlord">Warlord Zon\'ozz</string>
+        <string name="yorsahj">Yor\'sahj the Unsleeping</string>
+        <string name="hagara">Hagara the Stormbinder</string>
+        <string name="ultraxion">Ultraxion</string>
+        <string name="warmaster">Warmaster Blackhorn</string>
+        <string name="spine">Spine od Deathwing</string>
+        <string name="madness">Madness of Deathwing</string>
+        
 </resources>
