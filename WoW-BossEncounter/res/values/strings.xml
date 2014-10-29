@@ -70,5 +70,88 @@
         <string name="eletti">Paragons Of Klaxxi </string>
         <string name="garrosh">Garrosh Hellscream </string>
                 
+        
+        
+        <!-- Altomagio -wod - raid -->
+        
+        <string name="altomaglio">Altomaglio</string>
+        <string name="manotagliente">Kargath Manotagliente</string>
+        <string name="macellaio">Il Macellaio</string>
+        <string name="tectus">Tectus</string>
+        <string name="sporafelce">Sporafelce</string>
+        <string name="ogron">Ogron Gemelli</string>
+        <string name="koragh">ko\'ragh</string>
+        <string name="margok">Imperatore Mar\'gok</string>
+        
+        
+         <!-- wod istanze - auchindoun -->
+        
+        <string name="auchindoun">Auchindoun</string>
+        <string name="vigilante">Vigilant Kaathar</string>
+        <string name="nyami">Soulbinder Nyami</string>
+        <string name="azzakel">Azzakel</string>
+        <string name="terongor">Teron\'gor</string>
+        
+        <!-- wod istanze - bastioni di roccianera superiori -->
+       
+        <string name="roccianerasuperiori">Upper Blackrock Spire</string>
+        <string name="gorashan">Orebender Gor\'ashan</string>
+        <string name="kyriak">Kyriak</string>
+        <string name="tharbek">Commander Tharbek</string>
+        <string name="signorazaela">Warlord Zaela</string>
+        
+        <!-- wod istanze - Darsena di Ferro -->
+         
+        <string name="darsenaferro">Iron Docks</string>
+        <string name="tranciacarne">Fleshrender Nok\'gar</string>
+        <string name="scagnozzi">Ahri'ok Dugru</string>
+        <string name="oshir">Oshir</string>
+        <string name="skulloc">Skulloc</string>
+        
+        <!-- wod istanze - Miniere dei Magliorosso -->
+         
+        <string name="magliorosso">Bloodmaul Slag Mines</string>  
+        <string name="roltall">Roltall</string>
+        <string name="guardianoschiavi">Slave Watcher Crushto</string>
+        <string name="gugrokk ">Gug\'rokk</string>
+        <string name="magmolatus">Magmolatus</string>
+        
+        <!-- wod istanze - Necropoli dei Torvaluna -->
+                 
+        <string name="torvaluna">Shadowmoon Burial Grounds</string>
+        <string name="sadana">Sadana Bloodfury</string>
+        <string name="fauciossa">Bonemaw</string>
+        <string name="nhallish ">Nhallish</string>
+        <string name="nerzhul">Ner\'zul</string>
+        
+        
+        <!-- wod istanze - Treno Frecciacupa -->
+         
+        <string name="tovra">Skylord Tovra</string>
+        <string name="brillarazziborka">Rocketspark and Borka</string>
+        <string name="nitrogg">Nitrogg Thundertower</string>
+        
+        
+         <!-- wod istanze - Verdeterno -->
+         
+        <string name="verdeterno">The Everbloom</string>
+        <string name="protettoriantichi">Ancient Protectors</string>
+        <string name="arcimagasol">Archmage Sol </string>
+        <string name="Xeritac">Xeri\'tac</string>
+        <string name="Yalnu">Yalnu</string>
+        <string name="scorzasecca">Witherbark</string>
+        
+        
+        
+        <!-- wod istanze - vista dei cieli -->
+         
+        <string name="vistacieli">Skyreach</string>
+        <string name="ranjit">Ranjit</string>
+        <string name="araknath">Araknath</string>
+        <string name="rukhran">Rukhran</string>
+        <string name="saggiaviryx">High Sage Viryx </string>
+        
+        
+        
 </resources>
     

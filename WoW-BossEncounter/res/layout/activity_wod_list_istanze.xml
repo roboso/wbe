@@ -16,27 +16,17 @@
         android:src="@drawable/custom_wod" />
 
     <Button
-        android:id="@+id/altomaglio"
+        android:id="@+id/auchindoun"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/wodlistaraid"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
         android:background="@drawable/custom_sfondoboss"
-        android:drawableLeft="@drawable/custom_altomaglio"
-        android:text="@string/altomaglio"
-	    android:textColor="@color/oro" />
+        android:drawableLeft="@drawable/custom_auchindoun"
+        android:text="@string/auchindoun"
+	    android:textColor="@color/indaco" />
 
-    <Button
-        android:id="@+id/fonderia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/altomaglio"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_sfondoboss"
-        android:drawableLeft="@drawable/custom_fonderia"
-        android:text="@string/altoforno"
-	    android:textColor="@color/oro" />
+    
+    
     
 </RelativeLayout>

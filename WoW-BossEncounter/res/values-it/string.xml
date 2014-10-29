@@ -64,7 +64,7 @@
                 
                        <!-- Altomagio -wod -->
         
-        <string name="altomagio">Altomaglio</string>
+        <string name="altomaglio">Altomaglio</string>
         <string name="manotagliente">Kargath Manotagliente</string>
         <string name="macellaio">Il Macellaio</string>
         <string name="tectus">Tectus</string>
@@ -75,7 +75,7 @@
         
                               <!-- fonderia dei roccianera -wod -->
         
-         <string name="fonderia">Fonderia dei Roccianera</string>
+        <string name="fonderia">Fonderia dei Roccianera</string>
         <string name="gruul">Gruul</string>
         <string name="tritaroccia">Tritaroccia</string>
         <string name="signorebestie">Signore delle Bestie Darmac</string>
@@ -86,6 +86,48 @@
         <string name="dameferro">Dame di Ferro</string>
         <string name="manonera">Manonera</string>
        
+                               <!-- wod istanze - auchindoun -->
+        
+        <string name="auchindoun">Auchindoun</string>
+        <string name="vigilante">Vigilante kaathar</string>
+        <string name="nyami">Vincolatrice di Anime Nyami</string>
+        <string name="azzakel">Azzakel</string>
+        <string name="terongor">Teron\'gor</string>
         
         
+                               <!-- wod istanze - bastioni di roccianera superiori -->
+       
+        <string name="roccianerasuperiori">Bastioni di Roccianera Superiori</string>
+        
+         <!-- wod istanze - Darsena di Ferro -->
+         
+        <string name="darsenaferro">Darsena di Ferro</string>
+        
+                <!-- wod istanze - Miniere dei Magliorosso -->
+         
+        <string name="magliorosso">Miniere dei Magliorosso</string>  
+        
+        
+         <!-- wod istanze - Necropoli dei Torvaluna -->
+         
+        <string name="torvaluna">Necropoli dei Torvaluna</string>
+        
+         <!-- wod istanze - Treno Frecciacupa -->
+         
+        <string name="frecciacupa">Treno dei Frecciacupa</string>
+        
+        <!-- wod istanze - Verdeterno -->
+         
+        <string name="verdeterno">Verdeterno</string>
+        
+        <!-- wod istanze - vista dei cieli -->
+         
+        <string name="vistacieli">Vista dei Cieli</string>
+        
+        
+        
+        
+        
+        
+                 
 </resources>
