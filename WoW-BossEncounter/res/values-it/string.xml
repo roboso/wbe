@@ -62,5 +62,30 @@
         <string name="eletti">Eletti dei Klaxxi </string>
         <string name="garrosh">Garrosh Malogrido </string>
                 
-               
+                       <!-- Altomagio -wod -->
+        
+        <string name="altomagio">Altomaglio</string>
+        <string name="manotagliente">Kargath Manotagliente</string>
+        <string name="macellaio">Il Macellaio</string>
+        <string name="tectus">Tectus</string>
+        <string name="sporafelce">Sporafelce</string>
+        <string name="ogron">Ogron Gemelli</string>
+        <string name="koragh">ko\'ragh</string>
+        <string name="margok">Imperatore Mar\'gok</string>
+        
+                              <!-- fonderia dei roccianera -wod -->
+        
+         <string name="fonderia">Fonderia dei Roccianera</string>
+        <string name="gruul">Gruul</string>
+        <string name="tritaroccia">Tritaroccia</string>
+        <string name="signorebestie">Signore delle Bestie Darmac</string>
+        <string name="franzok">Hans\'gar e franzok</string>
+        <string name="operatore">Operatore Togar</string>
+        <string name="altoforno">Altoforno</string>
+        <string name="kromog">Kromog</string>
+        <string name="dameferro">Dame di Ferro</string>
+        <string name="manonera">Manonera</string>
+       
+        
+        
 </resources>
