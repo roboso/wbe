@@ -62,7 +62,7 @@
         <string name="eletti">Eletti dei Klaxxi </string>
         <string name="garrosh">Garrosh Malogrido </string>
                 
-                       <!-- Altomagio -wod -->
+                       <!-- Altomagio -wod raid-->
         
         <string name="altomaglio">Altomaglio</string>
         <string name="manotagliente">Kargath Manotagliente</string>
@@ -73,14 +73,15 @@
         <string name="koragh">ko\'ragh</string>
         <string name="margok">Imperatore Mar\'gok</string>
         
-                              <!-- fonderia dei roccianera -wod -->
+                              <!-- fonderia dei roccianera -wod raid -->
         
         <string name="fonderia">Fonderia dei Roccianera</string>
         <string name="gruul">Gruul</string>
         <string name="tritaroccia">Tritaroccia</string>
         <string name="signorebestie">Signore delle Bestie Darmac</string>
+        <string name="domafiamme">Domafiamme Ka\'graz</string>
         <string name="franzok">Hans\'gar e franzok</string>
-        <string name="operatore">Operatore Togar</string>
+        <string name="operatore">Operatore Thogar</string>
         <string name="altoforno">Altoforno</string>
         <string name="kromog">Kromog</string>
         <string name="dameferro">Dame di Ferro</string>
@@ -98,32 +99,65 @@
                                <!-- wod istanze - bastioni di roccianera superiori -->
        
         <string name="roccianerasuperiori">Bastioni di Roccianera Superiori</string>
+        <string name="gorashan">Plasmaroccie Gor\'ashan</string>
+        <string name="kyriak">Kyriak</string>
+        <string name="tharbek">Comandante Tharbek</string>
+        <string name="signorazaela">Signora della Guerra Zaela</string>
         
-         <!-- wod istanze - Darsena di Ferro -->
+        
+        <!-- wod istanze - Darsena di Ferro -->
          
         <string name="darsenaferro">Darsena di Ferro</string>
+        <string name="tranciacarne">Tranciacarne Nok\'gar</string>
+        <string name="scagnozzi">Scagnozzi del Frecciacupa</string>
+        <string name="oshir">Oshir</string>
+        <string name="skulloc">Skulloc</string>
         
                 <!-- wod istanze - Miniere dei Magliorosso -->
          
         <string name="magliorosso">Miniere dei Magliorosso</string>  
-        
+        <string name="roltall">Roltall</string>
+        <string name="guardianoschiavi">Guardiani degli Schiavi Schiant</string>
+        <string name="gugrokk ">Gug\'rokk</string>
+        <string name="magmolatus">Magmolatus</string>
         
          <!-- wod istanze - Necropoli dei Torvaluna -->
          
         <string name="torvaluna">Necropoli dei Torvaluna</string>
+        <string name="sadana">Sadana Furiacremisi</string>
+        <string name="fauciossa">Fauci d\'Ossa</string>
+        <string name="nhallish ">Nhallish</string>
+        <string name="nerzhul">Ner\'zul</string>
+        
+        
         
          <!-- wod istanze - Treno Frecciacupa -->
          
         <string name="frecciacupa">Treno dei Frecciacupa</string>
+        <string name="tovra">Signora del Cielo Tovra</string>
+        <string name="brillarazziborka">Brillarazzi e Borka</string>
+        <string name="nitrogg">Nitrogg Terrotonante</string>
+        
+        
         
         <!-- wod istanze - Verdeterno -->
          
         <string name="verdeterno">Verdeterno</string>
+        <string name="protettoriantichi">Protettori Antichi</string>
+        <string name="arcimagasol">Arcimaga Sol </string>
+        <string name="Xeritac">Xeri\'tac</string>
+        <string name="Yalnu">Yalnu</string>
+        <string name="scorzasecca">Scorzasecca</string>
+        
+        
         
         <!-- wod istanze - vista dei cieli -->
          
         <string name="vistacieli">Vista dei Cieli</string>
-        
+        <string name="ranjit">Ranjit</string>
+        <string name="araknath">Araknath</string>
+        <string name="rukhran">Rukhran</string>
+        <string name="saggiaviryx">Alta Saggia Viryx </string>
         
         
         

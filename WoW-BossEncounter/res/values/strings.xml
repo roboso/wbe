@@ -74,15 +74,29 @@
         
         <!-- Altomagio -wod - raid -->
         
-        <string name="altomaglio">Altomaglio</string>
-        <string name="manotagliente">Kargath Manotagliente</string>
-        <string name="macellaio">Il Macellaio</string>
+        <string name="altomaglio">Highmaul</string>
+        <string name="manotagliente">Kargath Bladefist</string>
+        <string name="macellaio">The Butcher</string>
         <string name="tectus">Tectus</string>
-        <string name="sporafelce">Sporafelce</string>
-        <string name="ogron">Ogron Gemelli</string>
+        <string name="sporafelce">Brackenspore </string>
+        <string name="ogron">Ogron Twin</string>
         <string name="koragh">ko\'ragh</string>
-        <string name="margok">Imperatore Mar\'gok</string>
+        <string name="margok">Imperator Mar\'gok</string>
         
+        
+         <!-- fonderia dei roccianera -wod raid -->
+        
+        <string name="fonderia">Blackrock Foundry</string>
+        <string name="gruul">Gruul</string>
+        <string name="tritaroccia">Oregorger</string>
+        <string name="signorebestie">Beastlord Darmac </string>
+        <string name="domafiamme">Flamebender Ka\'graz </string>
+        <string name="franzok">Hans\'gar and franzok</string>
+        <string name="operatore">Operator Thogar</string>
+        <string name="altoforno">The Blast Furnace</string>
+        <string name="kromog">Kromog</string>
+        <string name="dameferro">The Iron Maidens</string>
+        <string name="manonera">Blackhand </string>
         
          <!-- wod istanze - auchindoun -->
         
@@ -127,6 +141,7 @@
         
         <!-- wod istanze - Treno Frecciacupa -->
          
+        <string name="frecciacupa">Grimrail Depot</string>
         <string name="tovra">Skylord Tovra</string>
         <string name="brillarazziborka">Rocketspark and Borka</string>
         <string name="nitrogg">Nitrogg Thundertower</string>
