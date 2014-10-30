@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/magliorosso"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_magliorosso" />
+
+    <Button
+        android:id="@+id/roltall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/magliorosso"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_roltall"
+        android:text="@string/roltall"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/guardianoschiavi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/roltall"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_guardianoschiavi"
+        android:text="@string/guardianoschiavi"
+        android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/gugrokk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guardianoschiavi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_gugrokk"
+        android:text="@string/gugrokk "
+	    android:textColor="@color/oro" />
+    
+    <Button
+        android:id="@+id/magmolatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guardianoschiavi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_magmolatus"
+        android:text="@string/magmolatus"
+	    android:textColor="@color/oro" />
+    
+    
+    
+</RelativeLayout>
