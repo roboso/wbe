@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <ImageView
+        android:id="@+id/auchindoun"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_auchindoun" />
+
+    <Button
+        android:id="@+id/vigilante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/auchindoun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_vigilantekaathar"
+        android:text="@string/vigilante"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/nyami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vigilante"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_vincolatricenyami"
+        android:text="@string/nyami"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/azzakel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nyami"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_azzakel"
+        android:text="@string/azzakel"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/terongor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/azzakel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_terongor"
+        android:text="@string/terongor"
+	    android:textColor="@color/oro" />
+
+</RelativeLayout>

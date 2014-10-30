@@ -1637,101 +1637,158 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020032;
         public static final int bot_header=0x7f020033;
         public static final int bwd_header=0x7f020034;
-        public static final int custom_animus=0x7f020035;
-        public static final int custom_animusoscuro=0x7f020036;
-        public static final int custom_assediodiorgrimmar=0x7f020037;
-        public static final int custom_cata=0x7f020038;
-        public static final int custom_conciglioanziani=0x7f020039;
-        public static final int custom_conciliodeglianziani=0x7f02003a;
-        public static final int custom_consortigemelle=0x7f02003b;
-        public static final int custom_cuoredellapaura=0x7f02003c;
-        public static final int custom_dragonsoul=0x7f02003d;
-        public static final int custom_durumu=0x7f02003e;
-        public static final int custom_durumuildimenticato=0x7f02003f;
-        public static final int custom_elegon=0x7f020040;
-        public static final int custom_elettideiklaxi=0x7f020041;
-        public static final int custom_fengilmaledetto=0x7f020042;
-        public static final int custom_fengmaledetto=0x7f020043;
-        public static final int custom_firelands=0x7f020044;
-        public static final int custom_galakras=0x7f020045;
-        public static final int custom_garajalvincolaspiriti=0x7f020046;
-        public static final int custom_garalon=0x7f020047;
-        public static final int custom_garroshmalogrido=0x7f020048;
-        public static final int custom_generalenazgrim=0x7f020049;
-        public static final int custom_grandeimperatrice=0x7f02004a;
-        public static final int custom_heartoffear=0x7f02004b;
-        public static final int custom_horridon=0x7f02004c;
-        public static final int custom_icc=0x7f02004d;
-        public static final int custom_immaginequilen=0x7f02004e;
-        public static final int custom_immerseus=0x7f02004f;
-        public static final int custom_ingenieremiccianera=0x7f020050;
-        public static final int custom_jikun=0x7f020051;
-        public static final int custom_jinrokdemolitore=0x7f020052;
-        public static final int custom_jinrokildemolitore=0x7f020053;
-        public static final int custom_leishen=0x7f020054;
-        public static final int custom_leishi=0x7f020055;
-        public static final int custom_leyshi=0x7f020056;
-        public static final int custom_malkorok=0x7f020057;
-        public static final int custom_mastodonte=0x7f020058;
-        public static final int custom_megaera=0x7f020059;
-        public static final int custom_menu_protettoridelleterno=0x7f02005a;
-        public static final int custom_mogushanvoult=0x7f02005b;
-        public static final int custom_mop=0x7f02005c;
-        public static final int custom_mopsenzalogo=0x7f02005d;
-        public static final int custom_naxxramas=0x7f02005e;
-        public static final int custom_norushen=0x7f02005f;
-        public static final int custom_plasmatoreambra=0x7f020060;
-        public static final int custom_plasmatoredambra=0x7f020061;
-        public static final int custom_primordius=0x7f020062;
-        public static final int custom_protettoricaduti=0x7f020063;
-        public static final int custom_protettoridelleterno=0x7f020064;
-        public static final int custom_protettorieterno=0x7f020065;
-        public static final int custom_prova=0x7f020066;
-        public static final int custom_provadinorushen=0x7f020067;
-        public static final int custom_qoniltenace=0x7f020068;
-        public static final int custom_qontenace=0x7f020069;
-        public static final int custom_quilen=0x7f02006a;
-        public static final int custom_reggentispirituali=0x7f02006b;
-        public static final int custom_regnodeltuono=0x7f02006c;
-        public static final int custom_sciamanikorkron=0x7f02006d;
-        public static final int custom_sciamanioscuri=0x7f02006e;
-        public static final int custom_segretedimogushan=0x7f02006f;
-        public static final int custom_segretemogushan=0x7f020070;
-        public static final int custom_sfondoboss=0x7f020071;
-        public static final int custom_shadellapaura=0x7f020072;
-        public static final int custom_shadellorgoglio=0x7f020073;
-        public static final int custom_siegeoforgrimmar=0x7f020074;
-        public static final int custom_signoredellelame=0x7f020075;
-        public static final int custom_signoredelvento=0x7f020076;
-        public static final int custom_spogliedipandaria=0x7f020077;
-        public static final int custom_spogliepandaria=0x7f020078;
-        public static final int custom_terraceofendlesspring=0x7f020079;
-        public static final int custom_terraceofendlessspring=0x7f02007a;
-        public static final int custom_terrazzadell_eternaprimavera=0x7f02007b;
-        public static final int custom_terrazzadelleternaprimavera=0x7f02007c;
-        public static final int custom_thokilsanguinario=0x7f02007d;
-        public static final int custom_thoksanguinario=0x7f02007e;
-        public static final int custom_toc=0x7f02007f;
-        public static final int custom_tortos=0x7f020080;
-        public static final int custom_trialofchampion=0x7f020081;
-        public static final int custom_troneoftunder=0x7f020082;
-        public static final int custom_tsulon=0x7f020083;
-        public static final int custom_tsulong=0x7f020084;
-        public static final int custom_ulduar=0x7f020085;
-        public static final int custom_visirdellimperatore=0x7f020086;
-        public static final int custom_visirimperiale=0x7f020087;
-        public static final int custom_visirimperialezorloc=0x7f020088;
-        public static final int custom_volonta_dellimperatore=0x7f020089;
-        public static final int custom_volontadellimperatore=0x7f02008a;
-        public static final int custom_wod=0x7f02008b;
-        public static final int custom_wrat=0x7f02008c;
-        public static final int ic_launcher=0x7f02008d;
-        public static final int ic_launcher_volontadellimperatore=0x7f02008e;
-        public static final int ic_menu_protettoridelleterno=0x7f02008f;
-        public static final int provaassedio=0x7f020090;
-        public static final int sfondomogu=0x7f020091;
-        public static final int tronodeiquattroventi=0x7f020092;
-        public static final int wrat=0x7f020093;
+        public static final int custom_alafolleindomabile=0x7f020035;
+        public static final int custom_altoforno=0x7f020036;
+        public static final int custom_altomaglio=0x7f020037;
+        public static final int custom_animus=0x7f020038;
+        public static final int custom_animusoscuro=0x7f020039;
+        public static final int custom_arcimagasol=0x7f02003a;
+        public static final int custom_assediodiorgrimmar=0x7f02003b;
+        public static final int custom_auchindoun=0x7f02003c;
+        public static final int custom_azzakel=0x7f02003d;
+        public static final int custom_brillarazzi=0x7f02003e;
+        public static final int custom_brillarazzieborka=0x7f02003f;
+        public static final int custom_cata=0x7f020040;
+        public static final int custom_comandantetharbek=0x7f020041;
+        public static final int custom_conciglioanziani=0x7f020042;
+        public static final int custom_conciliodeglianziani=0x7f020043;
+        public static final int custom_consortigemelle=0x7f020044;
+        public static final int custom_cuoredellapaura=0x7f020045;
+        public static final int custom_dameferro=0x7f020046;
+        public static final int custom_darsenaferro=0x7f020047;
+        public static final int custom_domafiamme=0x7f020048;
+        public static final int custom_dragonsoul=0x7f020049;
+        public static final int custom_durumu=0x7f02004a;
+        public static final int custom_durumuildimenticato=0x7f02004b;
+        public static final int custom_elegon=0x7f02004c;
+        public static final int custom_elettideiklaxi=0x7f02004d;
+        public static final int custom_fauciossa=0x7f02004e;
+        public static final int custom_fengilmaledetto=0x7f02004f;
+        public static final int custom_fengmaledetto=0x7f020050;
+        public static final int custom_firelands=0x7f020051;
+        public static final int custom_fonderia=0x7f020052;
+        public static final int custom_frecciacupa=0x7f020053;
+        public static final int custom_galakras=0x7f020054;
+        public static final int custom_garajalvincolaspiriti=0x7f020055;
+        public static final int custom_garalon=0x7f020056;
+        public static final int custom_garroshmalogrido=0x7f020057;
+        public static final int custom_generalenazgrim=0x7f020058;
+        public static final int custom_grandeimperatrice=0x7f020059;
+        public static final int custom_grull=0x7f02005a;
+        public static final int custom_guardianoschiavi=0x7f02005b;
+        public static final int custom_gugrokk=0x7f02005c;
+        public static final int custom_hansgearfranzok=0x7f02005d;
+        public static final int custom_heartoffear=0x7f02005e;
+        public static final int custom_horridon=0x7f02005f;
+        public static final int custom_icc=0x7f020060;
+        public static final int custom_ilmacellaio=0x7f020061;
+        public static final int custom_immaginequilen=0x7f020062;
+        public static final int custom_immerseus=0x7f020063;
+        public static final int custom_imperatoremargok=0x7f020064;
+        public static final int custom_ingenieremiccianera=0x7f020065;
+        public static final int custom_jikun=0x7f020066;
+        public static final int custom_jinrokdemolitore=0x7f020067;
+        public static final int custom_jinrokildemolitore=0x7f020068;
+        public static final int custom_kargathmanotaliente=0x7f020069;
+        public static final int custom_koragh=0x7f02006a;
+        public static final int custom_kromog=0x7f02006b;
+        public static final int custom_kyrak=0x7f02006c;
+        public static final int custom_lasmarocciegorashan=0x7f02006d;
+        public static final int custom_leishen=0x7f02006e;
+        public static final int custom_leishi=0x7f02006f;
+        public static final int custom_leyshi=0x7f020070;
+        public static final int custom_magliorosso=0x7f020071;
+        public static final int custom_magmolatus=0x7f020072;
+        public static final int custom_malkorok=0x7f020073;
+        public static final int custom_manonera=0x7f020074;
+        public static final int custom_mastodonte=0x7f020075;
+        public static final int custom_megaera=0x7f020076;
+        public static final int custom_menu_protettoridelleterno=0x7f020077;
+        public static final int custom_mogushanvoult=0x7f020078;
+        public static final int custom_mop=0x7f020079;
+        public static final int custom_mopsenzalogo=0x7f02007a;
+        public static final int custom_naxxramas=0x7f02007b;
+        public static final int custom_nerzull=0x7f02007c;
+        public static final int custom_nhallish=0x7f02007d;
+        public static final int custom_nitrogtorretonante=0x7f02007e;
+        public static final int custom_norushen=0x7f02007f;
+        public static final int custom_ogrongemelli=0x7f020080;
+        public static final int custom_operatorethogar=0x7f020081;
+        public static final int custom_oshir=0x7f020082;
+        public static final int custom_plasmatoreambra=0x7f020083;
+        public static final int custom_plasmatoredambra=0x7f020084;
+        public static final int custom_primordius=0x7f020085;
+        public static final int custom_protettoriantichi=0x7f020086;
+        public static final int custom_protettoricaduti=0x7f020087;
+        public static final int custom_protettoridelleterno=0x7f020088;
+        public static final int custom_protettorieterno=0x7f020089;
+        public static final int custom_prova=0x7f02008a;
+        public static final int custom_provadinorushen=0x7f02008b;
+        public static final int custom_qoniltenace=0x7f02008c;
+        public static final int custom_qontenace=0x7f02008d;
+        public static final int custom_quilen=0x7f02008e;
+        public static final int custom_reggentispirituali=0x7f02008f;
+        public static final int custom_regnodeltuono=0x7f020090;
+        public static final int custom_roltall=0x7f020091;
+        public static final int custom_sadanafuriacremisi=0x7f020092;
+        public static final int custom_scagnozifrecciacupa=0x7f020093;
+        public static final int custom_sciamanikorkron=0x7f020094;
+        public static final int custom_sciamanioscuri=0x7f020095;
+        public static final int custom_scorzasecca=0x7f020096;
+        public static final int custom_segretedimogushan=0x7f020097;
+        public static final int custom_segretemogushan=0x7f020098;
+        public static final int custom_sfondoboss=0x7f020099;
+        public static final int custom_shadellapaura=0x7f02009a;
+        public static final int custom_shadellorgoglio=0x7f02009b;
+        public static final int custom_siegeoforgrimmar=0x7f02009c;
+        public static final int custom_signoradelcielotovra=0x7f02009d;
+        public static final int custom_signorebestiedarmac=0x7f02009e;
+        public static final int custom_signoredellelame=0x7f02009f;
+        public static final int custom_signoredelvento=0x7f0200a0;
+        public static final int custom_skullok=0x7f0200a1;
+        public static final int custom_spogliedipandaria=0x7f0200a2;
+        public static final int custom_spogliepandaria=0x7f0200a3;
+        public static final int custom_sporafelce=0x7f0200a4;
+        public static final int custom_tectus=0x7f0200a5;
+        public static final int custom_terongor=0x7f0200a6;
+        public static final int custom_terraceofendlesspring=0x7f0200a7;
+        public static final int custom_terraceofendlessspring=0x7f0200a8;
+        public static final int custom_terrazzadell_eternaprimavera=0x7f0200a9;
+        public static final int custom_terrazzadelleternaprimavera=0x7f0200aa;
+        public static final int custom_thokilsanguinario=0x7f0200ab;
+        public static final int custom_thoksanguinario=0x7f0200ac;
+        public static final int custom_toc=0x7f0200ad;
+        public static final int custom_tortos=0x7f0200ae;
+        public static final int custom_torvaluna=0x7f0200af;
+        public static final int custom_tranciacarne=0x7f0200b0;
+        public static final int custom_trialofchampion=0x7f0200b1;
+        public static final int custom_tritaroccia=0x7f0200b2;
+        public static final int custom_troneoftunder=0x7f0200b3;
+        public static final int custom_tsulon=0x7f0200b4;
+        public static final int custom_tsulong=0x7f0200b5;
+        public static final int custom_ulduar=0x7f0200b6;
+        public static final int custom_verdeterno=0x7f0200b7;
+        public static final int custom_vettacieli=0x7f0200b8;
+        public static final int custom_vigilantekaathar=0x7f0200b9;
+        public static final int custom_vincolatricenyami=0x7f0200ba;
+        public static final int custom_visirdellimperatore=0x7f0200bb;
+        public static final int custom_visirimperiale=0x7f0200bc;
+        public static final int custom_visirimperialezorloc=0x7f0200bd;
+        public static final int custom_vistacieli=0x7f0200be;
+        public static final int custom_volonta_dellimperatore=0x7f0200bf;
+        public static final int custom_volontadellimperatore=0x7f0200c0;
+        public static final int custom_wod=0x7f0200c1;
+        public static final int custom_wrat=0x7f0200c2;
+        public static final int custom_xeritac=0x7f0200c3;
+        public static final int custom_yalnu=0x7f0200c4;
+        public static final int custom_zaralasignoraguerra=0x7f0200c5;
+        public static final int ic_launcher=0x7f0200c6;
+        public static final int ic_launcher_volontadellimperatore=0x7f0200c7;
+        public static final int ic_menu_protettoridelleterno=0x7f0200c8;
+        public static final int provaassedio=0x7f0200c9;
+        public static final int sfondomogu=0x7f0200ca;
+        public static final int tronodeiquattroventi=0x7f0200cb;
+        public static final int wrat=0x7f0200cc;
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f09005c;
@@ -1748,11 +1805,14 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f090030;
         public static final int action_mode_bar_stub=0x7f09002f;
         public static final int action_mode_close_button=0x7f090022;
-        public static final int action_settings=0x7f090088;
+        public static final int action_settings=0x7f090097;
         public static final int activity_chooser_view_content=0x7f090023;
         public static final int add=0x7f090045;
+        public static final int altomaglio=0x7f090090;
         public static final int always=0x7f090014;
         public static final int animus=0x7f09007f;
+        public static final int auchindoun=0x7f090083;
+        public static final int azzakel=0x7f090086;
         public static final int bdc=0x7f090043;
         public static final int beginning=0x7f09001b;
         public static final int bottom=0x7f09001e;
@@ -1762,6 +1822,7 @@ containing a value of this type.
         public static final int concilioanziani=0x7f090079;
         public static final int consorti=0x7f090081;
         public static final int cuore=0x7f090066;
+        public static final int darsenaferro=0x7f09008a;
         public static final int decor_content_parent=0x7f090031;
         public static final int default_activity_button=0x7f090026;
         public static final int dialog=0x7f090019;
@@ -1775,6 +1836,8 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f090024;
         public static final int expanded_menu=0x7f09002a;
         public static final int feng=0x7f09006c;
+        public static final int fonderia=0x7f090091;
+        public static final int frecciacupa=0x7f09008d;
         public static final int galakras=0x7f090052;
         public static final int garajal=0x7f09006d;
         public static final int garalon=0x7f090060;
@@ -1782,7 +1845,7 @@ containing a value of this type.
         public static final int home=0x7f090000;
         public static final int homeAsUp=0x7f09000e;
         public static final int horridon=0x7f090078;
-        public static final int icc=0x7f090087;
+        public static final int icc=0x7f090096;
         public static final int icon=0x7f090028;
         public static final int ifRoom=0x7f090016;
         public static final int ildemolitore=0x7f090077;
@@ -1802,18 +1865,20 @@ containing a value of this type.
         public static final int linearLayout1=0x7f090041;
         public static final int listMode=0x7f09000a;
         public static final int list_item=0x7f090027;
+        public static final int magliorosso=0x7f09008b;
         public static final int malkorok=0x7f090056;
         public static final int mastodonte=0x7f090053;
         public static final int megaera=0x7f09007b;
         public static final int miccianera=0x7f090059;
         public static final int middle=0x7f09001d;
         public static final int mop_guida=0x7f09004b;
-        public static final int naxxramas=0x7f090084;
+        public static final int naxxramas=0x7f090093;
         public static final int nazgrim=0x7f090055;
         public static final int never=0x7f090017;
         public static final int none=0x7f09000f;
         public static final int normal=0x7f09000b;
         public static final int norushen=0x7f090050;
+        public static final int nyami=0x7f090085;
         public static final int plasmatoreambra=0x7f090062;
         public static final int primordius=0x7f09007e;
         public static final int progress_circular=0x7f090007;
@@ -1825,6 +1890,7 @@ containing a value of this type.
         public static final int radio=0x7f09002d;
         public static final int reggentispirituali=0x7f09006e;
         public static final int regnodeltuono=0x7f090068;
+        public static final int roccianerasuperiori=0x7f090089;
         public static final int scrollView1=0x7f090048;
         public static final int sdan=0x7f090046;
         public static final int search_badge=0x7f090037;
@@ -1854,23 +1920,29 @@ containing a value of this type.
         public static final int tabMode=0x7f09000c;
         public static final int tdf=0x7f090047;
         public static final int tdqv=0x7f090044;
+        public static final int terongor=0x7f090087;
         public static final int terrazza=0x7f090067;
         public static final int thok=0x7f090058;
         public static final int title=0x7f090029;
-        public static final int toc=0x7f090086;
+        public static final int toc=0x7f090095;
         public static final int top=0x7f09001f;
         public static final int tortos=0x7f09007a;
+        public static final int torvaluna=0x7f09008c;
         public static final int tsulong=0x7f090073;
-        public static final int ulduar=0x7f090085;
+        public static final int ulduar=0x7f090094;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
+        public static final int verdeterno=0x7f09008e;
+        public static final int vigilante=0x7f090084;
         public static final int visir=0x7f09005e;
+        public static final int vistacieli=0x7f09008f;
         public static final int volonta=0x7f090070;
         public static final int withText=0x7f090018;
         public static final int wod_guida=0x7f09004c;
+        public static final int wodlistaraid=0x7f090088;
         public static final int wrap_content=0x7f090009;
         public static final int wrat_guida=0x7f090049;
-        public static final int wratlogo=0x7f090083;
+        public static final int wratlogo=0x7f090092;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1929,14 +2001,18 @@ containing a value of this type.
         public static final int activity_mop_segrete_raid=0x7f03001c;
         public static final int activity_mop_terrazza_raid=0x7f03001d;
         public static final int activity_mop_tuono_raid=0x7f03001e;
-        public static final int activity_wod_list_raid=0x7f03001f;
-        public static final int activity_wrat_list_raid=0x7f030020;
-        public static final int support_simple_spinner_dropdown_item=0x7f030021;
+        public static final int activity_wod_ista_auchindoun=0x7f03001f;
+        public static final int activity_wod_list_istanze=0x7f030020;
+        public static final int activity_wod_list_raid=0x7f030021;
+        public static final int activity_wrat_list_raid=0x7f030022;
+        public static final int support_simple_spinner_dropdown_item=0x7f030023;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
     }
     public static final class string {
+        public static final int Xeritac=0x7f0a0071;
+        public static final int Yalnu=0x7f0a0072;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;
@@ -1990,33 +2066,78 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000d;
-        public static final int action_settings=0x7f0a0040;
+        public static final int action_settings=0x7f0a007b;
+        public static final int altoforno=0x7f0a004d;
+        /**  Altomagio -wod raid
+ Altomagio -wod - raid 
+         */
+        public static final int altomaglio=0x7f0a003e;
         public static final int animus=0x7f0a002b;
-        public static final int app_name=0x7f0a003e;
+        public static final int app_name=0x7f0a0079;
+        public static final int araknath=0x7f0a0076;
+        public static final int arcimagasol=0x7f0a0070;
+        /**  wod istanze - auchindoun 
+ wod istanze - auchindoun 
+         */
+        public static final int auchindoun=0x7f0a0051;
+        public static final int azzakel=0x7f0a0054;
+        public static final int brillarazziborka=0x7f0a006c;
         public static final int concilioanziani=0x7f0a0025;
         public static final int consorti=0x7f0a002d;
         /**  cure della paura 
  cure della paura 
- cure della paura 
+ coure della paura 
          */
         public static final int cuore=0x7f0a001b;
+        public static final int dameferro=0x7f0a004f;
+        /**  wod istanze - Darsena di Ferro 
+ wod istanze - Darsena di Ferro 
+         */
+        public static final int darsenaferro=0x7f0a005b;
+        public static final int domafiamme=0x7f0a004a;
         public static final int durumu=0x7f0a0029;
         public static final int elegon=0x7f0a0019;
         public static final int eletti=0x7f0a003c;
+        public static final int fauciossa=0x7f0a0067;
         public static final int feng=0x7f0a0016;
+        /**  fonderia dei roccianera -wod raid 
+ fonderia dei roccianera -wod raid 
+         */
+        public static final int fonderia=0x7f0a0046;
+        public static final int franzok=0x7f0a004b;
+        /**  wod istanze - Treno Frecciacupa 
+ wod istanze - Treno Frecciacupa 
+         */
+        public static final int frecciacupa=0x7f0a006a;
         public static final int galakras=0x7f0a0034;
         public static final int garajal=0x7f0a0017;
         public static final int garalon=0x7f0a001e;
         public static final int garrosh=0x7f0a003d;
-        public static final int hello_world=0x7f0a003f;
+        public static final int gorashan=0x7f0a0057;
+        public static final int gruul=0x7f0a0047;
+        public static final int guardianoschiavi=0x7f0a0062;
+        public static final int gugrokk =0x7f0a0063;
+        public static final int hello_world=0x7f0a007a;
         public static final int horridon=0x7f0a0024;
         public static final int ildemolitore=0x7f0a0023;
         public static final int immerseus=0x7f0a0030;
         public static final int ingeniere=0x7f0a003b;
         public static final int jikun=0x7f0a0028;
+        public static final int koragh=0x7f0a0044;
+        public static final int kromog=0x7f0a004e;
+        public static final int kyriak=0x7f0a0058;
         public static final int leishen=0x7f0a002e;
         public static final int leishi=0x7f0a0012;
+        public static final int macellaio=0x7f0a0040;
+        /**  wod istanze - Miniere dei Magliorosso 
+ wod istanze - Miniere dei Magliorosso 
+         */
+        public static final int magliorosso=0x7f0a0060;
+        public static final int magmolatus=0x7f0a0064;
         public static final int malkorok=0x7f0a0038;
+        public static final int manonera=0x7f0a0050;
+        public static final int manotagliente=0x7f0a003f;
+        public static final int margok=0x7f0a0045;
         public static final int mastodonte=0x7f0a0035;
         public static final int megaera=0x7f0a0027;
         /**    segrete di mogushan 
@@ -2025,40 +2146,82 @@ containing a value of this type.
          */
         public static final int mvg=0x7f0a0014;
         public static final int nazgrim=0x7f0a0037;
+        public static final int nerzhul=0x7f0a0069;
+        public static final int nhallish =0x7f0a0068;
+        public static final int nitrogg=0x7f0a006d;
         public static final int norushen=0x7f0a0032;
+        public static final int nyami=0x7f0a0053;
+        public static final int ogron=0x7f0a0043;
+        public static final int operatore=0x7f0a004c;
+        public static final int oshir=0x7f0a005e;
         public static final int plasmatoreambra=0x7f0a0020;
         public static final int primordius=0x7f0a002a;
         public static final int protettori=0x7f0a0010;
+        public static final int protettoriantichi=0x7f0a006f;
         public static final int protettoricaduti=0x7f0a0031;
         public static final int qon=0x7f0a002c;
         public static final int quilen=0x7f0a0015;
+        public static final int ranjit=0x7f0a0075;
         public static final int reggenti=0x7f0a0018;
         /** regno del tuono 
  regno del tuono 
  regno del tuono 
          */
         public static final int regnotuono=0x7f0a0022;
+        /**  wod istanze - bastioni di roccianera superiori 
+ wod istanze - bastioni di roccianera superiori 
+         */
+        public static final int roccianerasuperiori=0x7f0a0056;
+        public static final int roltall=0x7f0a0061;
+        public static final int rukhran=0x7f0a0077;
+        public static final int sadana=0x7f0a0066;
+        public static final int saggiaviryx=0x7f0a0078;
+        public static final int scagnozzi=0x7f0a005d;
+        public static final int scorzasecca=0x7f0a0073;
         public static final int shamani=0x7f0a0036;
         public static final int shaorgoglio=0x7f0a0033;
         public static final int shapaura=0x7f0a0013;
         public static final int shekzeer=0x7f0a0021;
+        public static final int signorazaela=0x7f0a005a;
+        public static final int signorebestie=0x7f0a0049;
         public static final int signorelame=0x7f0a001d;
         public static final int signorevento=0x7f0a001f;
+        public static final int skulloc=0x7f0a005f;
         /**  assedio di orgrimmar 
  assedio di orgrimmar 
  assedio di orgrimmar 
          */
         public static final int soo=0x7f0a002f;
         public static final int spoglie=0x7f0a0039;
+        public static final int sporafelce=0x7f0a0042;
+        public static final int tectus=0x7f0a0041;
+        public static final int terongor=0x7f0a0055;
         /** terrazza dell'eterna primavera
  terrazza dell'eterna primavera  
  terrazza dell'eterna primavera  
          */
         public static final int terrazza=0x7f0a000f;
+        public static final int tharbek=0x7f0a0059;
         public static final int thok=0x7f0a003a;
         public static final int tortos=0x7f0a0026;
+        /**  wod istanze - Necropoli dei Torvaluna 
+ wod istanze - Necropoli dei Torvaluna 
+         */
+        public static final int torvaluna=0x7f0a0065;
+        public static final int tovra=0x7f0a006b;
+        public static final int tranciacarne=0x7f0a005c;
+        public static final int tritaroccia=0x7f0a0048;
         public static final int tsulong=0x7f0a0011;
+        /**  wod istanze - Verdeterno 
+ wod istanze - Verdeterno 
+         */
+        public static final int verdeterno=0x7f0a006e;
+        public static final int vigilante=0x7f0a0052;
         public static final int visir=0x7f0a001c;
+        /**  wod istanze - vista dei cieli 
+ wod istanze - vista dei cieli 
+         */
+        public static final int vistacieli=0x7f0a0074;
         public static final int volonta=0x7f0a001a;
     }
     public static final class style {
