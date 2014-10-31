@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    
+    <ImageView
+         android:id="@+id/roccianera"
+         android:layout_width="match_parent"
+         android:layout_height="150dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:adjustViewBounds="true"
+         android:cropToPadding="false"
+         android:scaleType="fitXY"
+         android:src="@drawable/custom_fonderia" />
+
+    <Button
+        android:id="@+id/grull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roccianera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_grull"
+        android:text="@string/gruul"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/tritaroccia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grull"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_tritaroccia"
+        android:text="@string/tritaroccia"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/signoredellebestie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tritaroccia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_signorebestiedarmac"
+        android:text="@string/signorebestie"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/domafiamme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signoredellebestie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_domafiamme"
+        android:text="@string/domafiamme"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/franzok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/domafiamme"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_hansgearfranzok"
+        android:text="@string/franzok"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/operatore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/franzok"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_operatorethogar"
+        android:text="@string/operatore"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/altoforno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operatore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_altoforno"
+        android:text="@string/altoforno"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/kromog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/altoforno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_kromog"
+        android:text="@string/kromog"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/dameferro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kromog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_dameferro"
+        android:text="@string/dameferro"
+	    android:textColor="@color/oro" />
+
+   
+        <Button
+        android:id="@+id/manonera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/damaferro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_manonera"
+        android:text="@string/manonera"
+	    android:textColor="@color/oro" />
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
