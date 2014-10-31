@@ -1812,7 +1812,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f090030;
         public static final int action_mode_bar_stub=0x7f09002f;
         public static final int action_mode_close_button=0x7f090022;
-        public static final int action_settings=0x7f0900b4;
+        public static final int action_settings=0x7f0900bb;
         public static final int activity_chooser_view_content=0x7f090023;
         public static final int add=0x7f090045;
         public static final int altomaglio=0x7f0900ad;
@@ -1860,7 +1860,7 @@ containing a value of this type.
         public static final int home=0x7f090000;
         public static final int homeAsUp=0x7f09000e;
         public static final int horridon=0x7f090078;
-        public static final int icc=0x7f0900b3;
+        public static final int icc=0x7f0900ba;
         public static final int icon=0x7f090028;
         public static final int ifRoom=0x7f090016;
         public static final int ildemolitore=0x7f090077;
@@ -1874,6 +1874,7 @@ containing a value of this type.
         public static final int immaginemop=0x7f090064;
         public static final int immerseus=0x7f09004e;
         public static final int jikun=0x7f09007c;
+        public static final int koragh=0x7f0900b4;
         public static final int korkron=0x7f090054;
         public static final int kyriak=0x7f09009d;
         public static final int leishen=0x7f090082;
@@ -1881,15 +1882,18 @@ containing a value of this type.
         public static final int linearLayout1=0x7f090041;
         public static final int listMode=0x7f09000a;
         public static final int list_item=0x7f090027;
+        public static final int macellaio=0x7f0900b0;
         public static final int magliorosso=0x7f090091;
         public static final int magmolatus=0x7f090095;
         public static final int malkorok=0x7f090056;
+        public static final int manotagliente=0x7f0900af;
+        public static final int margok=0x7f0900b5;
         public static final int mastodonte=0x7f090053;
         public static final int megaera=0x7f09007b;
         public static final int miccianera=0x7f090059;
         public static final int middle=0x7f09001d;
         public static final int mop_guida=0x7f09004b;
-        public static final int naxxramas=0x7f0900b0;
+        public static final int naxxramas=0x7f0900b7;
         public static final int nazgrim=0x7f090055;
         public static final int nerzhul=0x7f09009a;
         public static final int never=0x7f090017;
@@ -1899,6 +1903,7 @@ containing a value of this type.
         public static final int normal=0x7f09000b;
         public static final int norushen=0x7f090050;
         public static final int nyami=0x7f090085;
+        public static final int ogron=0x7f0900b3;
         public static final int oshir=0x7f09008b;
         public static final int plasmatoreambra=0x7f090062;
         public static final int primordius=0x7f09007e;
@@ -1947,23 +1952,25 @@ containing a value of this type.
         public static final int soo=0x7f090069;
         public static final int split_action_bar=0x7f090004;
         public static final int spoglie=0x7f090057;
+        public static final int sporafelce=0x7f0900b2;
         public static final int submit_area=0x7f09003e;
         public static final int tabMode=0x7f09000c;
         public static final int tdf=0x7f090047;
         public static final int tdqv=0x7f090044;
+        public static final int tectus=0x7f0900b1;
         public static final int terongor=0x7f090087;
         public static final int terrazza=0x7f090067;
         public static final int tharbek=0x7f09009e;
         public static final int thok=0x7f090058;
         public static final int title=0x7f090029;
-        public static final int toc=0x7f0900b2;
+        public static final int toc=0x7f0900b9;
         public static final int top=0x7f09001f;
         public static final int tortos=0x7f09007a;
         public static final int torvaluna=0x7f090096;
         public static final int tovra=0x7f09008e;
         public static final int tranciacarne=0x7f090089;
         public static final int tsulong=0x7f090073;
-        public static final int ulduar=0x7f0900b1;
+        public static final int ulduar=0x7f0900b8;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
         public static final int verdeterno=0x7f0900a0;
@@ -1976,7 +1983,7 @@ containing a value of this type.
         public static final int wodlistaraid=0x7f0900ab;
         public static final int wrap_content=0x7f090009;
         public static final int wrat_guida=0x7f090049;
-        public static final int wratlogo=0x7f0900af;
+        public static final int wratlogo=0x7f0900b6;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -2045,8 +2052,9 @@ containing a value of this type.
         public static final int activity_wod_ista_vistacieli=0x7f030026;
         public static final int activity_wod_list_istanze=0x7f030027;
         public static final int activity_wod_list_raid=0x7f030028;
-        public static final int activity_wrat_list_raid=0x7f030029;
-        public static final int support_simple_spinner_dropdown_item=0x7f03002a;
+        public static final int activity_wod_raid_altomaglio=0x7f030029;
+        public static final int activity_wrat_list_raid=0x7f03002a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03002b;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -2188,8 +2196,7 @@ containing a value of this type.
         public static final int mvg=0x7f0a0014;
         public static final int nazgrim=0x7f0a0037;
         public static final int nerzhul=0x7f0a0069;
-        public static final int nhallish=0x7f0a007c;
-        public static final int nhallish =0x7f0a0068;
+        public static final int nhallish=0x7f0a0068;
         public static final int nitrogg=0x7f0a006d;
         public static final int norushen=0x7f0a0032;
         public static final int nyami=0x7f0a0053;
