@@ -28,14 +28,29 @@
         </activity>
         <activity
             android:name=".CataListaRaid">
-        </activity>
-         
+        </activity>         
          <activity
             android:name=".MopListaRaid">
-        </activity>
+        </activity>        
         <activity
             android:name=".WodListaRaid">
-        </activity>
+       </activity>
+       <activity
+            android:name=".AnimaListaBoss">
+       </activity>
+       <activity
+            android:name=".BastioneListaBoss">
+       </activity>
+       <activity
+            android:name=".SotterraneiListaBoss">
+       </activity>
+       <activity
+            android:name=".TerreListaBoss">
+       </activity>
+       <activity
+            android:name=".TronoListaBoss">
+       </activity>
+               
     </application>
 
 </manifest>

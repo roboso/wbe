@@ -31,6 +31,7 @@
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:adjustViewBounds="false"
+            android:onClick="startbastioneboss"
             android:scaleType="fitXY"
             android:src="@drawable/custom_bastionedelcrepuscolo" />
         
@@ -39,6 +40,7 @@
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:adjustViewBounds="false"
+            android:onClick="starttronoboss"
             android:scaleType="fitXY"
             android:src="@drawable/custom_tronodeiquattroventi" />
 
@@ -47,6 +49,7 @@
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:adjustViewBounds="false"
+            android:onClick="startanimaboss"
             android:scaleType="fitXY"
             android:src="@drawable/custom_animadidrago"/>
     </LinearLayout>
@@ -59,6 +62,7 @@
         android:layout_alignTop="@+id/linearLayout1"
         android:layout_marginTop="115dp"
         android:adjustViewBounds="false"
+        android:onClick="startsotterraneiboss"
         android:scaleType="fitXY"
         android:src="@drawable/custom_sotterraneidellalanera" />
 
@@ -69,6 +73,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/sdan"
         android:adjustViewBounds="false"
+        android:onClick="startterreboss"
         android:scaleType="fitXY"
         android:src="@drawable/custom_terradelfuoco" />
 
