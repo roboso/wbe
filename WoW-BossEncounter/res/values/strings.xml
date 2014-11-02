@@ -4,7 +4,6 @@
     <string name="app_name">WoW-BossEncounter</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-<<<<<<< HEAD
     <color name="coloremop">#357459</color>
     <color name="nero">#000000</color>
     <color name="indaco">#310062</color>
@@ -18,23 +17,16 @@
         <string name="shapaura">Sha Of Fear</string>
    
     
- <!--   segrete di mogushan -->
-=======
-    <color name="oro">#FFD700</color>
-    <color name="indaco">#310062</color> 
+
+  
 
     
       
-     <!-- terrazza dell'eterna primavera  -->
-    <string name="terrazza">Terrace Of Endless Spring</string>
-    <string name="protettori">Protectors Of The Endless</string>
-    <string name="tsulong">Tsulong</string>
-    <string name="leishi">Lei Shi</string>
-    <string name="shapaura">Sha Of Fear</string>
+     
    
     
     <!--   segrete di mogushan -->
->>>>>>> origin/diego
+
         <string name="mvg">Mogu\'shan Vaults</string>
         <string name="quilen">The Stone Guard</string>
         <string name="feng">Feng The Accursed</string>
@@ -44,11 +36,9 @@
         <string name="volonta">Will Of The Emperor</string>
         
         
-<<<<<<< HEAD
+
 <!-- cuore della paura -->
-=======
         <!-- coure della paura -->
->>>>>>> origin/diego
         <string name="cuore">Heart Of Fear</string>   
     	<string name="visir">Imperial Vizier Zor\'lok</string>
         <string name="signorelame">Blade Lord Ta\'yak</string>
@@ -57,11 +47,7 @@
         <string name="plasmatoreambra">Amber Shaper Un\'sok</string>
         <string name="shekzeer">Grand Empress Shek\'zeer </string>
             
-<<<<<<< HEAD
 <!-- regno del tuono -->
-=======
-            <!-- regno del tuono -->
->>>>>>> origin/diego
         <string name="regnotuono">Throne Of Thunder</string>
         <string name="ildemolitore">Jin\'rokt The Breaker</string>
         <string name="horridon">Horridon</string>
@@ -78,11 +64,7 @@
               
         
         
-<<<<<<< HEAD
 <!-- assedio di orgrimmar -->
-=======
-        <!-- assedio di orgrimmar -->
->>>>>>> origin/diego
         <string name="soo">Siege Of Orgrimmar</string>
         <string name="immerseus">Immerseus</string>
         <string name="protettoricaduti">The Fallen Protectors</string>
@@ -96,7 +78,6 @@
         <string name="spoglie">Spoils Of Pandaria</string>
         <string name="thok">Thok The Bloodthirsty </string>
         <string name="ingeniere">Siegecrafter Blackfuse </string>
-<<<<<<< HEAD
         <string name="eletti">Paragons of the Klaxxi </string>
         <string name="garrosh">Garrosh Hellscream </string>
         
@@ -137,9 +118,7 @@
         <string name="warmaster">Warmaster Blackhorn</string>
         <string name="spine">Spine od Deathwing</string>
         <string name="madness">Madness of Deathwing</string>
-=======
-        <string name="eletti">Paragons Of Klaxxi </string>
-        <string name="garrosh">Garrosh Hellscream </string>
+        
                 
         
         
@@ -238,7 +217,6 @@
         <string name="saggiaviryx">High Sage Viryx </string>
         
         
->>>>>>> origin/diego
         
 </resources>
     

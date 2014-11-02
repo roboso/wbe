@@ -4,17 +4,14 @@ package com.example.wow_bossencounter;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.app.Activity; 
-<<<<<<< HEAD
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.GridView;
-=======
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageButton;
->>>>>>> origin/diego
 
 
 public class MopListaRaid extends Activity 
@@ -34,16 +31,14 @@ implements OnClickListener {
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.activity_mop_list_raid);
-<<<<<<< HEAD
 		 
 		}
 		
 		
 		
-	}
-=======
+	
 	     
-		}
+		
 
 	        public void listasegrete (View ImageButton) {
         		Intent intent = new Intent(this, SegreteListaBoss.class);
@@ -74,4 +69,3 @@ implements OnClickListener {
 		
 		
 	
->>>>>>> origin/diego
