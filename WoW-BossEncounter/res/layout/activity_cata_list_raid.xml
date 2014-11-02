@@ -31,27 +31,40 @@
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:adjustViewBounds="false"
+<<<<<<< HEAD
             android:onClick="startbastioneboss"
             android:scaleType="fitXY"
             android:src="@drawable/custom_bastionedelcrepuscolo" />
+=======
+            android:scaleType="fitXY" />
+>>>>>>> origin/diego
         
         <ImageButton
             android:id="@+id/tdqv"
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:adjustViewBounds="false"
+<<<<<<< HEAD
             android:onClick="starttronoboss"
             android:scaleType="fitXY"
             android:src="@drawable/custom_tronodeiquattroventi" />
+=======
+            android:scaleType="fitXY"
+            android:src="@drawable/tronodeiquattroventi" />
+>>>>>>> origin/diego
 
         <ImageButton
             android:id="@+id/add"
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:adjustViewBounds="false"
+<<<<<<< HEAD
             android:onClick="startanimaboss"
             android:scaleType="fitXY"
             android:src="@drawable/custom_animadidrago"/>
+=======
+            android:scaleType="fitXY" />
+>>>>>>> origin/diego
     </LinearLayout>
 
     <ImageButton
@@ -62,9 +75,13 @@
         android:layout_alignTop="@+id/linearLayout1"
         android:layout_marginTop="115dp"
         android:adjustViewBounds="false"
+<<<<<<< HEAD
         android:onClick="startsotterraneiboss"
         android:scaleType="fitXY"
         android:src="@drawable/custom_sotterraneidellalanera" />
+=======
+        android:scaleType="fitXY" />
+>>>>>>> origin/diego
 
     <ImageButton
         android:id="@+id/tdf"
@@ -73,8 +90,12 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/sdan"
         android:adjustViewBounds="false"
+<<<<<<< HEAD
         android:onClick="startterreboss"
         android:scaleType="fitXY"
         android:src="@drawable/custom_terradelfuoco" />
+=======
+        android:scaleType="fitXY" />
+>>>>>>> origin/diego
 
 </RelativeLayout>

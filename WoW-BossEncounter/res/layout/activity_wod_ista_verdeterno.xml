@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    
+    <ImageView
+        android:id="@+id/verdeterno"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_verdeterno" />
+
+    <Button
+        android:id="@+id/protettoriantichi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verdeterno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_protettoriantichi"
+        android:text="@string/protettoriantichi"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/arcimagasol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/protettoriantichi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_arcimagasol"
+        android:text="@string/arcimagasol"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/Xeritac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arcimagasol"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_xeritac"
+        android:text="@string/Xeritac"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/Yalnu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Xeritac"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_yalnu"
+        android:text="@string/Yalnu"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/scorzasecca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Yalnu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_scorzasecca"
+        android:text="@string/scorzasecca"
+	    android:textColor="@color/oro" />
+    
+</RelativeLayout>

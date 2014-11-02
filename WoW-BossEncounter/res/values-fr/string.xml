@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--terrazza dell'eterna primavera-->				
+<string name="terrazza">Terrasse Printanière</string>
+<string name="protettori">Protecteurs De L\'eternel</string>
+<string name="tsulong">Tsulong</string>
+<string name="leishi">Lei Shi</string>
+<string name="shapaura">Sha De La Peur</string>
+							
+							
+<!--   segrete di mogushan -->		
+<string name="mvg">Caveaux Mogu\'shan</string>
+<string name="quilen">La Garde De Pierre</string>
+<string name="feng">Feng Le Maudit</string>
+<string name="garajal">Gara\'jal Le Lieur D\'espirit</string>
+<string name="reggenti">Les Espirit-Rois</string>
+<string name="elegon">Elegon</string>
+<string name="volonta">Volontè De L\'empereur</string>
+							
+							
+<!-- cure della paura -->				
+<string name="cuore">Coeur De La Peur</string>
+<string name="visir">Vizir Impèrialzor\'lok</string>
+<string name="signorelame">Seigneur Des Lames Ta\'yak</string>
+<string name="garalon">Garalon</string>
+<string name="signorevento">Seigneur Du Vent Mel\'jarak</string>
+<string name="plasmatoreambra">Sculpte-Ambre Un\'sok</string>
+<string name="shekzeer">Grande Impèratrice Shek\'zeer</string>
+							
+<!--regno del tuono -->				
+<string name="regnotuono">Trône Du Tonnerre</string>
+<string name="ildemolitore">Jin\'rokt Le Briseur</string>
+<string name="horridon">Horridon</string>
+<string name="concilioanziani">Conseil Des Anciens</string>
+<string name="tortos">Tortos</string>
+<string name="megaera">Megaera</string>
+<string name="jikun">Ji-Kun</string>
+<string name="durumu">Durumu L\'oubliè</string>
+<string name="primordius">Primordius</string>
+<string name="animus">Sombre Animus</string>
+<string name="qon">Qwon De Fer</string>
+<string name="consorti">Concubines Jumelies</string>
+<string name="leishen">Lei Shen</string>
+              							
+        							
+        							
+<!-- assedio di orgrimmar -->				
+<string name="soo">Siège D\' Orgrimmar</string>
+<string name="immerseus">Immerseus	</string>
+<string name="protettoricaduti">Les Protectors Déchus</string>
+<string name="norushen">Norushen</string>
+<string name="shaorgoglio">Sha De L\'orgueil</string>
+<string name="galakras">Galakras</string>
+<string name="mastodonte">Mastodonte De Fer	</string>
+<string name="shamani">Sombres Chamans Kor\'krons</string>
+<string name="nazgrim">Général Nazgrim</string>
+<string name="malkorok">Malkorok</string>
+<string name="spoglie">Butine De Pandarie</string>
+<string name="thok">Thok Le Sanguinaire</string>
+<string name="ingeniere">Ingé-Siège Boite-Noir</string>
+<string name="eletti">Paragons Des Klaxxi</string>
+<string name="garrosh">Garrosh Hurlenfer</string>
+    
+</resources>

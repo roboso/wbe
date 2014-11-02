@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    
+    <ImageView
+        android:id="@+id/torvaluna"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/custom_torvaluna" />
+
+    <Button
+        android:id="@+id/sadana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/torvaluna"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_sadanafuriacremisi"
+        android:text="@string/sadana"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/fauciossa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sadana"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_fauciossa"
+        android:text="@string/fauciossa"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/nhallish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fauciossa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_nhallish"
+        android:text="@string/nhallish"
+	    android:textColor="@color/oro" />
+
+    <Button
+        android:id="@+id/nerzhul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nhallish"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_sfondoboss"
+        android:drawableLeft="@drawable/custom_nerzull"
+        android:text="@string/nerzhul"
+	    android:textColor="@color/oro" />
+    
+</RelativeLayout>

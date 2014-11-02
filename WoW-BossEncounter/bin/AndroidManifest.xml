@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="9"
-        android:targetSdkVersion="20" />
+        android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
@@ -28,6 +28,7 @@
         </activity>
         <activity
             android:name=".CataListaRaid">
+<<<<<<< HEAD
         </activity>         
          <activity
             android:name=".MopListaRaid">
@@ -51,6 +52,33 @@
             android:name=".TronoListaBoss">
        </activity>
                
+=======
+        </activity>
+         
+         <activity
+            android:name=".MopListaRaid">
+        </activity>
+        <activity
+            android:name=".WodListaRaid">
+        </activity>
+         <activity
+            android:name=".SegreteListaBoss">
+        </activity>
+         <activity
+            android:name=".CuoreListaBoss">
+        </activity>
+         <activity
+            android:name=".TerrazzaListaBoss">
+        </activity>
+         <activity
+            android:name=".TotListaBoss">
+        </activity>
+         <activity
+            android:name=".AssedioListaBoss">
+        </activity>
+         
+        
+>>>>>>> origin/diego
     </application>
 
 </manifest>
