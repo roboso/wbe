@@ -82,7 +82,7 @@
         <string name="garrosh">Garrosh Hellscream </string>
         
 <!-- sotterranei dell'ala nera  -->
-        <string name="sotterranei">Blackwing Descent</string>
+        <string name="sdan">Blackwing Descent</string>
         <string name="omnotron">Omnotron Defence System</string>
         <string name="rodimagma">Magmaw</string>
         <string name="atramedes">Atramedes</string>
@@ -90,17 +90,17 @@
         <string name="maloriak">Maloriak</string>
         <string name="nefarian">Nefarian\'s End</string>
 <!-- trono dei quattro venti  -->
-        <string name="trono">Throne of the Four Winds</string>
+        <string name="tdqv">Throne of the Four Winds</string>
         <string name="conclave">The Conclave of Wind</string>
         <string name="alakir">Al\'Akir</string>
 <!-- bastione del crepuscolo  -->
-        <string name="bastione">The Bastion of Twilight</string>
+        <string name="bdc">The Bastion of Twilight</string>
         <string name="halfus">Halfus Wyrmbreaker</string>
         <string name="theralion">Theralion and valiona</string>
         <string name="concilio">Ascend Council</string>
         <string name="chogall">Cho\'gall</string>
 <!-- terre del fuoco  -->
-        <string name="terre">Firelands</string>
+        <string name="tdf">Firelands</string>
         <string name="beth">Beth\'tilac</string>
         <string name="lord">Lord Rhyolith</string>
         <string name="alysrazor">Alysrazor</string>
@@ -109,7 +109,7 @@
         <string name="majordomo">Majordomo Staghelm</string>
         <string name="ragnaros">Ragnaros</string>
 <!-- anima di drago  -->
-        <string name="anima">Dragon Soul</string>
+        <string name="add">Dragon Soul</string>
         <string name="morchok">Morchok</string>
         <string name="warlord">Warlord Zon\'ozz</string>
         <string name="yorsahj">Yor\'sahj the Unsleeping</string>

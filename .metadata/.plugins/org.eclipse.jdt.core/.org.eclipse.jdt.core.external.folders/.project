@@ -10,9 +10,14 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>.link0</name>
+			<name>.link1</name>
 			<type>2</type>
-			<location>/home/roboso/androido/programmi/adt-bundle-linux-x86_64-20140702/sdk/sources/android-21</location>
+			<location>C:/home/roboso/androido/programmi/adt-bundle-linux-x86_64-20140702/sdk/sources/android-21</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>C:/home/roboso/androido/programmi/adt-bundle-linux-x86_64-20140702/sdk/sources/android-20</location>
 		</link>
 	</linkedResources>
 </projectDescription>
