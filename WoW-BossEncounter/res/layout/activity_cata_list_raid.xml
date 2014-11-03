@@ -85,7 +85,7 @@
         android:layout_below="@+id/add"
         android:layout_marginTop="14dp"
         android:background="@drawable/custom_sfondoboss"
-        android:drawableTop="@drawable/custom_terradelfuoco"
+        android:drawableTop="@drawable/custom_terredelfuoco"
         android:onClick="startterreboss"
         android:text="@string/tdf"
         android:textColor="@color/indaco"

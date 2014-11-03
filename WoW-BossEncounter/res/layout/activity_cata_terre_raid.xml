@@ -27,7 +27,7 @@
         android:adjustViewBounds="true"
         android:cropToPadding="false"
         android:scaleType="fitXY"
-        android:src="@drawable/custom_terradelfuoco" />
+        android:src="@drawable/custom_terredelfuoco" />
 
   <Button
       android:id="@+id/beth"

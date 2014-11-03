@@ -1233,9 +1233,9 @@ containing a value of this type.
         public static final int custom_terongor=0x7f0200ec;
         public static final int custom_terraceofendlesspring=0x7f0200ed;
         public static final int custom_terraceofendlessspring=0x7f0200ee;
-        public static final int custom_terradelfuoco=0x7f0200ef;
-        public static final int custom_terrazzadell_eternaprimavera=0x7f0200f0;
-        public static final int custom_terrazzadelleternaprimavera=0x7f0200f1;
+        public static final int custom_terrazzadell_eternaprimavera=0x7f0200ef;
+        public static final int custom_terrazzadelleternaprimavera=0x7f0200f0;
+        public static final int custom_terredelfuoco=0x7f0200f1;
         public static final int custom_theralion=0x7f0200f2;
         public static final int custom_thokilsanguinario=0x7f0200f3;
         public static final int custom_thoksanguinario=0x7f0200f4;
@@ -1586,8 +1586,8 @@ containing a value of this type.
         public static final int main=0x7f0c0000;
     }
     public static final class string {
-        public static final int Xeritac=0x7f0a006f;
-        public static final int Yalnu=0x7f0a0070;
+        public static final int Xeritac=0x7f0a0092;
+        public static final int Yalnu=0x7f0a0093;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;
@@ -1628,206 +1628,211 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int action_settings=0x7f0a0079;
+        public static final int action_settings=0x7f0a000f;
         /**  anima di drago  
+ anima di drago  
          */
-        public static final int add=0x7f0a0091;
-        public static final int alakir=0x7f0a0083;
-        public static final int altoforno=0x7f0a004b;
-        /**  Altomagio -wod raid
- Altomagio -wod - raid 
+        public static final int add=0x7f0a0056;
+        public static final int alakir=0x7f0a0048;
+        public static final int altoforno=0x7f0a006e;
+        /**  Altomagio -wod - raid 
+ Altomagio -wod raid
          */
-        public static final int altomaglio=0x7f0a003c;
-        public static final int alysrazor=0x7f0a008c;
-        public static final int animus=0x7f0a0029;
-        public static final int app_name=0x7f0a0077;
-        public static final int araknath=0x7f0a0074;
-        public static final int arcimagasol=0x7f0a006e;
-        public static final int atramedes=0x7f0a007d;
+        public static final int altomaglio=0x7f0a005f;
+        public static final int alysrazor=0x7f0a0051;
+        public static final int animus=0x7f0a002c;
+        public static final int app_name=0x7f0a000d;
+        public static final int araknath=0x7f0a0097;
+        public static final int arcimagasol=0x7f0a0091;
+        public static final int atramedes=0x7f0a0042;
         /**  wod istanze - auchindoun 
  wod istanze - auchindoun 
          */
-        public static final int auchindoun=0x7f0a004f;
-        public static final int azzakel=0x7f0a0052;
-        public static final int baleroc=0x7f0a008e;
+        public static final int auchindoun=0x7f0a0072;
+        public static final int azzakel=0x7f0a0075;
+        public static final int baleroc=0x7f0a0053;
         /**  bastione del crepuscolo  
+ bastione del crepuscolo  
          */
-        public static final int bdc=0x7f0a0084;
-        public static final int beth=0x7f0a008a;
-        public static final int brillarazziborka=0x7f0a006a;
-        public static final int chimaeron=0x7f0a007e;
-        public static final int chogall=0x7f0a0088;
-        public static final int concilio=0x7f0a0087;
-        public static final int concilioanziani=0x7f0a0023;
-        public static final int conclave=0x7f0a0082;
-        public static final int consorti=0x7f0a002b;
-        /**  cure della paura 
- cure della paura 
- cuore della paura 
+        public static final int bdc=0x7f0a0049;
+        public static final int beth=0x7f0a004f;
+        public static final int brillarazziborka=0x7f0a008d;
+        public static final int chimaeron=0x7f0a0043;
+        public static final int chogall=0x7f0a004d;
+        public static final int concilio=0x7f0a004c;
+        public static final int concilioanziani=0x7f0a0026;
+        public static final int conclave=0x7f0a0047;
+        public static final int consorti=0x7f0a002e;
+        /**  cuore della paura 
  coure della paura 
+ cure della paura 
+ cure della paura 
          */
-        public static final int cuore=0x7f0a0019;
-        public static final int dameferro=0x7f0a004d;
+        public static final int cuore=0x7f0a001c;
+        public static final int dameferro=0x7f0a0070;
         /**  wod istanze - Darsena di Ferro 
  wod istanze - Darsena di Ferro 
          */
-        public static final int darsenaferro=0x7f0a0059;
-        public static final int domafiamme=0x7f0a0048;
-        public static final int durumu=0x7f0a0027;
-        public static final int elegon=0x7f0a0017;
-        public static final int eletti=0x7f0a003a;
-        public static final int fauciossa=0x7f0a0065;
-        public static final int feng=0x7f0a0014;
+        public static final int darsenaferro=0x7f0a007c;
+        public static final int domafiamme=0x7f0a006b;
+        public static final int durumu=0x7f0a002a;
+        public static final int elegon=0x7f0a001a;
+        public static final int eletti=0x7f0a003d;
+        public static final int fauciossa=0x7f0a0088;
+        public static final int feng=0x7f0a0017;
         /**  fonderia dei roccianera -wod raid 
  fonderia dei roccianera -wod raid 
          */
-        public static final int fonderia=0x7f0a0044;
-        public static final int franzok=0x7f0a0049;
+        public static final int fonderia=0x7f0a0067;
+        public static final int franzok=0x7f0a006c;
         /**  wod istanze - Treno Frecciacupa 
  wod istanze - Treno Frecciacupa 
          */
-        public static final int frecciacupa=0x7f0a0068;
-        public static final int galakras=0x7f0a0032;
-        public static final int garajal=0x7f0a0015;
-        public static final int garalon=0x7f0a001c;
-        public static final int garrosh=0x7f0a003b;
-        public static final int gorashan=0x7f0a0055;
-        public static final int gruul=0x7f0a0045;
-        public static final int guardianoschiavi=0x7f0a0060;
-        public static final int gugrokk =0x7f0a0061;
-        public static final int hagara=0x7f0a0095;
-        public static final int halfus=0x7f0a0085;
-        public static final int hello_world=0x7f0a0078;
-        public static final int horridon=0x7f0a0022;
-        public static final int ildemolitore=0x7f0a0021;
-        public static final int immerseus=0x7f0a002e;
-        public static final int ingeniere=0x7f0a0039;
-        public static final int jikun=0x7f0a0026;
-        public static final int koragh=0x7f0a0042;
-        public static final int kromog=0x7f0a004c;
-        public static final int kyriak=0x7f0a0056;
-        public static final int leishen=0x7f0a002c;
-        public static final int leishi=0x7f0a0010;
-        public static final int lord=0x7f0a008b;
-        public static final int macellaio=0x7f0a003e;
-        public static final int madness=0x7f0a0099;
+        public static final int frecciacupa=0x7f0a008b;
+        public static final int galakras=0x7f0a0035;
+        public static final int garajal=0x7f0a0018;
+        public static final int garalon=0x7f0a001f;
+        public static final int garrosh=0x7f0a003e;
+        public static final int gorashan=0x7f0a0078;
+        public static final int gruul=0x7f0a0068;
+        public static final int guardianoschiavi=0x7f0a0083;
+        public static final int gugrokk =0x7f0a0084;
+        public static final int hagara=0x7f0a005a;
+        public static final int halfus=0x7f0a004a;
+        public static final int hello_world=0x7f0a000e;
+        public static final int horridon=0x7f0a0025;
+        public static final int ildemolitore=0x7f0a0024;
+        public static final int immerseus=0x7f0a0031;
+        public static final int ingeniere=0x7f0a003c;
+        public static final int jikun=0x7f0a0029;
+        public static final int koragh=0x7f0a0065;
+        public static final int kromog=0x7f0a006f;
+        public static final int kyriak=0x7f0a0079;
+        public static final int leishen=0x7f0a002f;
+        public static final int leishi=0x7f0a0013;
+        public static final int lord=0x7f0a0050;
+        public static final int macellaio=0x7f0a0061;
+        public static final int madness=0x7f0a005e;
         /**  wod istanze - Miniere dei Magliorosso 
  wod istanze - Miniere dei Magliorosso 
          */
-        public static final int magliorosso=0x7f0a005e;
-        public static final int magmolatus=0x7f0a0062;
-        public static final int majordomo=0x7f0a008f;
-        public static final int malkorok=0x7f0a0036;
-        public static final int maloriak=0x7f0a007f;
-        public static final int manonera=0x7f0a004e;
-        public static final int manotagliente=0x7f0a003d;
-        public static final int margok=0x7f0a0043;
-        public static final int mastodonte=0x7f0a0033;
-        public static final int megaera=0x7f0a0025;
-        public static final int morchok=0x7f0a0092;
+        public static final int magliorosso=0x7f0a0081;
+        public static final int magmolatus=0x7f0a0085;
+        public static final int majordomo=0x7f0a0054;
+        public static final int malkorok=0x7f0a0039;
+        public static final int maloriak=0x7f0a0044;
+        public static final int manonera=0x7f0a0071;
+        public static final int manotagliente=0x7f0a0060;
+        public static final int margok=0x7f0a0066;
+        public static final int mastodonte=0x7f0a0036;
+        public static final int megaera=0x7f0a0028;
+        public static final int morchok=0x7f0a0057;
         /**    segrete di mogushan 
    segrete di mogushan 
    segrete di mogushan 
          */
-        public static final int mvg=0x7f0a0012;
-        public static final int nazgrim=0x7f0a0035;
-        public static final int nefarian=0x7f0a0080;
-        public static final int nerzhul=0x7f0a0067;
-        public static final int nhallish=0x7f0a0066;
-        public static final int nitrogg=0x7f0a006b;
-        public static final int norushen=0x7f0a0030;
-        public static final int nyami=0x7f0a0051;
-        public static final int ogron=0x7f0a0041;
-        public static final int omnotron=0x7f0a007b;
-        public static final int operatore=0x7f0a004a;
-        public static final int oshir=0x7f0a005c;
-        public static final int plasmatoreambra=0x7f0a001e;
-        public static final int primordius=0x7f0a0028;
-        public static final int protettori=0x7f0a000e;
-        public static final int protettoriantichi=0x7f0a006d;
-        public static final int protettoricaduti=0x7f0a002f;
-        public static final int qon=0x7f0a002a;
-        public static final int quilen=0x7f0a0013;
-        public static final int ragnaros=0x7f0a0090;
-        public static final int ranjit=0x7f0a0073;
-        public static final int reggenti=0x7f0a0016;
-        /** regno del tuono 
- regno del tuono 
+        public static final int mvg=0x7f0a0015;
+        public static final int nazgrim=0x7f0a0038;
+        public static final int nefarian=0x7f0a0045;
+        public static final int nerzhul=0x7f0a008a;
+        public static final int nhallish=0x7f0a0089;
+        public static final int nitrogg=0x7f0a008e;
+        public static final int norushen=0x7f0a0033;
+        public static final int nyami=0x7f0a0074;
+        public static final int ogron=0x7f0a0064;
+        public static final int omnotron=0x7f0a0040;
+        public static final int operatore=0x7f0a006d;
+        public static final int oshir=0x7f0a007f;
+        public static final int plasmatoreambra=0x7f0a0021;
+        public static final int primordius=0x7f0a002b;
+        public static final int protettori=0x7f0a0011;
+        public static final int protettoriantichi=0x7f0a0090;
+        public static final int protettoricaduti=0x7f0a0032;
+        public static final int qon=0x7f0a002d;
+        public static final int quilen=0x7f0a0016;
+        public static final int ragnaros=0x7f0a0055;
+        public static final int ranjit=0x7f0a0096;
+        public static final int reggenti=0x7f0a0019;
+        /**  regno del tuono 
+regno del tuono 
  regno del tuono 
          */
-        public static final int regnotuono=0x7f0a0020;
+        public static final int regnotuono=0x7f0a0023;
         /**  wod istanze - bastioni di roccianera superiori 
  wod istanze - bastioni di roccianera superiori 
          */
-        public static final int roccianerasuperiori=0x7f0a0054;
-        public static final int rodimagma=0x7f0a007c;
-        public static final int roltall=0x7f0a005f;
-        public static final int rukhran=0x7f0a0075;
-        public static final int sadana=0x7f0a0064;
-        public static final int saggiaviryx=0x7f0a0076;
-        public static final int scagnozzi=0x7f0a005b;
-        public static final int scorzasecca=0x7f0a0071;
+        public static final int roccianerasuperiori=0x7f0a0077;
+        public static final int rodimagma=0x7f0a0041;
+        public static final int roltall=0x7f0a0082;
+        public static final int rukhran=0x7f0a0098;
+        public static final int sadana=0x7f0a0087;
+        public static final int saggiaviryx=0x7f0a0099;
+        public static final int scagnozzi=0x7f0a007e;
+        public static final int scorzasecca=0x7f0a0094;
         /**  sotterranei dell'ala nera  
+ sotterranei dell'ala nera  
          */
-        public static final int sdan=0x7f0a007a;
-        public static final int shamani=0x7f0a0034;
-        public static final int shannox=0x7f0a008d;
-        public static final int shaorgoglio=0x7f0a0031;
-        public static final int shapaura=0x7f0a0011;
-        public static final int shekzeer=0x7f0a001f;
-        public static final int signorazaela=0x7f0a0058;
-        public static final int signorebestie=0x7f0a0047;
-        public static final int signorelame=0x7f0a001b;
-        public static final int signorevento=0x7f0a001d;
-        public static final int skulloc=0x7f0a005d;
+        public static final int sdan=0x7f0a003f;
+        public static final int shamani=0x7f0a0037;
+        public static final int shannox=0x7f0a0052;
+        public static final int shaorgoglio=0x7f0a0034;
+        public static final int shapaura=0x7f0a0014;
+        public static final int shekzeer=0x7f0a0022;
+        public static final int signorazaela=0x7f0a007b;
+        public static final int signorebestie=0x7f0a006a;
+        public static final int signorelame=0x7f0a001e;
+        public static final int signorevento=0x7f0a0020;
+        public static final int skulloc=0x7f0a0080;
         /**  assedio di orgrimmar 
  assedio di orgrimmar 
  assedio di orgrimmar 
          */
-        public static final int soo=0x7f0a002d;
-        public static final int spine=0x7f0a0098;
-        public static final int spoglie=0x7f0a0037;
-        public static final int sporafelce=0x7f0a0040;
+        public static final int soo=0x7f0a0030;
+        public static final int spine=0x7f0a005d;
+        public static final int spoglie=0x7f0a003a;
+        public static final int sporafelce=0x7f0a0063;
         /**  terre del fuoco  
+ terre del fuoco  
          */
-        public static final int tdf=0x7f0a0089;
+        public static final int tdf=0x7f0a004e;
         /**  trono dei quattro venti  
+ trono dei quattro venti  
          */
-        public static final int tdqv=0x7f0a0081;
-        public static final int tectus=0x7f0a003f;
-        public static final int terongor=0x7f0a0053;
-        /** terrazza dell'eterna primavera
- terrazza dell'eterna primavera  
+        public static final int tdqv=0x7f0a0046;
+        public static final int tectus=0x7f0a0062;
+        public static final int terongor=0x7f0a0076;
+        /**  terrazza dell'eterna primavera  
+terrazza dell'eterna primavera
  terrazza dell'eterna primavera  
          */
-        public static final int terrazza=0x7f0a000d;
-        public static final int tharbek=0x7f0a0057;
-        public static final int theralion=0x7f0a0086;
-        public static final int thok=0x7f0a0038;
-        public static final int tortos=0x7f0a0024;
+        public static final int terrazza=0x7f0a0010;
+        public static final int tharbek=0x7f0a007a;
+        public static final int theralion=0x7f0a004b;
+        public static final int thok=0x7f0a003b;
+        public static final int tortos=0x7f0a0027;
         /**  wod istanze - Necropoli dei Torvaluna 
  wod istanze - Necropoli dei Torvaluna 
          */
-        public static final int torvaluna=0x7f0a0063;
-        public static final int tovra=0x7f0a0069;
-        public static final int tranciacarne=0x7f0a005a;
-        public static final int tritaroccia=0x7f0a0046;
-        public static final int tsulong=0x7f0a000f;
-        public static final int ultraxion=0x7f0a0096;
+        public static final int torvaluna=0x7f0a0086;
+        public static final int tovra=0x7f0a008c;
+        public static final int tranciacarne=0x7f0a007d;
+        public static final int tritaroccia=0x7f0a0069;
+        public static final int tsulong=0x7f0a0012;
+        public static final int ultraxion=0x7f0a005b;
         /**  wod istanze - Verdeterno 
  wod istanze - Verdeterno 
          */
-        public static final int verdeterno=0x7f0a006c;
-        public static final int vigilante=0x7f0a0050;
-        public static final int visir=0x7f0a001a;
+        public static final int verdeterno=0x7f0a008f;
+        public static final int vigilante=0x7f0a0073;
+        public static final int visir=0x7f0a001d;
         /**  wod istanze - vista dei cieli 
  wod istanze - vista dei cieli 
          */
-        public static final int vistacieli=0x7f0a0072;
-        public static final int volonta=0x7f0a0018;
-        public static final int warlord=0x7f0a0093;
-        public static final int warmaster=0x7f0a0097;
-        public static final int yorsahj=0x7f0a0094;
+        public static final int vistacieli=0x7f0a0095;
+        public static final int volonta=0x7f0a001b;
+        public static final int warlord=0x7f0a0058;
+        public static final int warmaster=0x7f0a005c;
+        public static final int yorsahj=0x7f0a0059;
     }
     public static final class style {
         /** 
