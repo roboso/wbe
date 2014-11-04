@@ -36,10 +36,6 @@ implements OnClickListener {
 		
 		
 		
-	
-	     
-		
-
 	        public void listasegrete (View ImageButton) {
         		Intent intent = new Intent(this, SegreteListaBoss.class);
         		startActivity(intent);

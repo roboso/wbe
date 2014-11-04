@@ -9,6 +9,6 @@ public class WratListaRaid extends ActionBarActivity  {
 	@Override
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wrat_lista_raid);
+        setContentView(R.layout.activity_wrat_list_raid);
 }
 }

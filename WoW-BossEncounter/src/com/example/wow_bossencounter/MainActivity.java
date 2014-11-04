@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
         		startActivity(intent);
         		}
         	public void startlistwodraid (View ImageButton) {
-        		Intent intent = new Intent(this, WodListaRaid.class);
+        		Intent intent = new Intent(this, WodScelta.class);
         		startActivity(intent);
         		}
 	@Override

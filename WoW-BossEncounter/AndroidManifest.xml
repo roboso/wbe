@@ -66,7 +66,51 @@
          <activity
             android:name=".AssedioListaBoss">
         </activity>
-         
+          <activity
+            android:name=".WodIstaDarsena" >
+            
+        </activity>
+        <activity
+            android:name=".WodIstaRoccianerasuperiori" >
+            
+        </activity>
+        
+        <activity
+            android:name=".WodIstaMagliorosso" >
+            
+        </activity>
+        <activity
+            android:name=".WodIstaTorvaluna" >
+            
+        </activity>
+        <activity
+            android:name=".WodIstaFrecciacupa" >
+            
+        </activity>
+        <activity
+            android:name=".WodIstaVerdeterno" >
+            
+        </activity>
+        <activity
+            android:name=".WodIstaVistacieli" >
+            
+        </activity>
+        <activity
+            android:name=".WodScelta" >
+            
+        </activity>
+        <activity
+            android:name=".WodListaIstanze" >
+            
+        </activity>
+        <activity
+            android:name=".WodRaidAltomaglio" >
+            
+        </activity>
+        <activity
+            android:name=".WodRaidFonderia" >
+            
+        </activity>
         
     </application>
 
