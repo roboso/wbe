@@ -4,33 +4,33 @@
     android:layout_height="match_parent" >
 
     <Button
-        android:id="@+id/raid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:onClick="startraidwod"
-        android:text="@string/raid" />
+           android:id="@+id/dialograidwod"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/dialogistanzawod"
+           android:layout_marginTop="1dp"
+           android:onClick="startraid"
+           android:text="@string/raid" />
 
-    <Button
-        android:id="@+id/istanze"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/raid"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:onClick="startistanzewod"
-        android:text="@string/istanza" />
+       <Button
+           android:id="@+id/dialogchallengedwod"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/dialograidwod"
+           android:layout_marginTop="1dp"
+           android:onClick="startchallenge"
+           android:text="@string/challenge" />
 
-    <Button
-        android:id="@+id/challenge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/istanze"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:onClick="startchallengewod"
-        android:text="@string/challenge" />
+       <Button
+           android:id="@+id/dialogistanzawod"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:onClick="startistanza"
+           android:text="@string/istanza" />
+     
 
 </RelativeLayout>

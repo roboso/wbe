@@ -11,7 +11,7 @@ public class WodListaChallenge extends ActionBarActivity  {
 	@Override
     	public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wod_list_istanze);
+        setContentView(R.layout.activity_wod_challenge);
 }
 
 	
