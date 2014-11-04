@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-
     <ImageView
         android:id="@+id/wodlistaraid"
         android:layout_width="match_parent"
@@ -25,8 +24,9 @@
         android:layout_marginTop="14dp"
         android:background="@drawable/custom_sfondoboss"
         android:drawableLeft="@drawable/custom_altomaglio"
+        android:onClick="startaltomaglio"
         android:text="@string/altomaglio"
-	    android:textColor="@color/oro" />
+        android:textColor="@color/oro" />
 
     <Button
         android:id="@+id/fonderia"
@@ -37,7 +37,8 @@
         android:layout_marginTop="14dp"
         android:background="@drawable/custom_sfondoboss"
         android:drawableLeft="@drawable/custom_fonderia"
+        android:onClick="startfornace"
         android:text="@string/altoforno"
-	    android:textColor="@color/oro" />
+        android:textColor="@color/oro" />
     
 </RelativeLayout>

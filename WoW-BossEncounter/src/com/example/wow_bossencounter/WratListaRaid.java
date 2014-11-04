@@ -1,29 +1,14 @@
 package com.example.wow_bossencounter;
 
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.app.Activity; 
 import android.os.Bundle;
-import android.widget.Button;
+import android.support.v7.app.ActionBarActivity;
 
-
-public class WratListaRaid extends Activity 
-implements OnClickListener {
-
+public class WratListaRaid extends ActionBarActivity  {
 	
-		
-		@Override    
-         public void onClick(View View) {    
-           // definisco l'intenzione  
-           Object activity_wrat_list_raid;
-		// passo all'attivazione dell'activity Pagina.java   
-           
-           
-         }
-		@Override
-	    public void onCreate (Bundle savedInstanceState) {
-	        super.onCreate(savedInstanceState);
-	        setContentView(R.layout.activity_wrat_list_raid);
-		 
-		}
-	}
+	
+	@Override
+    public void onCreate (Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_wrat_lista_raid);
+}
+}
