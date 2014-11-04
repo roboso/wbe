@@ -39,7 +39,8 @@
       android:background="@drawable/custom_sfondoboss"
       android:drawableLeft="@drawable/custom_halfus"
       android:text="@string/halfus"
-	  android:textColor="@color/oro" />
+	  android:textColor="@color/oro"
+	  android:onClick="halfusguida" />
 
   <Button
       android:id="@+id/theralion"
@@ -63,7 +64,8 @@
       android:background="@drawable/custom_sfondoboss"
       android:drawableLeft="@drawable/custom_concilio"
       android:text="@string/concilio"
-	  android:textColor="@color/oro" />
+	  android:textColor="@color/oro"
+	  android:onClick="concilioguida" />
 
   <Button
       android:id="@+id/chogall"
