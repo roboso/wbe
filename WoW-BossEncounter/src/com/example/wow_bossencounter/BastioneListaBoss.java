@@ -1,6 +1,7 @@
 package com.example.wow_bossencounter;
 
 import java.io.File;
+import java.io.InputStream;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.pdf.PdfReader;
@@ -42,11 +43,10 @@ implements OnClickListener {
 	        button.setOnClickListener(new View.OnClickListener() {
 	            @Override
 	            public void onClick(View arg0) {
-	            	File file = new File("/WoW-BossEncounter/res/raw/prova.PDF");
-	            	Uri path = Uri.fromFile(file);
-	            	Intent intent = new Intent(Intent.ACTION_VIEW);
-	            	intent.setDataAndType(path, "application/pdf");
-	            	startActivity(intent);
+	            	      
+	            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/file/d/0B7vwPzmhIvQzbkJBZ0VLZ3kxelE/view?usp=sharing"));
+	            	startActivity(intent); 
+	            	
 	            	
 	    }
 	});

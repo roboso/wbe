@@ -17,4 +17,7 @@
 <fullyQualifiedTypeName name="com.itextpdf.text.pdf.ByteBuffer"/>
 <fullyQualifiedTypeName name="java.nio.ByteBuffer"/>
 <fullyQualifiedTypeName name="com.itextpdf.xmp.impl.ByteBuffer"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.Document"/>
+<fullyQualifiedTypeName name="com.example.wow_bossencounter.R.raw"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
 </qualifiedTypeNameHistroy>
