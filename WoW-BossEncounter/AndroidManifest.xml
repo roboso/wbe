@@ -66,12 +66,7 @@
          <activity
             android:name=".AssedioListaBoss">
         </activity>
-        <activity
-            android:name=".HalfusGuida">
-        </activity>
-         <activity
-            android:name=".ConcilioGuida">
-        </activity>
+       
         
     </application>
 
