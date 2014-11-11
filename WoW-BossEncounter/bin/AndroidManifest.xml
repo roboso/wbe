@@ -67,6 +67,9 @@
          <activity
             android:name=".AssedioListaBoss">
         </activity>
+        <activity
+            android:name="com.artifex.mupdfdemo" >
+    </activity>
         
         
     </application>

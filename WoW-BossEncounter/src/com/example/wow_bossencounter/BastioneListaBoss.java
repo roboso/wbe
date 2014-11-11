@@ -14,6 +14,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.content.Context;
 
 
 
@@ -39,14 +40,15 @@ implements OnClickListener {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.activity_cata_bastione_raid);     
 	        
-	        Button button = (Button) findViewById(R.id.halfus);
-	        button.setOnClickListener(new View.OnClickListener() {
+	        Button half = (Button) findViewById(R.id.halfus);
+	        half.setOnClickListener(new View.OnClickListener() {
 	            @Override
-	            public void onClick(View arg0) {
+	            public void onClick(View arg0 ) {
 	            	      
-	            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/file/d/0B7vwPzmhIvQzbkJBZ0VLZ3kxelE/view?usp=sharing"));
-	            	startActivity(intent); 
 	            	
+	            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/file/d/0B2dBFvvy8y2hTWNCTjdYaDZiQ3c/view?usp=sharing"));
+
+	            	startActivity(intent);
 	            	
 	    }
 	});
