@@ -4,7 +4,6 @@ package com.example.wow_bossencounter;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -16,7 +15,7 @@ import android.widget.ImageButton;
 
 
 
-public  class MainActivity extends Activity 
+public class MainActivity extends Activity 
 	implements OnClickListener {
     final Context context = this;
 	
@@ -35,10 +34,9 @@ public  class MainActivity extends Activity
         wod_guida = (ImageButton) findViewById(R.id.wod_guida);
 			
         	wod_guida.setOnClickListener(new OnClickListener() {
-            	@SuppressWarnings("null")
 				
             	@Override      		                 	
-            	public void onClick(View arg0) {
+            	public void onClick(View v) {
        			// custom dialog
       			final Dialog dialog = new Dialog(context);
       			dialog.setContentView(R.layout.activity_wod_scelta);
@@ -95,11 +93,6 @@ public  class MainActivity extends Activity
 				});
 				dialog.show();
             	}
-
-				public void onClick(DialogInterface dialog, int which) {
-					// TODO Auto-generated method stub
-					
-				}
       		});
             
 }
@@ -142,5 +135,13 @@ public  class MainActivity extends Activity
 		// TODO Auto-generated method stub
 		
 	}
+
+
+	}
+
+
 	
-}
+		
+	
+	
+

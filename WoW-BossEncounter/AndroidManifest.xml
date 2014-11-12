@@ -111,6 +111,10 @@
             android:name=".WodRaidFonderia" >
             
         </activity>
+         <activity
+            android:name=".WodListaChallenge" >
+            
+        </activity>
         
     </application>
 
