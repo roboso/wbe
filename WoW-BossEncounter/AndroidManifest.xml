@@ -36,35 +36,35 @@
             android:name=".WodListaRaid">
        </activity>
        <activity
-            android:name=".AnimaListaBoss">
+            android:name=".CataRaidAnimadidrago">
        </activity>
        <activity
-            android:name=".BastioneListaBoss">
+            android:name=".CataRaidBastionedelcrepuscolo">
        </activity>
        <activity
-            android:name=".SotterraneiListaBoss">
+            android:name=".CataRaidSotterraneidellalanera">
        </activity>
        <activity
-            android:name=".TerreListaBoss">
+            android:name=".CataRaidTerredelfuoco">
        </activity>
        <activity
-            android:name=".TronoListaBoss">
+            android:name=".CataRaidTronodeiquattroventi">
        </activity>
                  
          <activity
-            android:name=".SegreteListaBoss">
+            android:name=".MopRaidSegretedimogushan">
         </activity>
          <activity
-            android:name=".CuoreListaBoss">
+            android:name=".MopRaidCuoredellapaura">
         </activity>
          <activity
-            android:name=".TerrazzaListaBoss">
+            android:name=".MopRaidTerrazzadelleternaprimavera">
         </activity>
          <activity
-            android:name=".TotListaBoss">
+            android:name=".MopRaidRegnodeltuono">
         </activity>
          <activity
-            android:name=".AssedioListaBoss">
+            android:name=".MopRaidAssediodiorgrimmar">
         </activity>
           <activity
             android:name=".WodIstaDarsena" >

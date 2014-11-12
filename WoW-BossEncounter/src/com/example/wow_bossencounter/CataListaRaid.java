@@ -33,23 +33,23 @@ implements OnClickListener{
         setContentView(R.layout.activity_cata_list_raid);
 		}
         	public void startbastioneboss (View ImageButton) {
-        		Intent intent = new Intent(this, BastioneListaBoss.class);
+        		Intent intent = new Intent(this, CataRaidBastionedelcrepuscolo.class);
         		startActivity(intent);
         		}
         	public void starttronoboss (View ImageButton) {
-        		Intent intent = new Intent(this, TronoListaBoss.class);
+        		Intent intent = new Intent(this, CataRaidTronodeiquattroventi.class);
         		startActivity(intent);
         		}
         	public void startanimaboss (View ImageButton) {
-        		Intent intent = new Intent(this, AnimaListaBoss.class);
+        		Intent intent = new Intent(this, CataRaidAnimadidrago.class);
         		startActivity(intent);
         		}
         	public void startsotterraneiboss (View ImageButton) {
-        		Intent intent = new Intent(this, SotterraneiListaBoss.class);
+        		Intent intent = new Intent(this, CataRaidSotterraneidellalanera.class);
         		startActivity(intent);
         	}
         	public void startterreboss (View ImageButton) {
-            		Intent intent = new Intent(this, TerreListaBoss.class);
+            		Intent intent = new Intent(this, CataRaidTerredelfuoco.class);
             		startActivity(intent);
         		}
 	
