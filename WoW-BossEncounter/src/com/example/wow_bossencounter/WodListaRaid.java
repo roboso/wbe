@@ -1,13 +1,13 @@
 package com.example.wow_bossencounter;
 
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
 
-public class WodListaRaid extends ActionBarActivity 
+public class WodListaRaid extends Activity 
 implements OnClickListener {
 
 	
@@ -15,7 +15,6 @@ implements OnClickListener {
 		@Override    
          public void onClick(View View) {    
            // definisco l'intenzione  
-           Object activity_wod_list_raid;
 		// passo all'attivazione dell'activity Pagina.java   
            
            

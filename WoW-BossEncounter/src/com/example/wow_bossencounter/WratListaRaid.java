@@ -1,9 +1,9 @@
 package com.example.wow_bossencounter;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 
-public class WratListaRaid extends ActionBarActivity  {
+public class WratListaRaid extends Activity  {
 	
 	
 	@Override

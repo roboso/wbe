@@ -1,18 +1,17 @@
 package com.example.wow_bossencounter;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-public class WodListaIstanze extends ActionBarActivity 
+public class WodListaIstanze extends Activity 
 	implements OnClickListener {
 	
 	@Override
 	public void onClick(View view) {
 		// TODO Auto-generated method stub
-		Object activity_wod_list_istanze;
 	}
 	@Override
     public void onCreate (Bundle savedInstanceState) {
