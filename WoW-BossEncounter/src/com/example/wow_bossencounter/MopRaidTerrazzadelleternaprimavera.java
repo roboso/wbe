@@ -2,11 +2,12 @@ package com.example.wow_bossencounter;
 
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.app.Activity; 
-import android.content.Intent;
-import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
 
 
 
@@ -27,6 +28,55 @@ implements OnClickListener {
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 		           setContentView(R.layout.activity_mop_terrazza_raid);
+		            Button prot = (Button) findViewById(R.id.protettori);
+			        Button tsul = (Button) findViewById(R.id.tsulong);
+			        Button leis = (Button) findViewById(R.id.leishi);
+			        Button shap = (Button) findViewById(R.id.shapaura);
+			        
+			        prot.setOnClickListener(new View.OnClickListener() {
+			            @Override
+			            public void onClick(View arg0 ) {
+			            	      
+			            	
+			            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
+
+			            	startActivity(intent);
+			            	
+			    }
+			});
+			        tsul.setOnClickListener(new View.OnClickListener() {
+			            @Override
+			            public void onClick(View arg0 ) {
+			            	      
+			            	
+			            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
+
+			            	startActivity(intent);
+			            	
+			    }
+			});
+			        leis.setOnClickListener(new View.OnClickListener() {
+			            @Override
+			            public void onClick(View arg0 ) {
+			            	      
+			            	
+			            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
+
+			            	startActivity(intent);
+			            	
+			    }
+			});
+			        shap.setOnClickListener(new View.OnClickListener() {
+			            @Override
+			            public void onClick(View arg0 ) {
+			            	      
+			            	
+			            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
+
+			            	startActivity(intent);
+			            	
+			    }
+			});
 		           
 		           
 		   }
