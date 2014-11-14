@@ -1294,7 +1294,11 @@ containing a value of this type.
         public static final int action_settings=0x7f0900e6;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int add=0x7f090050;
+<<<<<<< HEAD
         public static final int alakir=0x7f090064;
+=======
+        public static final int alakir=0x7f090063;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int altoforno=0x7f0900d9;
         public static final int altomaglio=0x7f0900c9;
         public static final int always=0x7f09000f;
@@ -1305,20 +1309,32 @@ containing a value of this type.
         public static final int atramedes=0x7f090055;
         public static final int auchindoun=0x7f09009e;
         public static final int azzakel=0x7f0900a1;
+<<<<<<< HEAD
         public static final int baleroc=0x7f09005f;
+=======
+        public static final int baleroc=0x7f09005e;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int bdc=0x7f09004d;
         public static final int beginning=0x7f090016;
         public static final int beth=0x7f09005a;
         public static final int brillarazziborka=0x7f0900aa;
         public static final int button1=0x7f09009d;
+<<<<<<< HEAD
         public static final int cata_guida=0x7f090066;
+=======
+        public static final int cata_guida=0x7f090065;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int checkbox=0x7f09002d;
         public static final int chimaeron=0x7f090056;
         public static final int chogall=0x7f09004a;
         public static final int collapseActionView=0x7f090010;
         public static final int concilio=0x7f090049;
         public static final int concilioanziani=0x7f090093;
+<<<<<<< HEAD
         public static final int conclave=0x7f090063;
+=======
+        public static final int conclave=0x7f090062;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int consorti=0x7f09009b;
         public static final int cuore=0x7f090080;
         public static final int damaferro=0x7f0900dd;
@@ -1345,7 +1361,11 @@ containing a value of this type.
         public static final int fonderia=0x7f0900ca;
         public static final int franzok=0x7f0900d7;
         public static final int frecciacupa=0x7f0900a8;
+<<<<<<< HEAD
         public static final int galakras=0x7f09005e;
+=======
+        public static final int galakras=0x7f09006d;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int garajal=0x7f090087;
         public static final int garalon=0x7f09007a;
         public static final int garrosh=0x7f090076;
@@ -1364,18 +1384,30 @@ containing a value of this type.
         public static final int ildemolitore=0x7f090091;
         public static final int image=0x7f090027;
         public static final int imageanima=0x7f09003d;
+<<<<<<< HEAD
         public static final int imageassedio=0x7f090069;
+=======
+        public static final int imageassedio=0x7f090068;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int imagebastione=0x7f090046;
         public static final int imagecuore=0x7f090077;
         public static final int imagesegrete=0x7f090084;
         public static final int imagesotterranei=0x7f090052;
         public static final int imageterrazza=0x7f09008b;
         public static final int imageterre=0x7f090059;
+<<<<<<< HEAD
         public static final int imagetrono=0x7f090062;
         public static final int imagetuono=0x7f090090;
         public static final int immaginecata=0x7f09004c;
         public static final int immaginemop=0x7f09007e;
         public static final int immerseus=0x7f09006a;
+=======
+        public static final int imagetrono=0x7f090061;
+        public static final int imagetuono=0x7f090090;
+        public static final int immaginecata=0x7f09004c;
+        public static final int immaginemop=0x7f09007e;
+        public static final int immerseus=0x7f090069;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int jikun=0x7f090096;
         public static final int koragh=0x7f0900d0;
         public static final int korkron=0x7f09006f;
@@ -1389,7 +1421,11 @@ containing a value of this type.
         public static final int madness=0x7f090045;
         public static final int magliorosso=0x7f0900ac;
         public static final int magmolatus=0x7f0900b0;
+<<<<<<< HEAD
         public static final int majordomo=0x7f090060;
+=======
+        public static final int majordomo=0x7f09005f;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int malkorok=0x7f090071;
         public static final int maloriak=0x7f090057;
         public static final int manonera=0x7f0900dc;
@@ -1399,7 +1435,11 @@ containing a value of this type.
         public static final int megaera=0x7f090095;
         public static final int miccianera=0x7f090074;
         public static final int middle=0x7f090018;
+<<<<<<< HEAD
         public static final int mop_guida=0x7f090067;
+=======
+        public static final int mop_guida=0x7f090066;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int morchok=0x7f09003e;
         public static final int naxxramas=0x7f0900e2;
         public static final int nazgrim=0x7f090070;
@@ -1410,7 +1450,11 @@ containing a value of this type.
         public static final int nitrogg=0x7f0900ab;
         public static final int none=0x7f090019;
         public static final int normal=0x7f090007;
+<<<<<<< HEAD
         public static final int norushen=0x7f09006c;
+=======
+        public static final int norushen=0x7f09006b;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int nyami=0x7f0900a0;
         public static final int ogron=0x7f0900cf;
         public static final int omnotron=0x7f090053;
@@ -1422,11 +1466,19 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f090005;
         public static final int protettori=0x7f09008c;
         public static final int protettoriantichi=0x7f0900bc;
+<<<<<<< HEAD
         public static final int protettoricaduti=0x7f09006b;
         public static final int qon=0x7f09009a;
         public static final int quilen=0x7f090085;
         public static final int radio=0x7f09002f;
         public static final int ragnaros=0x7f090061;
+=======
+        public static final int protettoricaduti=0x7f09006a;
+        public static final int qon=0x7f09009a;
+        public static final int quilen=0x7f090085;
+        public static final int radio=0x7f09002f;
+        public static final int ragnaros=0x7f090060;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int ranjit=0x7f0900c2;
         public static final int reggentispirituali=0x7f090088;
         public static final int regnodeltuono=0x7f090082;
@@ -1453,7 +1505,11 @@ containing a value of this type.
         public static final int search_voice_btn=0x7f09003b;
         public static final int segrete=0x7f09007f;
         public static final int shannox=0x7f09005d;
+<<<<<<< HEAD
         public static final int shaorgoglio=0x7f09006d;
+=======
+        public static final int shaorgoglio=0x7f09006c;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int shapaura=0x7f09008f;
         public static final int shekzeer=0x7f09007d;
         public static final int shortcut=0x7f09002e;
@@ -1502,10 +1558,17 @@ containing a value of this type.
         public static final int warlord=0x7f09003f;
         public static final int warmaster=0x7f090043;
         public static final int withText=0x7f090013;
+<<<<<<< HEAD
         public static final int wod_guida=0x7f090068;
         public static final int wodlistaraid=0x7f0900c7;
         public static final int wodraid=0x7f0900c6;
         public static final int wrat_guida=0x7f090065;
+=======
+        public static final int wod_guida=0x7f090067;
+        public static final int wodlistaraid=0x7f0900c7;
+        public static final int wodraid=0x7f0900c6;
+        public static final int wrat_guida=0x7f090064;
+>>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
         public static final int wratlogo=0x7f0900e1;
         public static final int yorsahj=0x7f090040;
     }

@@ -37,23 +37,23 @@ implements OnClickListener {
 		
 		
 	        public void listasegrete (View ImageButton) {
-        		Intent intent = new Intent(this, SegreteListaBoss.class);
+        		Intent intent = new Intent(this, MopRaidSegretedimogushan.class);
         		startActivity(intent);
         		}
         	public void listacuore (View ImageButton) {
-        		Intent intent = new Intent(this, CuoreListaBoss.class);
+        		Intent intent = new Intent(this, MopRaidCuoredellapaura.class);
         		startActivity(intent);
         		}
         	public void listaterrazza (View ImageButton) {
-        		Intent intent = new Intent(this, TerrazzaListaBoss.class);
+        		Intent intent = new Intent(this, MopRaidTerrazzadelleternaprimavera.class);
         		startActivity(intent);
         		}
         	public void listaregnodeltuono (View ImageButton) {
-        		Intent intent = new Intent(this, TotListaBoss.class);
+        		Intent intent = new Intent(this, MopRaidRegnodeltuono.class);
         		startActivity(intent);
         	    }
         		public void listasoo (View ImageButton) {
-            		Intent intent = new Intent(this, AssedioListaBoss.class);
+            		Intent intent = new Intent(this, MopRaidAssediodiorgrimmar.class);
             		startActivity(intent);
         		
         		

@@ -78,22 +78,10 @@
 	  android:textColor="@color/oro" />
 
   <Button
-      android:id="@+id/galakras"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_below="@+id/shannox"
-      android:layout_centerHorizontal="true"
-      android:layout_marginTop="14dp"
-      android:background="@drawable/custom_sfondoboss"
-      android:drawableLeft="@drawable/custom_shannox"
-      android:text="@string/galakras"
-	  android:textColor="@color/oro" />
-
-  <Button
       android:id="@+id/baleroc"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_below="@+id/galakras"
+      android:layout_below="@+id/shannox"
       android:layout_centerHorizontal="true"
       android:layout_marginTop="14dp"
       android:background="@drawable/custom_sfondoboss"
