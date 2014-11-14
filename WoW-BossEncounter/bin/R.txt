@@ -449,11 +449,7 @@ int id action_mode_close_button 0x7f090024
 int id action_settings 0x7f0900e6
 int id activity_chooser_view_content 0x7f090025
 int id add 0x7f090050
-<<<<<<< HEAD
-int id alakir 0x7f090064
-=======
 int id alakir 0x7f090063
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id altoforno 0x7f0900d9
 int id altomaglio 0x7f0900c9
 int id always 0x7f09000f
@@ -464,32 +460,20 @@ int id arcimagasol 0x7f0900bd
 int id atramedes 0x7f090055
 int id auchindoun 0x7f09009e
 int id azzakel 0x7f0900a1
-<<<<<<< HEAD
-int id baleroc 0x7f09005f
-=======
 int id baleroc 0x7f09005e
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id bdc 0x7f09004d
 int id beginning 0x7f090016
 int id beth 0x7f09005a
 int id brillarazziborka 0x7f0900aa
 int id button1 0x7f09009d
-<<<<<<< HEAD
-int id cata_guida 0x7f090066
-=======
 int id cata_guida 0x7f090065
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id checkbox 0x7f09002d
 int id chimaeron 0x7f090056
 int id chogall 0x7f09004a
 int id collapseActionView 0x7f090010
 int id concilio 0x7f090049
 int id concilioanziani 0x7f090093
-<<<<<<< HEAD
-int id conclave 0x7f090063
-=======
 int id conclave 0x7f090062
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id consorti 0x7f09009b
 int id cuore 0x7f090080
 int id damaferro 0x7f0900dd
@@ -516,11 +500,7 @@ int id feng 0x7f090086
 int id fonderia 0x7f0900ca
 int id franzok 0x7f0900d7
 int id frecciacupa 0x7f0900a8
-<<<<<<< HEAD
-int id galakras 0x7f09005e
-=======
 int id galakras 0x7f09006d
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id garajal 0x7f090087
 int id garalon 0x7f09007a
 int id garrosh 0x7f090076
@@ -539,30 +519,18 @@ int id ifRoom 0x7f090011
 int id ildemolitore 0x7f090091
 int id image 0x7f090027
 int id imageanima 0x7f09003d
-<<<<<<< HEAD
-int id imageassedio 0x7f090069
-=======
 int id imageassedio 0x7f090068
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id imagebastione 0x7f090046
 int id imagecuore 0x7f090077
 int id imagesegrete 0x7f090084
 int id imagesotterranei 0x7f090052
 int id imageterrazza 0x7f09008b
 int id imageterre 0x7f090059
-<<<<<<< HEAD
-int id imagetrono 0x7f090062
-int id imagetuono 0x7f090090
-int id immaginecata 0x7f09004c
-int id immaginemop 0x7f09007e
-int id immerseus 0x7f09006a
-=======
 int id imagetrono 0x7f090061
 int id imagetuono 0x7f090090
 int id immaginecata 0x7f09004c
 int id immaginemop 0x7f09007e
 int id immerseus 0x7f090069
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id jikun 0x7f090096
 int id koragh 0x7f0900d0
 int id korkron 0x7f09006f
@@ -576,11 +544,7 @@ int id macellaio 0x7f0900cc
 int id madness 0x7f090045
 int id magliorosso 0x7f0900ac
 int id magmolatus 0x7f0900b0
-<<<<<<< HEAD
-int id majordomo 0x7f090060
-=======
 int id majordomo 0x7f09005f
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id malkorok 0x7f090071
 int id maloriak 0x7f090057
 int id manonera 0x7f0900dc
@@ -590,11 +554,7 @@ int id mastodonte 0x7f09006e
 int id megaera 0x7f090095
 int id miccianera 0x7f090074
 int id middle 0x7f090018
-<<<<<<< HEAD
-int id mop_guida 0x7f090067
-=======
 int id mop_guida 0x7f090066
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id morchok 0x7f09003e
 int id naxxramas 0x7f0900e2
 int id nazgrim 0x7f090070
@@ -605,11 +565,7 @@ int id nhallish 0x7f0900b4
 int id nitrogg 0x7f0900ab
 int id none 0x7f090019
 int id normal 0x7f090007
-<<<<<<< HEAD
-int id norushen 0x7f09006c
-=======
 int id norushen 0x7f09006b
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id nyami 0x7f0900a0
 int id ogron 0x7f0900cf
 int id omnotron 0x7f090053
@@ -621,19 +577,11 @@ int id progress_circular 0x7f090004
 int id progress_horizontal 0x7f090005
 int id protettori 0x7f09008c
 int id protettoriantichi 0x7f0900bc
-<<<<<<< HEAD
-int id protettoricaduti 0x7f09006b
-int id qon 0x7f09009a
-int id quilen 0x7f090085
-int id radio 0x7f09002f
-int id ragnaros 0x7f090061
-=======
 int id protettoricaduti 0x7f09006a
 int id qon 0x7f09009a
 int id quilen 0x7f090085
 int id radio 0x7f09002f
 int id ragnaros 0x7f090060
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id ranjit 0x7f0900c2
 int id reggentispirituali 0x7f090088
 int id regnodeltuono 0x7f090082
@@ -660,11 +608,7 @@ int id search_src_text 0x7f090037
 int id search_voice_btn 0x7f09003b
 int id segrete 0x7f09007f
 int id shannox 0x7f09005d
-<<<<<<< HEAD
-int id shaorgoglio 0x7f09006d
-=======
 int id shaorgoglio 0x7f09006c
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id shapaura 0x7f09008f
 int id shekzeer 0x7f09007d
 int id shortcut 0x7f09002e
@@ -713,17 +657,10 @@ int id volonta 0x7f09008a
 int id warlord 0x7f09003f
 int id warmaster 0x7f090043
 int id withText 0x7f090013
-<<<<<<< HEAD
-int id wod_guida 0x7f090068
-int id wodlistaraid 0x7f0900c7
-int id wodraid 0x7f0900c6
-int id wrat_guida 0x7f090065
-=======
 int id wod_guida 0x7f090067
 int id wodlistaraid 0x7f0900c7
 int id wodraid 0x7f0900c6
 int id wrat_guida 0x7f090064
->>>>>>> 40cc3ad21282900c6a60b265b894e25562207b40
 int id wratlogo 0x7f0900e1
 int id yorsahj 0x7f090040
 int integer abc_max_action_buttons 0x7f080000
