@@ -3,7 +3,6 @@ package com.example.wow_bossencounter;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -14,7 +13,6 @@ implements OnClickListener {
 	@Override    
     public void onClick(View View) {    
       // definisco l'intenzione  
-      Object activity_mop_assedio_raid;
 	// passo all'attivazione dell'activity Pagina.java   
       
       
@@ -23,14 +21,16 @@ implements OnClickListener {
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wod_raid_altomaglio);
-        Button mano = (Button) findViewById(R.id.manotagliente);
-        Button mace = (Button) findViewById(R.id.macellaio);
-        Button tect = (Button) findViewById(R.id.tectus);
-        Button spor = (Button) findViewById(R.id.sporafelce);
-        Button ogro = (Button) findViewById(R.id.ogron);
-        Button kora = (Button) findViewById(R.id.koragh);
-        Button marg = (Button) findViewById(R.id.margok);
+        Button mano = (Button) findViewById(R.id.manotagliente);    //manonera
+        Button mace = (Button) findViewById(R.id.macellaio);		//macellaio
+        Button tect = (Button) findViewById(R.id.tectus);			//tectus
+        Button spor = (Button) findViewById(R.id.sporafelce);		//sporafelce
+        Button ogro = (Button) findViewById(R.id.ogron);			//gemelli ogron
+        Button kora = (Button) findViewById(R.id.koragh);			//koragh
+        Button marg = (Button) findViewById(R.id.margok);			//margok
         
+        
+        //inizio implement pdf manonera
         mano.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
@@ -42,6 +42,7 @@ implements OnClickListener {
             	
     }
 });
+        //inizio implement pdf macellaio
         mace.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
@@ -53,6 +54,7 @@ implements OnClickListener {
             	
     }
 });
+        //inizio implement pdf tectus
         tect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
@@ -64,6 +66,7 @@ implements OnClickListener {
             	
     }
 });
+        //inizio implement pdf sporafelce
         spor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
@@ -75,6 +78,7 @@ implements OnClickListener {
             	
     }
 });
+        //inizio implement pdf gemelli ogron
         ogro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
@@ -86,6 +90,8 @@ implements OnClickListener {
             	
     }
 });
+        
+        //inizio implement pdf koragh
         kora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
@@ -97,6 +103,7 @@ implements OnClickListener {
             	
     }
 });
+        //inizio implement pdf margok
         marg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
