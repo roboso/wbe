@@ -26,7 +26,7 @@ implements OnClickListener {
 		@Override
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
-		           setContentView(R.layout.activity_mop_segrete_raid);
+		           setContentView(R.layout.activity_lavori_in_corso);
 		           
 		           
 		   }

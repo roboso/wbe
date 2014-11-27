@@ -26,8 +26,8 @@ implements OnClickListener {
 		@Override
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
-	        setContentView(R.layout.activity_cata_terre_raid);
-	        Button beth = (Button) findViewById(R.id.beth);
+	        setContentView(R.layout.activity_lavori_in_corso);
+	      /**  Button beth = (Button) findViewById(R.id.beth);
 	        Button sire = (Button) findViewById(R.id.sire);
 	        Button alys = (Button) findViewById(R.id.alysrazor);
 	        Button shan = (Button) findViewById(R.id.shannox);
@@ -111,7 +111,7 @@ implements OnClickListener {
 	            	startActivity(intent);
 	            	
 	    }
-	});
+	});   */
 
 }
 }

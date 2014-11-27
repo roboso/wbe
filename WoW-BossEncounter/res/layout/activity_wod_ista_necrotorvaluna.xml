@@ -5,7 +5,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
-    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
     
     <ImageView
         android:id="@+id/torvaluna"
@@ -64,5 +74,26 @@
         android:drawableLeft="@drawable/custom_nerzull"
         android:text="@string/nerzhul"
 	    android:textColor="@color/oro" />
-    
+     <Button
+                android:id="@+id/inglese"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/nerzhul"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/lingua_italiana" />
+
+    <Button
+        android:id="@+id/italiano"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/inglese"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/custom_bandiera_inglese" />
+        </LinearLayout>
+
+</ScrollView>
+
 </RelativeLayout>
+    

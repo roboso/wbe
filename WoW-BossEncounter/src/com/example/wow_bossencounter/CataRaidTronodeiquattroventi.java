@@ -27,8 +27,8 @@ implements OnClickListener {
 		@Override
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
-	        setContentView(R.layout.activity_cata_trono_raid);
-	        Button conc = (Button) findViewById(R.id.conclave);
+	        setContentView(R.layout.activity_lavori_in_corso);
+	     /**   Button conc = (Button) findViewById(R.id.conclave);
 	        Button alak = (Button) findViewById(R.id.alakir);
 	       
 	        conc.setOnClickListener(new View.OnClickListener() {
@@ -52,7 +52,7 @@ implements OnClickListener {
 	            	startActivity(intent);
 	            	
 	    }
-	});
+	});    */
 
 }
 }

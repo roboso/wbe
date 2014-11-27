@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
+    <!-- lingue  -->
+    
+    <string name="inglese">Inglese</string>
+    <string name="italiano">Italiano</string>
+    
          <!-- terrazza dell'eterna primavera  -->
     <string name="terrazza">Terrazza dell\'eterna Primavera</string>
     <string name="protettori">Protettori dell\'Eterno</string>

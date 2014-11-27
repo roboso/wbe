@@ -27,8 +27,8 @@ implements OnClickListener {
 		@Override
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
-		           setContentView(R.layout.activity_mop_terrazza_raid);
-		            Button prot = (Button) findViewById(R.id.protettori);
+		           setContentView(R.layout.activity_lavori_in_corso);
+		       /**     Button prot = (Button) findViewById(R.id.protettori);
 			        Button tsul = (Button) findViewById(R.id.tsulong);
 			        Button leis = (Button) findViewById(R.id.leishi);
 			        Button shap = (Button) findViewById(R.id.shapaura);
@@ -76,7 +76,7 @@ implements OnClickListener {
 			            	startActivity(intent);
 			            	
 			    }
-			});
+			});     */
 		           
 		           
 		   }

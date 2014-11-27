@@ -32,8 +32,8 @@ implements OnClickListener {
 		@Override
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
-	        setContentView(R.layout.activity_cata_bastione_raid);     
-	        
+	        setContentView(R.layout.activity_lavori_in_corso);     
+	      /**  
 	        Button half = (Button) findViewById(R.id.halfus);
 	        Button ther = (Button) findViewById(R.id.theralion);
 	        Button conc = (Button) findViewById(R.id.concilio);
@@ -82,6 +82,6 @@ implements OnClickListener {
 	            	startActivity(intent);
 	            	
 	    }
-	});
+	});  */
 		}
 }

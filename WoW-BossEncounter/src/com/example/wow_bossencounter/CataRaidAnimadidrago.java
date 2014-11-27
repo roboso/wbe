@@ -27,8 +27,10 @@ implements OnClickListener {
 		@Override
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
-	        setContentView(R.layout.activity_cata_anima_raid);
-	        Button morc = (Button) findViewById(R.id.morchok);
+	        setContentView(R.layout.activity_lavori_in_corso);
+	        /** implementazione gia fatta bisogna solo mettere i link dei pdf.     
+	         * 
+	         * Button morc = (Button) findViewById(R.id.morchok);
 	        Button warl = (Button) findViewById(R.id.warlord);
 	        Button yors = (Button) findViewById(R.id.yorsahj);
 	        Button haga = (Button) findViewById(R.id.hagara);
@@ -124,7 +126,7 @@ implements OnClickListener {
 	            	startActivity(intent);
 	            	
 	    }
-	});
+	});   */
 
 }
 }

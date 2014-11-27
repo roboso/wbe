@@ -28,8 +28,8 @@ implements OnClickListener {
 		@Override
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
-		           setContentView(R.layout.activity_mop_cuore_raid);
-		            Button visi = (Button) findViewById(R.id.visir);
+		           setContentView(R.layout.activity_lavori_in_corso);
+		     /**       Button visi = (Button) findViewById(R.id.visir);
 			        Button lame = (Button) findViewById(R.id.signorelame);
 			        Button gara = (Button) findViewById(R.id.garalon);
 			        Button vent = (Button) findViewById(R.id.signorevento);
@@ -101,8 +101,8 @@ implements OnClickListener {
 			            	startActivity(intent);
 			            	
 			    }
-			});
+			}); */
 		           
 		           
-		   }
+		   } 
 }

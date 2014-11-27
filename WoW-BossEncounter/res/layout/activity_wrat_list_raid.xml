@@ -31,7 +31,7 @@
     <ImageButton
         android:id="@+id/naxxramas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="78dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/custom_naxxramas" />
@@ -39,7 +39,7 @@
     <ImageButton
         android:id="@+id/ulduar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="78dp"
         android:adjustViewBounds="true"
         android:baselineAlignBottom="false"
         android:cropToPadding="false"
@@ -49,7 +49,7 @@
     <ImageButton
         android:id="@+id/toc"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="78dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/custom_trialofchampion" />
@@ -57,7 +57,7 @@
     <ImageButton
         android:id="@+id/icc"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="78dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/custom_icc" />
