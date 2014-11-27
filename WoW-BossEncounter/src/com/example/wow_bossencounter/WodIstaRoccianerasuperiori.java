@@ -23,12 +23,22 @@ implements OnClickListener {
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wod_ista_roccianera);
-        Button gora = (Button) findViewById(R.id.gorashan);
-        Button kyri = (Button) findViewById(R.id.kyriak);
-        Button thar = (Button) findViewById(R.id.tharbek);
-        Button sign = (Button) findViewById(R.id.signorazaela);
+        Button italiano = (Button) findViewById(R.id.italiano);
+        Button inglese = (Button) findViewById(R.id.inglese);
         
-        gora.setOnClickListener(new View.OnClickListener() {
+        
+        italiano.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0 ) {
+            	      
+            	
+            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/open?id=0B2dBFvvy8y2ha0hTbklPc0kxV2M&authuser=0"));
+
+            	startActivity(intent);
+            	
+    }
+});
+        inglese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
             	      
@@ -39,39 +49,7 @@ implements OnClickListener {
             	
     }
 });
-        kyri.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
-        thar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
-        sign.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
+        
 }
 
 }

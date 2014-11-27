@@ -23,13 +23,22 @@ implements OnClickListener {
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wod_ista_verdeterno);
-        Button prot = (Button) findViewById(R.id.protettoriantichi);
-        Button arci = (Button) findViewById(R.id.arcimagasol);
-        Button xera = (Button) findViewById(R.id.Xeritac);
-        Button yaln = (Button) findViewById(R.id.Yalnu);
-        Button scor = (Button) findViewById(R.id.scorzasecca);
+        Button italiano = (Button) findViewById(R.id.italiano);
+        Button inglese = (Button) findViewById(R.id.inglese);
         
-        prot.setOnClickListener(new View.OnClickListener() {
+        
+        italiano.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0 ) {
+            	      
+            	
+            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/open?id=0B2dBFvvy8y2hWWRRZ0VVeUcybUE&authuser=0"));
+
+            	startActivity(intent);
+            	
+    }
+});
+        inglese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
             	      
@@ -40,50 +49,7 @@ implements OnClickListener {
             	
     }
 });
-        arci.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
-        xera.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
-        yaln.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
-        scor.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
+        
 }
 
 }

@@ -2,6 +2,7 @@
     android:id="@+id/RelativeLayout1"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:background="@color/nero"
     android:orientation="vertical" >
 
      <ScrollView

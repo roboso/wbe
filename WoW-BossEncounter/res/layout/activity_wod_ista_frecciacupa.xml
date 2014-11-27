@@ -3,9 +3,9 @@
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/nero"
     android:orientation="vertical" >
 
-    
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
@@ -17,71 +17,65 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical" >
-    
-     <ImageView
-        android:id="@+id/frecciacupa"
-        android:layout_width="match_parent"
-        android:layout_height="115dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/custom_frecciacupa" />
 
-     <Button
-         android:id="@+id/tovra"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_below="@+id/frecciacupa"
-         android:layout_centerHorizontal="true"
-         android:layout_marginTop="14dp"
-         android:background="@drawable/custom_sfondoboss"
-         android:drawableLeft="@drawable/custom_signoradelcielotovra"
-         android:text="@string/tovra"
-	     android:textColor="@color/oro" />
-
-     <Button
-         android:id="@+id/brillarazziborka"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_below="@+id/tovra"
-         android:layout_centerHorizontal="true"
-         android:layout_marginTop="14dp"
-         android:background="@drawable/custom_sfondoboss"
-         android:drawableLeft="@drawable/custom_brillarazzieborka"
-         android:text="@string/brillarazziborka"
-	     android:textColor="@color/oro" />
-
-     <Button
-         android:id="@+id/nitrogg"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_below="@+id/brillarazziborka"
-         android:layout_centerHorizontal="true"
-         android:layout_marginTop="14dp"
-         android:background="@drawable/custom_sfondoboss"
-         android:drawableLeft="@drawable/custom_nitrogtorretonante"
-         android:text="@string/nitrogg"
-	     android:textColor="@color/oro" />
-     <Button
-                android:id="@+id/inglese"
+            <ImageView
+                android:id="@+id/frecciacupa"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="115dp"
                 android:layout_alignParentLeft="true"
-                android:layout_below="@+id/nitrogg"
-                android:layout_marginTop="14dp"
-                android:background="@drawable/lingua_italiana" />
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/custom_frecciacupa" />
 
-    <Button
-        android:id="@+id/italiano"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/inglese"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_bandiera_inglese" />
+            <Button
+                android:id="@+id/tovra"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/frecciacupa"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableLeft="@drawable/custom_signoradelcielotovra"
+                android:text="@string/tovra"
+                android:textColor="@color/oro" />
+
+            <Button
+                android:id="@+id/brillarazziborka"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/tovra"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableLeft="@drawable/custom_brillarazzieborka"
+                android:text="@string/brillarazziborka"
+                android:textColor="@color/oro" />
+
+            <Button
+                android:id="@+id/nitrogg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/brillarazziborka"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableLeft="@drawable/custom_nitrogtorretonante"
+                android:text="@string/nitrogg"
+                android:textColor="@color/oro" />
+
+             <include
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 layout="@layout/scelta_lingua" />
+    
         </LinearLayout>
 
-</ScrollView>
+    
 
+</ScrollView>
 </RelativeLayout>

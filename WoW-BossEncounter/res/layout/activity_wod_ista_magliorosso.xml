@@ -3,6 +3,7 @@
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/nero"
     android:orientation="vertical" >
 
     <ScrollView
@@ -76,23 +77,10 @@
 	    android:textColor="@color/oro" />
     
   
-            <Button
-                android:id="@+id/inglese"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_alignParentLeft="true"
-                android:layout_below="@+id/magmolatus"
-                android:layout_marginTop="14dp"
-                android:background="@drawable/lingua_italiana" />
-
-    <Button
-        android:id="@+id/italiano"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/inglese"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_bandiera_inglese" />
+<include
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 layout="@layout/scelta_lingua" />           
         </LinearLayout>
 
 </ScrollView>

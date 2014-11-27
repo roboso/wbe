@@ -23,54 +23,33 @@ implements OnClickListener {
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wod_ista_auchindoun);
-        Button vigi = (Button) findViewById(R.id.vigilante);
-        Button nyam = (Button) findViewById(R.id.nyami);
-        Button azza = (Button) findViewById(R.id.azzakel);
-        Button tero = (Button) findViewById(R.id.terongor);
+        Button italiano = (Button) findViewById(R.id.italiano);
+        Button inglese = (Button) findViewById(R.id.inglese);
         
-        vigi.setOnClickListener(new View.OnClickListener() {
+        
+        italiano.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
             	      
             	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
+            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/open?id=0B2dBFvvy8y2hUlA0QUVGUUI5eTg&authuser=0"));
 
             	startActivity(intent);
             	
     }
 });
-        nyam.setOnClickListener(new View.OnClickListener() {
+        inglese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
             	      
             	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
+            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/open?id=0B2dBFvvy8y2hb1ZCLXluRnJyQzA&authuser=0"));
 
             	startActivity(intent);
             	
     }
 });
-        azza.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
-        tero.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
+        
 }
+
 }

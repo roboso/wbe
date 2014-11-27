@@ -23,43 +23,33 @@ implements OnClickListener {
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wod_ista_frecciacupa);
-        Button tovr = (Button) findViewById(R.id.tovra);
-        Button bril = (Button) findViewById(R.id.brillarazziborka);
-        Button nitr = (Button) findViewById(R.id.nitrogg);
+        Button italiano = (Button) findViewById(R.id.italiano);
+        Button inglese = (Button) findViewById(R.id.inglese);
         
-        tovr.setOnClickListener(new View.OnClickListener() {
+        
+        italiano.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
             	      
             	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
+            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/open?id=0B2dBFvvy8y2hNlg2cmY4bTI5X28&authuser=0"));
 
             	startActivity(intent);
             	
     }
 });
-        bril.setOnClickListener(new View.OnClickListener() {
+        inglese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0 ) {
             	      
             	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
+            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/open?id=0B2dBFvvy8y2hRklsMVN2U1gxYUE&authuser=0"));
 
             	startActivity(intent);
             	
     }
 });
-        nitr.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0 ) {
-            	      
-            	
-            	Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://"));
-
-            	startActivity(intent);
-            	
-    }
-});
+        
 }
 
 }

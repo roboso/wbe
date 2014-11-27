@@ -2,7 +2,7 @@
 <resources>
     
     <!-- lingue  -->
-    
+    <string name="selezionare">Lingua: </string>
     <string name="inglese">Inglese</string>
     <string name="italiano">Italiano</string>
     
