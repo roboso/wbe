@@ -1592,7 +1592,7 @@ containing a value of this type.
         public static final int activity_wod_ista_necrotorvaluna=0x7f03002b;
         public static final int activity_wod_ista_roccianera=0x7f03002c;
         public static final int activity_wod_ista_verdeterno=0x7f03002d;
-        public static final int activity_wod_ista_vistacieli=0x7f03002e;
+        public static final int activity_wod_ista_vettacieli=0x7f03002e;
         public static final int activity_wod_list_istanze=0x7f03002f;
         public static final int activity_wod_list_raid=0x7f030030;
         public static final int activity_wod_raid_altomaglio=0x7f030031;

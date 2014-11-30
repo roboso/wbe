@@ -17,121 +17,122 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical" >
-    
-    <ImageView
-        android:id="@+id/wodraid"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/custom_wod" />
 
-    <Button
-        android:id="@+id/auchindoun"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/wodlistaraid"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_sfondoboss"
-        android:drawableTop="@drawable/custom_auchindoun"
-        android:onClick="startauchindoun"
-        android:text="@string/auchindoun"
-        android:textColor="@color/indaco" />
+            <ImageView
+                android:id="@+id/wodraid"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="0.15"
+                android:scaleType="fitXY"
+                android:src="@drawable/custom_wod" />
 
-    <Button
-        android:id="@+id/roccianerasuperiori"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/auchindoun"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_sfondoboss"
-        android:drawableTop="@drawable/custom_fonderia"
-        android:onClick="startroccianera"
-        android:text="@string/roccianerasuperiori"
-        android:textColor="@color/indaco" />
+            <Button
+                android:id="@+id/auchindoun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wodlistaraid"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableTop="@drawable/custom_auchindoun"
+                android:onClick="startauchindoun"
+                android:text="@string/auchindoun"
+                android:textColor="@color/indaco" />
 
-    <Button
-        android:id="@+id/darsenaferro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/roccianerasuperiori"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_sfondoboss"
-        android:drawableTop="@drawable/custom_darsenaferro"
-        android:onClick="startdarsena"
-        android:text="@string/darsenaferro"
-        android:textColor="@color/indaco" />
+            <Button
+                android:id="@+id/roccianerasuperiori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/auchindoun"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableTop="@drawable/custom_fonderia"
+                android:onClick="startroccianera"
+                android:text="@string/roccianerasuperiori"
+                android:textColor="@color/indaco" />
 
-    <Button
-        android:id="@+id/magliorosso"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/darsenaferro"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_sfondoboss"
-        android:drawableTop="@drawable/custom_magliorosso"
-        android:onClick="startmagliorosso"
-        android:text="@string/magliorosso"
-        android:textColor="@color/indaco" />
+            <Button
+                android:id="@+id/darsenaferro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/roccianerasuperiori"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableTop="@drawable/custom_darsenaferro"
+                android:onClick="startdarsena"
+                android:text="@string/darsenaferro"
+                android:textColor="@color/indaco" />
 
-    <Button
-        android:id="@+id/torvaluna"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/magliorosso"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_sfondoboss"
-        android:drawableTop="@drawable/custom_torvaluna"
-        android:onClick="starttorvaluna"
-        android:text="@string/torvaluna"
-        android:textColor="@color/indaco" />
+            <Button
+                android:id="@+id/magliorosso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/darsenaferro"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableTop="@drawable/custom_magliorosso"
+                android:onClick="startmagliorosso"
+                android:text="@string/magliorosso"
+                android:textColor="@color/indaco" />
 
-    <Button
-        android:id="@+id/frecciacupa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/torvaluna"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_sfondoboss"
-        android:drawableTop="@drawable/custom_frecciacupa"
-        android:onClick="startfrecciacupa"
-        android:text="@string/frecciacupa"
-        android:textColor="@color/indaco" />
+            <Button
+                android:id="@+id/torvaluna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/magliorosso"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableTop="@drawable/custom_torvaluna"
+                android:onClick="starttorvaluna"
+                android:text="@string/torvaluna"
+                android:textColor="@color/indaco" />
 
-    <Button
-        android:id="@+id/verdeterno"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/frecciacupa"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_sfondoboss"
-        android:drawableTop="@drawable/custom_verdeterno"
-        android:onClick="startverdeterno"
-        android:text="@string/verdeterno"
-        android:textColor="@color/indaco" />
+            <Button
+                android:id="@+id/frecciacupa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/torvaluna"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableTop="@drawable/custom_frecciacupa"
+                android:onClick="startfrecciacupa"
+                android:text="@string/frecciacupa"
+                android:textColor="@color/indaco" />
 
-    <Button
-        android:id="@+id/vistacieli"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/verdeterno"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/custom_sfondoboss"
-        android:drawableTop="@drawable/custom_vistacieli"
-        android:onClick="startvistacieli"
-        android:text="@string/vistacieli"
-        android:textColor="@color/indaco" />
-    
-</LinearLayout>
+            <Button
+                android:id="@+id/verdeterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frecciacupa"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableTop="@drawable/custom_verdeterno"
+                android:onClick="startverdeterno"
+                android:text="@string/verdeterno"
+                android:textColor="@color/indaco" />
+
+            <Button
+                android:id="@+id/vistacieli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/verdeterno"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/custom_sfondoboss"
+                android:drawableTop="@drawable/custom_vistacieli"
+                android:onClick="startvistacieli"
+                android:text="@string/vistacieli"
+                android:textColor="@color/indaco" />
+        </LinearLayout>
+
 </ScrollView>
 </RelativeLayout>
 

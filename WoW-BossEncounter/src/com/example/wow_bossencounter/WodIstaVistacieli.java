@@ -18,7 +18,7 @@ implements OnClickListener {
 	@Override
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wod_ista_vistacieli);
+        setContentView(R.layout.activity_wod_ista_vettacieli);
         Button italiano = (Button) findViewById(R.id.italiano);
         Button inglese = (Button) findViewById(R.id.inglese);
         

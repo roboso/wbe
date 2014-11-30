@@ -721,7 +721,7 @@ int layout activity_wod_ista_magliorosso 0x7f03002a
 int layout activity_wod_ista_necrotorvaluna 0x7f03002b
 int layout activity_wod_ista_roccianera 0x7f03002c
 int layout activity_wod_ista_verdeterno 0x7f03002d
-int layout activity_wod_ista_vistacieli 0x7f03002e
+int layout activity_wod_ista_vettacieli 0x7f03002e
 int layout activity_wod_list_istanze 0x7f03002f
 int layout activity_wod_list_raid 0x7f030030
 int layout activity_wod_raid_altomaglio 0x7f030031

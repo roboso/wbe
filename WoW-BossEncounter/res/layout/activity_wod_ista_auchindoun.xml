@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/RelativeLayout1"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/nero"
-    android:gravity="right"
-    android:orientation="vertical" >
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/nero" >
     
      <ScrollView
         android:id="@+id/scrollView1"
@@ -77,14 +73,13 @@
                 android:drawableLeft="@drawable/custom_terongor"
                 android:text="@string/terongor"
                 android:textColor="@color/oro" />
+    
+<include
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 layout="@layout/scelta_lingua" />
 
-            <include
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.28"
-                layout="@layout/scelta_lingua"
-                android:background="@color/nero" />
-        </LinearLayout>
+ </LinearLayout>
 
 </ScrollView>
 </RelativeLayout>
