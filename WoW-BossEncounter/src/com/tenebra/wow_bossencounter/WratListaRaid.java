@@ -1,6 +1,6 @@
 package com.tenebra.wow_bossencounter;
 
-import com.example.wow_bossencounter.R;
+import com.tenebra.wow_bossencounter.R;
 
 import android.app.Activity;
 import android.os.Bundle;

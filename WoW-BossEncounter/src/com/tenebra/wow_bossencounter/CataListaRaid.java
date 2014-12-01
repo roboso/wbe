@@ -2,7 +2,7 @@ package com.tenebra.wow_bossencounter;
 
 
 
-import com.example.wow_bossencounter.R;
+import com.tenebra.wow_bossencounter.R;
 
 import android.view.View;
 import android.view.View.OnClickListener;
