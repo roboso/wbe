@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -113,8 +114,9 @@ public class MainActivity extends Activity
 	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+		MenuInflater inflater=getMenuInflater();
+	    inflater.inflate(R.menu.main,menu);
+	    return true;
     }
 
     @Override
@@ -123,10 +125,44 @@ public class MainActivity extends Activity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+        switch(id)
+        {
+        case R.id.MENU_1:
+            /*
+                Codice di gestione della voce MENU_1
+             */
+            break;
+        case R.id.MENU_2:
+            /*
+                Codice di gestione della voce MENU_2
+             */
+        	break;
+        case R.id.MENU_3:
+            /*
+                Codice di gestione della voce MENU_3
+             */
+            break;
+        case R.id.MENU_4:
+            /*
+                Codice di gestione della voce MENU_4
+             */
+            break;
+        case R.id.MENU_5:
+            /*
+                Codice di gestione della voce MENU_5
+             */
+            break;
+        case R.id.MENU_6:
+            /*
+                Codice di gestione della voce MENU_6
+             */
+            break;
+        case R.id.MENU_7:
+            /*
+                Codice di gestione della voce MENU_7
+             */
         }
-        return super.onOptionsItemSelected(item);
+            return true;
     }
 
 
@@ -135,7 +171,7 @@ public class MainActivity extends Activity
 		// TODO Auto-generated method stub
 		
 	}
-
+	
 
 	}
 

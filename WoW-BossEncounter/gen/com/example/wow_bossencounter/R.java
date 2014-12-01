@@ -1284,6 +1284,13 @@ containing a value of this type.
         public static final int tronodeiquattroventi=0x7f02011f;
     }
     public static final class id {
+        public static final int MENU_1=0x7f0900ea;
+        public static final int MENU_2=0x7f0900eb;
+        public static final int MENU_3=0x7f0900ec;
+        public static final int MENU_4=0x7f0900ed;
+        public static final int MENU_5=0x7f0900ee;
+        public static final int MENU_6=0x7f0900ef;
+        public static final int MENU_7=0x7f0900f0;
         public static final int RelativeLayout1=0x7f09004b;
         public static final int Xeritac=0x7f0900bf;
         public static final int Yalnu=0x7f0900c0;
@@ -1298,7 +1305,6 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f0900ea;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int add=0x7f090050;
         public static final int alakir=0x7f090063;
