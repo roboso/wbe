@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.wow_bossencounter.MainActivity" >
+    tools:context="com.tenebra.wow_bossencounter.MainActivity" >
 
  <ScrollView
         android:id="@+id/scrollView1"

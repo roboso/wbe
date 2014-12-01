@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.wow_bossencounter"
     android:versionCode="4"
-    android:versionName="1.3" >
+    android:versionName="1.3.1" >
 
     <uses-sdk
         android:minSdkVersion="9"
@@ -16,7 +16,7 @@
         android:theme="@style/AppTheme" >
         <activity
           
-            android:name=".MainActivity"
+            android:name="com.tenebra.wow_bossencounter.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,99 +25,99 @@
             </intent-filter>
         </activity>
          <activity
-            android:name=".WratListaRaid">
+            android:name="com.tenebra.wow_bossencounter.WratListaRaid">
         </activity>
         <activity
-            android:name=".CataListaRaid">
+            android:name="com.tenebra.wow_bossencounter.CataListaRaid">
         </activity>         
          <activity
-            android:name=".MopListaRaid">
+            android:name="com.tenebra.wow_bossencounter.MopListaRaid">
         </activity>        
         <activity
-            android:name=".WodListaRaid">
+            android:name="com.tenebra.wow_bossencounter.WodListaRaid">
        </activity>
        <activity
-            android:name=".CataRaidAnimadidrago">
+            android:name="com.tenebra.wow_bossencounter.CataRaidAnimadidrago">
        </activity>
        <activity
-            android:name=".CataRaidBastionedelcrepuscolo">
+            android:name="com.tenebra.wow_bossencounter.CataRaidBastionedelcrepuscolo">
        </activity>
        <activity
-            android:name=".CataRaidSotterraneidellalanera">
+            android:name="com.tenebra.wow_bossencounter.CataRaidSotterraneidellalanera">
        </activity>
        <activity
-            android:name=".CataRaidTerredelfuoco">
+            android:name="com.tenebra.wow_bossencounter.CataRaidTerredelfuoco">
        </activity>
        <activity
-            android:name=".CataRaidTronodeiquattroventi">
+            android:name="com.tenebra.wow_bossencounter.CataRaidTronodeiquattroventi">
        </activity>
                  
          <activity
-            android:name=".MopRaidSegretedimogushan">
+            android:name="com.tenebra.wow_bossencounter.MopRaidSegretedimogushan">
         </activity>
          <activity
-            android:name=".MopRaidCuoredellapaura">
+            android:name="com.tenebra.wow_bossencounter.MopRaidCuoredellapaura">
         </activity>
          <activity
-            android:name=".MopRaidTerrazzadelleternaprimavera">
+            android:name="com.tenebra.wow_bossencounter.MopRaidTerrazzadelleternaprimavera">
         </activity>
          <activity
-            android:name=".MopRaidRegnodeltuono">
+            android:name="com.tenebra.wow_bossencounter.MopRaidRegnodeltuono">
         </activity>
          <activity
-            android:name=".MopRaidAssediodiorgrimmar">
+            android:name="com.tenebra.wow_bossencounter.MopRaidAssediodiorgrimmar">
         </activity>
           <activity
-            android:name=".WodIstaDarsena" >
+            android:name="com.tenebra.wow_bossencounter.WodIstaDarsena" >
             
         </activity>
         <activity
-            android:name=".WodIstaRoccianerasuperiori" >
+            android:name="com.tenebra.wow_bossencounter.WodIstaRoccianerasuperiori" >
             
         </activity>
         
         <activity
-            android:name=".WodIstaMagliorosso" >
+            android:name="com.tenebra.wow_bossencounter.WodIstaMagliorosso" >
             
         </activity>
         <activity
-            android:name=".WodIstaTorvaluna" >
+            android:name="com.tenebra.wow_bossencounter.WodIstaTorvaluna" >
             
         </activity>
         <activity
-            android:name=".WodIstaFrecciacupa" >
+            android:name="com.tenebra.wow_bossencounter.WodIstaFrecciacupa" >
             
         </activity>
         <activity
-            android:name=".WodIstaVerdeterno" >
+            android:name="com.tenebra.wow_bossencounter.WodIstaVerdeterno" >
             
         </activity>
         <activity
-            android:name=".WodIstaAuchindoun" >
+            android:name="com.tenebra.wow_bossencounter.WodIstaAuchindoun" >
             
         </activity>
         <activity
-            android:name=".WodIstaVistacieli" >
+            android:name="com.tenebra.wow_bossencounter.WodIstaVistacieli" >
             
         </activity>
         <activity
-            android:name=".WodScelta" >
+            android:name="com.tenebra.wow_bossencounter.WodScelta" >
             
         </activity>
         <activity
-            android:name=".WodListaIstanze" >
+            android:name="com.tenebra.wow_bossencounter.WodListaIstanze" >
             
         </activity>
         <activity
-            android:name=".WodRaidAltomaglio" >
+            android:name="com.tenebra.wow_bossencounter.WodRaidAltomaglio" >
             
         </activity>
         <activity
-            android:name=".WodRaidFonderia" >
+            android:name="com.tenebra.wow_bossencounter.WodRaidFonderia" >
             
         </activity>
          <activity
-            android:name=".WodListaChallenge" >
+            android:name="com.tenebra.wow_bossencounter.WodListaChallenge" >
             
         </activity>
         
