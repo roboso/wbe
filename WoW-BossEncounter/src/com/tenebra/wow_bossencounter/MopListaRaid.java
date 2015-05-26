@@ -33,6 +33,7 @@ implements OnClickListener {
 	    public void onCreate (Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.activity_mop_list_raid);
+	        getActionBar().setDisplayHomeAsUpEnabled(true);
 		 
 		}
 		

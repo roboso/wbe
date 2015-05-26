@@ -12,5 +12,6 @@ public class WratListaRaid extends Activity  {
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lavori_in_corso);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 }
 }

@@ -5,7 +5,7 @@
     android:versionName="1.3.2" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="16"
         android:targetSdkVersion="21" />
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -25,16 +25,20 @@
             </intent-filter>
         </activity>
          <activity
-            android:name="com.tenebra.wow_bossencounter.WratListaRaid">
+            android:name="com.tenebra.wow_bossencounter.WratListaRaid"
+            android:parentActivityName="com.tenebra.wow_bossencounter.MainActivity">
         </activity>
         <activity
-            android:name="com.tenebra.wow_bossencounter.CataListaRaid">
+            android:name="com.tenebra.wow_bossencounter.CataListaRaid"
+            android:parentActivityName="com.tenebra.wow_bossencounter.MainActivity">
         </activity>         
          <activity
-            android:name="com.tenebra.wow_bossencounter.MopListaRaid">
+            android:name="com.tenebra.wow_bossencounter.MopListaRaid"
+            android:parentActivityName="com.tenebra.wow_bossencounter.MainActivity">
         </activity>        
         <activity
-            android:name="com.tenebra.wow_bossencounter.WodListaRaid">
+            android:name="com.tenebra.wow_bossencounter.WodListaRaid"
+            android:parentActivityName="com.tenebra.wow_bossencounter.WodScelta">
        </activity>
        <activity
             android:name="com.tenebra.wow_bossencounter.CataRaidAnimadidrago">
@@ -105,7 +109,8 @@
             
         </activity>
         <activity
-            android:name="com.tenebra.wow_bossencounter.WodListaIstanze" >
+            android:name="com.tenebra.wow_bossencounter.WodListaIstanze"
+            android:parentActivityName="com.tenebra.wow_bossencounter.WodScelta" >
             
         </activity>
         <activity
@@ -117,7 +122,8 @@
             
         </activity>
          <activity
-            android:name="com.tenebra.wow_bossencounter.WodListaChallenge" >
+            android:name="com.tenebra.wow_bossencounter.WodListaChallenge"
+            android:parentActivityName="com.tenebra.wow_bossencounter.WodScelta" >
             
         </activity>
         

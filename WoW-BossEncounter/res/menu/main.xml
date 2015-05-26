@@ -2,24 +2,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item
         android:id="@+id/MENU_1"
+        android:showAsAction="never"
         android:title="Guide"/>
      <item
         android:id="@+id/MENU_2"
+        android:showAsAction="never"
         android:title="Sfide"/>
      <item
         android:id="@+id/MENU_3"
+        android:showAsAction="never"
         android:title="Imprese"/>
      <item
         android:id="@+id/MENU_4"
+        android:showAsAction="never"
         android:title="Professioni"/>
      <item
         android:id="@+id/MENU_5"
+        android:showAsAction="never"
         android:title="Classi"/>
      <item
         android:id="@+id/MENU_6"
+        android:showAsAction="never"
         android:title="Guarnigione"/>
      <item
         android:id="@+id/MENU_7"
+        android:showAsAction="never"
         android:title="Contatti"/>
 
 </menu>

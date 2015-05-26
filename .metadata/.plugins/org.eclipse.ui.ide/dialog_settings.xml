@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="installedFeatures">
-		<item value="com.android.ide.eclipse.adt.feature:23.0.4.1468518"/>
+		<item value="com.android.ide.eclipse.adt.feature:23.0.6.1720515"/>
 		<item value="com.android.ide.eclipse.adt.package.feature:23.0.2.1259578"/>
-		<item value="com.android.ide.eclipse.ddms.feature:23.0.4.1468518"/>
-		<item value="com.android.ide.eclipse.hierarchyviewer.feature:23.0.4.1468518"/>
-		<item value="com.android.ide.eclipse.traceview.feature:23.0.4.1468518"/>
+		<item value="com.android.ide.eclipse.ddms.feature:23.0.6.1720515"/>
+		<item value="com.android.ide.eclipse.hierarchyviewer.feature:23.0.6.1720515"/>
+		<item value="com.android.ide.eclipse.traceview.feature:23.0.6.1720515"/>
 		<item value="net.sourceforge.texlipse:1.5.0"/>
 		<item value="org.bibsonomy.texlipseExtension:0.1.0"/>
 		<item value="org.eclipse.cdt.gdb:7.0.0.201302132326"/>

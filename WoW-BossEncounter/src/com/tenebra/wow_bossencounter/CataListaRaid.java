@@ -4,6 +4,7 @@ package com.tenebra.wow_bossencounter;
 
 import com.tenebra.wow_bossencounter.R;
 
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.app.Activity; 
@@ -33,6 +34,7 @@ implements OnClickListener{
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cata_list_raid);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 		}
         	public void startbastioneboss (View ImageButton) {
         		Intent intent = new Intent(this, CataRaidBastionedelcrepuscolo.class);
@@ -54,5 +56,6 @@ implements OnClickListener{
             		Intent intent = new Intent(this, CataRaidTerredelfuoco.class);
             		startActivity(intent);
         		}
-	
+        	
+               
 }
